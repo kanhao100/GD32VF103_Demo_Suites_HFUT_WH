@@ -66,7 +66,7 @@ all: GPIO_按键_轮询查询.elf secondary-outputs
 GPIO_按键_轮询查询.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU RISC-V Cross C++ Linker'
-	riscv-none-embed-g++ -march=rv32imac -mabi=ilp32 -mcmodel=medlow -msmall-data-limit=8 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common  -g -T "D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\RISCV\env_Eclipse\GD32VF103xB.lds" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"GPIO_按键_轮询查询.map" --specs=nano.specs -o "GPIO_按键_轮询查询.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	riscv-none-embed-g++ -march=rv32imac -mabi=ilp32 -mcmodel=medlow -msmall-data-limit=8 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common  -g -T "D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\RISCV\env_Eclipse\GD32VF103xB.lds" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"GPIO_按键_轮询查询.map" --specs=nano.specs -o "GPIO_按键_轮询查询.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

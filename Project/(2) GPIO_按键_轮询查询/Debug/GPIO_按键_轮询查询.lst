@@ -30,10 +30,10 @@ Idx Name                       Size      VMA       LMA       File off  Algn  Fla
  10 .debug_abbrev              00001323  00000000  00000000  00008a55  2**0  CONTENTS, READONLY, DEBUGGING
  11 .debug_aranges             00000620  00000000  00000000  00009d78  2**3  CONTENTS, READONLY, DEBUGGING
  12 .debug_ranges              00000548  00000000  00000000  0000a398  2**3  CONTENTS, READONLY, DEBUGGING
- 13 .debug_line                00004cfb  00000000  00000000  0000a8e0  2**0  CONTENTS, READONLY, DEBUGGING
- 14 .debug_str                 00002242  00000000  00000000  0000f5db  2**0  CONTENTS, READONLY, DEBUGGING
- 15 .comment                   00000039  00000000  00000000  0001181d  2**0  CONTENTS, READONLY
- 16 .debug_frame               00001808  00000000  00000000  00011858  2**2  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_line                00004fb3  00000000  00000000  0000a8e0  2**0  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_str                 0000227c  00000000  00000000  0000f893  2**0  CONTENTS, READONLY, DEBUGGING
+ 15 .comment                   00000039  00000000  00000000  00011b0f  2**0  CONTENTS, READONLY
+ 16 .debug_frame               00001808  00000000  00000000  00011b48  2**2  CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  .init	00000000 .init
 08000238 l    d  .ilalign	00000000 .ilalign
@@ -162,7 +162,7 @@ Disassembly of section .init:
 
 08000000 <vector_base>:
 vector_base():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:73
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:73
     .weak  CAN1_RX1_IRQHandler
     .weak  CAN1_EWMC_IRQHandler
     .weak  USBFS_IRQHandler
@@ -175,7 +175,7 @@ vector_base:
 
 0800015c <_start>:
 _start():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:167
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:167
 	.globl _start
 	.type _start,@function
 
@@ -183,80 +183,80 @@ _start:
 
 	csrc CSR_MSTATUS, MSTATUS_MIE
  800015c:	30047073          	csrci	mstatus,8
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:169
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:169
 	/* Jump to logical address first to ensure correct operation of RAM region  */
     la		a0,	_start
  8000160:	00000517          	auipc	a0,0x0
  8000164:	ffc50513          	addi	a0,a0,-4 # 800015c <_start>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:170
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:170
     li		a1,	1
  8000168:	4585                	li	a1,1
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:171
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:171
 	slli	a1,	a1, 29
  800016a:	05f6                	slli	a1,a1,0x1d
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:172
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:172
     bleu	a1, a0, _start0800
  800016c:	00b57b63          	bgeu	a0,a1,8000182 <_start0800>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:173
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:173
     srli	a1,	a1, 2
  8000170:	8189                	srli	a1,a1,0x2
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:174
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:174
     bleu	a1, a0, _start0800
  8000172:	00b57863          	bgeu	a0,a1,8000182 <_start0800>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:175
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:175
     la		a0,	_start0800
  8000176:	00000517          	auipc	a0,0x0
  800017a:	00c50513          	addi	a0,a0,12 # 8000182 <_start0800>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:176
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:176
     add		a0, a0, a1
  800017e:	952e                	add	a0,a0,a1
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:177
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:177
 	jr      a0
  8000180:	8502                	jr	a0
 
 08000182 <_start0800>:
 _start0800():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:182
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:182
 
 _start0800:
 
     /* Set the the NMI base to share with mtvec by setting CSR_MMISC_CTL */
     li t0, 0x200
  8000182:	20000293          	li	t0,512
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:183
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:183
     csrs CSR_MMISC_CTL, t0
  8000186:	7d02a073          	csrs	0x7d0,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:186
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:186
 
 	/* Intial the mtvt*/
     la t0, vector_base
  800018a:	00000297          	auipc	t0,0x0
  800018e:	e7628293          	addi	t0,t0,-394 # 8000000 <vector_base>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:187
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:187
     csrw CSR_MTVT, t0
  8000192:	30729073          	csrw	mtvt,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:190
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:190
 
 	/* Intial the mtvt2 and enable it*/
     la t0, irq_entry
  8000196:	00000297          	auipc	t0,0x0
  800019a:	4e628293          	addi	t0,t0,1254 # 800067c <irq_entry>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:191
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:191
     csrw CSR_MTVT2, t0
  800019e:	7ec29073          	csrw	0x7ec,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:192
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:192
     csrs CSR_MTVT2, 0x1
  80001a2:	7ec0e073          	csrsi	0x7ec,1
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:195
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:195
 
     /* Intial the CSR MTVEC for the Trap ane NMI base addr*/
     la t0, trap_entry
  80001a6:	00000297          	auipc	t0,0x0
  80001aa:	45a28293          	addi	t0,t0,1114 # 8000600 <trap_entry>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:196
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:196
     csrw CSR_MTVEC, t0
  80001ae:	30529073          	csrw	mtvec,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:207
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:207
 	csrw fcsr, x0
 #endif
 
@@ -265,98 +265,98 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S
 	la gp, __global_pointer$
  80001b2:	18000197          	auipc	gp,0x18000
  80001b6:	6ae18193          	addi	gp,gp,1710 # 20000860 <__global_pointer$>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:209
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:209
 .option pop
 	la sp, _sp
  80001ba:	18008117          	auipc	sp,0x18008
  80001be:	e4610113          	addi	sp,sp,-442 # 20008000 <_sp>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:212
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:212
 
 	/* Load data section */
 	la a0, _data_lma
  80001c2:	00002517          	auipc	a0,0x2
  80001c6:	de250513          	addi	a0,a0,-542 # 8001fa4 <__fini_array_end>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:213
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:213
 	la a1, _data
  80001ca:	18000597          	auipc	a1,0x18000
  80001ce:	e3658593          	addi	a1,a1,-458 # 20000000 <_data>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:214
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:214
 	la a2, _edata
  80001d2:	18000617          	auipc	a2,0x18000
  80001d6:	e9660613          	addi	a2,a2,-362 # 20000068 <_global_atexit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:215
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:215
 	bgeu a1, a2, 2f
  80001da:	00c5fa63          	bgeu	a1,a2,80001ee <_start0800+0x6c>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:217
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:217
 1:
 	lw t0, (a0)
  80001de:	00052283          	lw	t0,0(a0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:218
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:218
 	sw t0, (a1)
  80001e2:	0055a023          	sw	t0,0(a1)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:219
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:219
 	addi a0, a0, 4
  80001e6:	0511                	addi	a0,a0,4
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:220
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:220
 	addi a1, a1, 4
  80001e8:	0591                	addi	a1,a1,4
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:221
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:221
 	bltu a1, a2, 1b
  80001ea:	fec5eae3          	bltu	a1,a2,80001de <_start0800+0x5c>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:224
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:224
 2:
 	/* Clear bss section */
 	la a0, __bss_start
  80001ee:	18000517          	auipc	a0,0x18000
  80001f2:	e7a50513          	addi	a0,a0,-390 # 20000068 <_global_atexit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:225
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:225
 	la a1, _end
  80001f6:	8a018593          	addi	a1,gp,-1888 # 20000100 <_end>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:226
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:226
 	bgeu a0, a1, 2f
  80001fa:	00b57763          	bgeu	a0,a1,8000208 <_start0800+0x86>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:228
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:228
 1:
 	sw zero, (a0)
  80001fe:	00052023          	sw	zero,0(a0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:229
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:229
 	addi a0, a0, 4
  8000202:	0511                	addi	a0,a0,4
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:230
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:230
 	bltu a0, a1, 1b
  8000204:	feb56de3          	bltu	a0,a1,80001fe <_start0800+0x7c>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:233
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:233
 2:
 	/*enable mcycle_minstret*/
     csrci CSR_MCOUNTINHIBIT, 0x5
  8000208:	3202f073          	csrci	mucounteren,5
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:235
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:235
 	/* Call global constructors */
 	la a0, __libc_fini_array
  800020c:	00002517          	auipc	a0,0x2
  8000210:	b5a50513          	addi	a0,a0,-1190 # 8001d66 <__libc_fini_array>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:236
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:236
 	call atexit
  8000214:	31d010ef          	jal	ra,8001d30 <atexit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:237
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:237
 	call __libc_init_array
  8000218:	389010ef          	jal	ra,8001da0 <__libc_init_array>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:241
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:241
 
 
 	/* argc = argv = 0 */
 	li a0, 0
  800021c:	4501                	li	a0,0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:242
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:242
 	li a1, 0
  800021e:	4581                	li	a1,0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:243
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:243
 	call main
  8000220:	3e9000ef          	jal	ra,8000e08 <main>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:244
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:244
 	tail exit
  8000224:	3170106f          	j	8001d3a <exit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:247
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:247
 
 1:
 	j 1b
@@ -364,25 +364,25 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S
 
 0800022a <disable_mcycle_minstret>:
 disable_mcycle_minstret():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:251
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:251
 	
 	.global disable_mcycle_minstret
 disable_mcycle_minstret:
         csrsi CSR_MCOUNTINHIBIT, 0x5
  800022a:	3202e073          	csrsi	mucounteren,5
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:252
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:252
 	ret
  800022e:	8082                	ret
 
 08000230 <enable_mcycle_minstret>:
 enable_mcycle_minstret():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:256
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:256
 
 	.global enable_mcycle_minstret
 enable_mcycle_minstret:
         csrci CSR_MCOUNTINHIBIT, 0x5
  8000230:	3202f073          	csrci	mucounteren,5
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:257
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/start.S:257
 	ret
  8000234:	8082                	ret
 	...
@@ -503,7 +503,7 @@ Disassembly of section .text:
 
 08000400 <_exit>:
 _exit():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:9
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:9
 
 #include "stub.h"
 
@@ -515,7 +515,7 @@ void _exit(int code)
  8000404:	dc22                	sw	s0,56(sp)
  8000406:	0080                	addi	s0,sp,64
  8000408:	fca42623          	sw	a0,-52(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:10
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:10
   const char message[] = "\nProgram has exited with code:";
  800040c:	080007b7          	lui	a5,0x8000
  8000410:	2447a883          	lw	a7,580(a5) # 8000244 <enable_mcycle_minstret+0x14>
@@ -543,7 +543,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:10
  800045e:	fee41623          	sh	a4,-20(s0)
  8000462:	01e7c783          	lbu	a5,30(a5)
  8000466:	fef40723          	sb	a5,-18(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:12
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:12
 
   write(STDERR_FILENO, message, sizeof(message) - 1);
  800046a:	fd040793          	addi	a5,s0,-48
@@ -551,27 +551,27 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:12
  8000470:	85be                	mv	a1,a5
  8000472:	4509                	li	a0,2
  8000474:	19b010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:13
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:13
   write_hex(STDERR_FILENO, code);
  8000478:	fcc42783          	lw	a5,-52(s0)
  800047c:	85be                	mv	a1,a5
  800047e:	4509                	li	a0,2
  8000480:	20d1                	jal	8000544 <write_hex>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:14
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:14
   write(STDERR_FILENO, "\n", 1);
  8000482:	4605                	li	a2,1
  8000484:	080007b7          	lui	a5,0x8000
  8000488:	24078593          	addi	a1,a5,576 # 8000240 <enable_mcycle_minstret+0x10>
  800048c:	4509                	li	a0,2
  800048e:	181010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:16 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/_exit.c:16 (discriminator 1)
 
   for (;;);
  8000492:	a001                	j	8000492 <_exit+0x92>
 
 08000494 <_write>:
 _write():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:17
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:17
 
 typedef unsigned int size_t;
 
@@ -585,18 +585,18 @@ ssize_t _write(int fd, const void* ptr, size_t len) {
  800049c:	fca42e23          	sw	a0,-36(s0)
  80004a0:	fcb42c23          	sw	a1,-40(s0)
  80004a4:	fcc42a23          	sw	a2,-44(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:18
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:18
 	const uint8_t * current = (const uint8_t *) ptr;
  80004a8:	fd842783          	lw	a5,-40(s0)
  80004ac:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22
 
 //	if (isatty(fd)) 
 	{
 		for (size_t jj = 0; jj < len; jj++) {
  80004b0:	fe042623          	sw	zero,-20(s0)
  80004b4:	a81d                	j	80004ea <_write+0x56>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:23
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:23
 			_put_char(current[jj]);
  80004b6:	fe842703          	lw	a4,-24(s0)
  80004ba:	fec42783          	lw	a5,-20(s0)
@@ -604,7 +604,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:23
  80004c0:	0007c783          	lbu	a5,0(a5)
  80004c4:	853e                	mv	a0,a5
  80004c6:	283d                	jal	8000504 <_put_char>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:25
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:25
 
 			if (current[jj] == '\n') {
  80004c8:	fe842703          	lw	a4,-24(s0)
@@ -613,25 +613,25 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:25
  80004d2:	0007c703          	lbu	a4,0(a5)
  80004d6:	47a9                	li	a5,10
  80004d8:	00f71463          	bne	a4,a5,80004e0 <_write+0x4c>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:26
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:26
 				_put_char('\r');
  80004dc:	4535                	li	a0,13
  80004de:	201d                	jal	8000504 <_put_char>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22 (discriminator 2)
 		for (size_t jj = 0; jj < len; jj++) {
  80004e0:	fec42783          	lw	a5,-20(s0)
  80004e4:	0785                	addi	a5,a5,1
  80004e6:	fef42623          	sw	a5,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:22 (discriminator 1)
  80004ea:	fec42703          	lw	a4,-20(s0)
  80004ee:	fd442783          	lw	a5,-44(s0)
  80004f2:	fcf762e3          	bltu	a4,a5,80004b6 <_write+0x22>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:29
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:29
 			}
 		}
 		return len;
  80004f6:	fd442783          	lw	a5,-44(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:33
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:33
 	}
 
 	return _stub(EBADF);
@@ -644,7 +644,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:33
 
 08000504 <_put_char>:
 _put_char():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:40
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:40
 int puts(const char* string) {
 	return _write(0, (const void *) string, strlen(string));
 }
@@ -656,7 +656,7 @@ int _put_char(int ch)
  8000508:	cc22                	sw	s0,24(sp)
  800050a:	1000                	addi	s0,sp,32
  800050c:	fea42623          	sw	a0,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:41
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:41
     usart_data_transmit(USART0, (uint8_t) ch );
  8000510:	fec42783          	lw	a5,-20(s0)
  8000514:	0ff7f793          	andi	a5,a5,255
@@ -664,22 +664,22 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:41
  800051a:	400147b7          	lui	a5,0x40014
  800051e:	80078513          	addi	a0,a5,-2048 # 40013800 <_sp+0x2000b800>
  8000522:	2d05                	jal	8000b52 <usart_data_transmit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:42
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:42
     while (usart_flag_get(USART0, USART_FLAG_TBE)== RESET){
  8000524:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:42 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:42 (discriminator 1)
  8000526:	459d                	li	a1,7
  8000528:	400147b7          	lui	a5,0x40014
  800052c:	80078513          	addi	a0,a5,-2048 # 40013800 <_sp+0x2000b800>
  8000530:	25a9                	jal	8000b7a <usart_flag_get>
  8000532:	87aa                	mv	a5,a0
  8000534:	dbed                	beqz	a5,8000526 <_put_char+0x22>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:45
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:45
     }
 
     return ch;
  8000536:	fec42783          	lw	a5,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:46
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:46
 }
  800053a:	853e                	mv	a0,a5
  800053c:	40f2                	lw	ra,28(sp)
@@ -689,7 +689,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write.c:46
 
 08000544 <write_hex>:
 write_hex():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:7
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:7
 
 #include <stdint.h>
 #include <unistd.h>
@@ -702,7 +702,7 @@ void write_hex(int fd, unsigned long int hex)
  800054a:	1800                	addi	s0,sp,48
  800054c:	fca42e23          	sw	a0,-36(s0)
  8000550:	fcb42c23          	sw	a1,-40(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:11
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:11
   uint8_t ii;
   uint8_t jj;
   char towrite;
@@ -712,17 +712,17 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:1
  800055a:	26478593          	addi	a1,a5,612 # 8000264 <enable_mcycle_minstret+0x34>
  800055e:	fdc42503          	lw	a0,-36(s0)
  8000562:	0ad010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12
   for (ii = sizeof(unsigned long int) * 2 ; ii > 0; ii--) {
  8000566:	47a1                	li	a5,8
  8000568:	fef407a3          	sb	a5,-17(s0)
  800056c:	a8a5                	j	80005e4 <write_hex+0xa0>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:13
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:13
     jj = ii - 1;
  800056e:	fef44783          	lbu	a5,-17(s0)
  8000572:	17fd                	addi	a5,a5,-1
  8000574:	fef40723          	sb	a5,-18(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:14
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:14
     uint8_t digit = ((hex & (0xF << (jj*4))) >> (jj*4));
  8000578:	fee44783          	lbu	a5,-18(s0)
  800057c:	078a                	slli	a5,a5,0x2
@@ -735,42 +735,42 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:1
  8000590:	078a                	slli	a5,a5,0x2
  8000592:	00f757b3          	srl	a5,a4,a5
  8000596:	fef406a3          	sb	a5,-19(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15
     towrite = digit < 0xA ? ('0' + digit) : ('A' +  (digit - 0xA));
  800059a:	fed44703          	lbu	a4,-19(s0)
  800059e:	47a5                	li	a5,9
  80005a0:	00e7eb63          	bltu	a5,a4,80005b6 <write_hex+0x72>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 1)
  80005a4:	fed44783          	lbu	a5,-19(s0)
  80005a8:	03078793          	addi	a5,a5,48
  80005ac:	0ff7f793          	andi	a5,a5,255
  80005b0:	07e2                	slli	a5,a5,0x18
  80005b2:	87e1                	srai	a5,a5,0x18
  80005b4:	a809                	j	80005c6 <write_hex+0x82>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 2)
  80005b6:	fed44783          	lbu	a5,-19(s0)
  80005ba:	03778793          	addi	a5,a5,55
  80005be:	0ff7f793          	andi	a5,a5,255
  80005c2:	07e2                	slli	a5,a5,0x18
  80005c4:	87e1                	srai	a5,a5,0x18
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 4)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 4)
  80005c6:	fef40623          	sb	a5,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:16 (discriminator 4)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:16 (discriminator 4)
     write(fd, &towrite, 1);
  80005ca:	fec40793          	addi	a5,s0,-20
  80005ce:	4605                	li	a2,1
  80005d0:	85be                	mv	a1,a5
  80005d2:	fdc42503          	lw	a0,-36(s0)
  80005d6:	039010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 4)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 4)
   for (ii = sizeof(unsigned long int) * 2 ; ii > 0; ii--) {
  80005da:	fef44783          	lbu	a5,-17(s0)
  80005de:	17fd                	addi	a5,a5,-1
  80005e0:	fef407a3          	sb	a5,-17(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 2)
  80005e4:	fef44783          	lbu	a5,-17(s0)
  80005e8:	f3d9                	bnez	a5,800056e <write_hex+0x2a>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:18
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:18
   }
 }
  80005ea:	0001                	nop
@@ -782,7 +782,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/stubs/write_hex.c:1
 
 08000600 <trap_entry>:
 trap_entry():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:218
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:218
 trap_entry:
   // Allocate the stack space
  // addi sp, sp, -19*REGBYTES
@@ -807,7 +807,7 @@ trap_entry:
  800061e:	dc76                	sw	t4,56(sp)
  8000620:	de7a                	sw	t5,60(sp)
  8000622:	c0fe                	sw	t6,64(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:220
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:220
   // Save the MEPC/Mstatus/Msubm reg
   SAVE_EPC_STATUS
  8000624:	341022f3          	csrr	t0,mepc
@@ -816,19 +816,19 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
  800062e:	c296                	sw	t0,68(sp)
  8000630:	7c4022f3          	csrr	t0,0x7c4
  8000634:	c496                	sw	t0,72(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:223
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:223
 
      // Set the function argument
   csrr a0, mcause
  8000636:	34202573          	csrr	a0,mcause
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:224
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:224
   mv a1, sp
  800063a:	858a                	mv	a1,sp
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:226
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:226
      // Call the function
   call handle_trap
  800063c:	20f9                	jal	800070a <handle_trap>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:229
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:229
 
   // Restore the MEPC/Mstatus/Msubm reg
   RESTORE_EPC_STATUS
@@ -838,7 +838,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
  8000646:	30029073          	csrw	mstatus,t0
  800064a:	42a6                	lw	t0,72(sp)
  800064c:	7c429073          	csrw	0x7c4,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:231
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:231
   // Restore the caller saving registers (context)
   RESTORE_CONTEXT
  8000650:	4082                	lw	ra,0(sp)
@@ -859,7 +859,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
  800066e:	5f72                	lw	t5,60(sp)
  8000670:	4f86                	lw	t6,64(sp)
  8000672:	6161                	addi	sp,sp,80
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:236
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:236
 
   // De-allocate the stack space
  // addi sp, sp, 19*REGBYTES
@@ -871,7 +871,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
 
 0800067c <irq_entry>:
 irq_entry():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:251
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:251
 .weak irq_entry
 irq_entry: // -------------> This label will be set to MTVT2 register
   // Allocate the stack space
@@ -896,23 +896,23 @@ irq_entry: // -------------> This label will be set to MTVT2 register
  800069a:	dc76                	sw	t4,56(sp)
  800069c:	de7a                	sw	t5,60(sp)
  800069e:	c0fe                	sw	t6,64(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:254
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:254
 
   //------This special CSR read operation, which is actually use mcause as operand to directly store it to memory
   csrrwi  x0, CSR_PUSHMCAUSE, 17
  80006a0:	7ee8d073          	csrwi	0x7ee,17
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:256
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:256
   //------This special CSR read operation, which is actually use mepc as operand to directly store it to memory
   csrrwi  x0, CSR_PUSHMEPC, 18
  80006a4:	7ef95073          	csrwi	0x7ef,18
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:258
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:258
   //------This special CSR read operation, which is actually use Msubm as operand to directly store it to memory
   csrrwi  x0, CSR_PUSHMSUBM, 19
  80006a8:	7eb9d073          	csrwi	0x7eb,19
 
 080006ac <service_loop>:
 service_loop():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:264
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:264
  
 service_loop:
   //------This special CSR read/write operation, which is actually Claim the CLIC to find its pending highest
@@ -920,33 +920,33 @@ service_loop:
   // update the link register 
   csrrw ra, CSR_JALMNXTI, ra 
  80006ac:	7ed090f3          	csrrw	ra,0x7ed,ra
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:269
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:269
   
   //RESTORE_CONTEXT_EXCPT_X5
 
   #---- Critical section with interrupts disabled -----------------------
   DISABLE_MIE # Disable interrupts 
  80006b0:	30047073          	csrci	mstatus,8
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:271
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:271
 
   LOAD x5,  19*REGBYTES(sp)
  80006b4:	42b6                	lw	t0,76(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:272
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:272
   csrw CSR_MSUBM, x5  
  80006b6:	7c429073          	csrw	0x7c4,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:273
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:273
   LOAD x5,  18*REGBYTES(sp)
  80006ba:	42a6                	lw	t0,72(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:274
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:274
   csrw CSR_MEPC, x5  
  80006bc:	34129073          	csrw	mepc,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:275
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:275
   LOAD x5,  17*REGBYTES(sp)
  80006c0:	4296                	lw	t0,68(sp)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:276
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:276
   csrw CSR_MCAUSE, x5  
  80006c2:	34229073          	csrw	mcause,t0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:279
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:279
 
 
   RESTORE_CONTEXT
@@ -968,7 +968,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
  80006e4:	5f72                	lw	t5,60(sp)
  80006e6:	4f86                	lw	t6,64(sp)
  80006e8:	6161                	addi	sp,sp,80
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:283
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S:283
 
   
   // Return to regular code
@@ -977,7 +977,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/entry.S
 
 080006ee <handle_nmi>:
 handle_nmi():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:9
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:9
 #include <unistd.h>
 #include "riscv_encoding.h"
 #include "n200_func.h"
@@ -988,21 +988,21 @@ __attribute__((weak)) uintptr_t handle_nmi()
  80006f0:	c606                	sw	ra,12(sp)
  80006f2:	c422                	sw	s0,8(sp)
  80006f4:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:10
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:10
   write(1, "nmi\n", 5);
  80006f6:	4615                	li	a2,5
  80006f8:	080007b7          	lui	a5,0x8000
  80006fc:	26878593          	addi	a1,a5,616 # 8000268 <enable_mcycle_minstret+0x38>
  8000700:	4505                	li	a0,1
  8000702:	70c010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:11
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:11
   _exit(1);
  8000706:	4505                	li	a0,1
  8000708:	39e5                	jal	8000400 <_exit>
 
 0800070a <handle_trap>:
 handle_trap():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:17
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:17
   return 0;
 }
 
@@ -1015,16 +1015,16 @@ __attribute__((weak)) uintptr_t handle_trap(uintptr_t mcause, uintptr_t sp)
  8000710:	1000                	addi	s0,sp,32
  8000712:	fea42623          	sw	a0,-20(s0)
  8000716:	feb42423          	sw	a1,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:18
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:18
   if(mcause == 0xFFF) {
  800071a:	fec42703          	lw	a4,-20(s0)
  800071e:	6785                	lui	a5,0x1
  8000720:	17fd                	addi	a5,a5,-1
  8000722:	00f71363          	bne	a4,a5,8000728 <handle_trap+0x1e>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:19
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:19
       handle_nmi();
  8000726:	37e1                	jal	80006ee <handle_nmi>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:21
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:21
   }
   write(1, "trap\n", 5);
  8000728:	4615                	li	a2,5
@@ -1032,7 +1032,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handler
  800072e:	27078593          	addi	a1,a5,624 # 8000270 <enable_mcycle_minstret+0x40>
  8000732:	4505                	li	a0,1
  8000734:	6da010ef          	jal	ra,8001e0e <write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:25
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handlers.c:25
   //printf("In trap handler, the mcause is %d\n", mcause);
   //printf("In trap handler, the mepc is 0x%x\n", read_csr(mepc));
   //printf("In trap handler, the mtval is 0x%x\n", read_csr(mbadaddr));
@@ -1043,7 +1043,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/handler
 
 08000740 <_init>:
 _init():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:11
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:11
 #include "riscv_encoding.h"
 #include "n200_func.h"
 
@@ -1054,19 +1054,19 @@ void _init()
  8000742:	c606                	sw	ra,12(sp)
  8000744:	c422                	sw	s0,8(sp)
  8000746:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:12
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:12
 	SystemInit();
  8000748:	2149                	jal	8000bca <SystemInit>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:15
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:15
 
 	//ECLIC init
 	eclic_init(ECLIC_NUM_INTERRUPTS);
  800074a:	05700513          	li	a0,87
  800074e:	285d                	jal	8000804 <eclic_init>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:16
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:16
 	eclic_mode_enable();
  8000750:	2a21                	jal	8000868 <eclic_mode_enable>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:29
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:29
 	//pmp_open_all_space();
 	//switch_m2u_mode();
 	
@@ -1074,7 +1074,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:
     only use them when needed to measure the cycle/instret */
 	disable_mcycle_minstret();
  8000752:	3ce1                	jal	800022a <disable_mcycle_minstret>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:30
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:30
 }
  8000754:	0001                	nop
  8000756:	40b2                	lw	ra,12(sp)
@@ -1084,14 +1084,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:
 
 0800075e <_fini>:
 _fini():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:33
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:33
 
 void _fini()
 {
  800075e:	1141                	addi	sp,sp,-16
  8000760:	c622                	sw	s0,12(sp)
  8000762:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:34
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:34
 }
  8000764:	0001                	nop
  8000766:	4432                	lw	s0,12(sp)
@@ -1100,7 +1100,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/env_Eclipse/init.c:
 
 0800076c <mtime_lo>:
 mtime_lo():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:32
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:32
     asm volatile ("mret":::);
     asm volatile ("1:":::);
 } 
@@ -1110,11 +1110,11 @@ uint32_t mtime_lo(void)
  800076c:	1141                	addi	sp,sp,-16
  800076e:	c622                	sw	s0,12(sp)
  8000770:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:33
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:33
   return *(volatile uint32_t *)(TIMER_CTRL_ADDR + TIMER_MTIME);
  8000772:	d10007b7          	lui	a5,0xd1000
  8000776:	439c                	lw	a5,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:34
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:34
 }
  8000778:	853e                	mv	a0,a5
  800077a:	4432                	lw	s0,12(sp)
@@ -1123,7 +1123,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
 
 08000780 <mtime_hi>:
 mtime_hi():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:38
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:38
 
 
 uint32_t mtime_hi(void)
@@ -1131,12 +1131,12 @@ uint32_t mtime_hi(void)
  8000780:	1141                	addi	sp,sp,-16
  8000782:	c622                	sw	s0,12(sp)
  8000784:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:39
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:39
   return *(volatile uint32_t *)(TIMER_CTRL_ADDR + TIMER_MTIME + 4);
  8000786:	d10007b7          	lui	a5,0xd1000
  800078a:	0791                	addi	a5,a5,4
  800078c:	439c                	lw	a5,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:40
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:40
 }
  800078e:	853e                	mv	a0,a5
  8000790:	4432                	lw	s0,12(sp)
@@ -1145,7 +1145,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
 
 08000796 <get_timer_value>:
 get_timer_value():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:43
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:43
 
 uint64_t get_timer_value()
 {
@@ -1161,22 +1161,22 @@ uint64_t get_timer_value()
  80007a8:	ce62                	sw	s8,28(sp)
  80007aa:	cc66                	sw	s9,24(sp)
  80007ac:	0080                	addi	s0,sp,64
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:45
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:45
   while (1) {
     uint32_t hi = mtime_hi();
  80007ae:	3fc9                	jal	8000780 <mtime_hi>
  80007b0:	fca42623          	sw	a0,-52(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:46
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:46
     uint32_t lo = mtime_lo();
  80007b4:	3f65                	jal	800076c <mtime_lo>
  80007b6:	fca42423          	sw	a0,-56(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:47
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:47
     if (hi == mtime_hi())
  80007ba:	37d9                	jal	8000780 <mtime_hi>
  80007bc:	872a                	mv	a4,a0
  80007be:	fcc42783          	lw	a5,-52(s0)
  80007c2:	fee796e3          	bne	a5,a4,80007ae <get_timer_value+0x18>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:48
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:48
       return ((uint64_t)hi << 32) | lo;
  80007c6:	fcc42783          	lw	a5,-52(s0)
  80007ca:	8c3e                	mv	s8,a5
@@ -1190,7 +1190,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
  80007e0:	0159ebb3          	or	s7,s3,s5
  80007e4:	87da                	mv	a5,s6
  80007e6:	885e                	mv	a6,s7
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:50
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:50
   }
 }
  80007e8:	853e                	mv	a0,a5
@@ -1210,7 +1210,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
 
 08000804 <eclic_init>:
 eclic_init():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:121
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:121
 
 
 
@@ -1221,7 +1221,7 @@ void eclic_init ( uint32_t num_irq )
  8000806:	d622                	sw	s0,44(sp)
  8000808:	1800                	addi	s0,sp,48
  800080a:	fca42e23          	sw	a0,-36(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:126
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:126
 
   typedef volatile uint32_t vuint32_t;
 
@@ -1229,14 +1229,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
   *(volatile uint8_t*)(ECLIC_ADDR_BASE+ECLIC_CFG_OFFSET)=0;
  800080e:	d20007b7          	lui	a5,0xd2000
  8000812:	00078023          	sb	zero,0(a5) # d2000000 <_sp+0xb1ff8000>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:129
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:129
 
   //clear minthresh register 
   *(volatile uint8_t*)(ECLIC_ADDR_BASE+ECLIC_MTH_OFFSET)=0;
  8000816:	d20007b7          	lui	a5,0xd2000
  800081a:	07ad                	addi	a5,a5,11
  800081c:	00078023          	sb	zero,0(a5) # d2000000 <_sp+0xb1ff8000>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:134
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:134
 
   //clear all IP/IE/ATTR/CTRL bits for all interrupt sources
   vuint32_t * ptr;
@@ -1244,33 +1244,33 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
   vuint32_t * base = (vuint32_t*)(ECLIC_ADDR_BASE + ECLIC_INT_IP_OFFSET);
  8000820:	d20017b7          	lui	a5,0xd2001
  8000824:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:135
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:135
   vuint32_t * upper = (vuint32_t*)(base + num_irq*4);
  8000828:	fdc42783          	lw	a5,-36(s0)
  800082c:	0792                	slli	a5,a5,0x4
  800082e:	fe842703          	lw	a4,-24(s0)
  8000832:	97ba                	add	a5,a5,a4
  8000834:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137
 
   for (ptr = base; ptr < upper; ptr=ptr+4){
  8000838:	fe842783          	lw	a5,-24(s0)
  800083c:	fef42623          	sw	a5,-20(s0)
  8000840:	a811                	j	8000854 <eclic_init+0x50>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:138 (discriminator 3)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:138 (discriminator 3)
     *ptr = 0;
  8000842:	fec42783          	lw	a5,-20(s0)
  8000846:	0007a023          	sw	zero,0(a5) # d2001000 <_sp+0xb1ff9000>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 3)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 3)
   for (ptr = base; ptr < upper; ptr=ptr+4){
  800084a:	fec42783          	lw	a5,-20(s0)
  800084e:	07c1                	addi	a5,a5,16
  8000850:	fef42623          	sw	a5,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 1)
  8000854:	fec42703          	lw	a4,-20(s0)
  8000858:	fe442783          	lw	a5,-28(s0)
  800085c:	fef763e3          	bltu	a4,a5,8000842 <eclic_init+0x3e>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:140
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:140
   }
 }
  8000860:	0001                	nop
@@ -1280,7 +1280,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
 
 08000868 <eclic_mode_enable>:
 eclic_mode_enable():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:332
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:332
 	uint8_t priority = intctrl >> (nlbits+(8 - ECLICINTCTLBITS));
 
 	return priority;
@@ -1290,27 +1290,27 @@ void eclic_mode_enable() {
  8000868:	1101                	addi	sp,sp,-32
  800086a:	ce22                	sw	s0,28(sp)
  800086c:	1000                	addi	s0,sp,32
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:333
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:333
   uint32_t mtvec_value = read_csr(mtvec);
  800086e:	305027f3          	csrr	a5,mtvec
  8000872:	fef42623          	sw	a5,-20(s0)
  8000876:	fec42783          	lw	a5,-20(s0)
  800087a:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:334
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:334
   mtvec_value = mtvec_value & 0xFFFFFFC0;
  800087e:	fe842783          	lw	a5,-24(s0)
  8000882:	fc07f793          	andi	a5,a5,-64
  8000886:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:335
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:335
   mtvec_value = mtvec_value | 0x00000003;
  800088a:	fe842783          	lw	a5,-24(s0)
  800088e:	0037e793          	ori	a5,a5,3
  8000892:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:336
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:336
   write_csr(mtvec,mtvec_value);
  8000896:	fe842783          	lw	a5,-24(s0)
  800089a:	30579073          	csrw	mtvec,a5
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:337
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c:337
 }
  800089e:	0001                	nop
  80008a0:	4472                	lw	s0,28(sp)
@@ -1319,7 +1319,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../RISCV/drivers/n200_func.c
 
 080008a6 <gpio_init>:
 gpio_init():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:125
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:125
     \param[out] none
     \retval     none
 */
@@ -1333,42 +1333,42 @@ void gpio_init(uint32_t gpio_periph, uint32_t mode, uint32_t speed,
  80008b0:	fcb42c23          	sw	a1,-40(s0)
  80008b4:	fcc42a23          	sw	a2,-44(s0)
  80008b8:	fcd42823          	sw	a3,-48(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:127
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:127
     uint16_t i;
     uint32_t temp_mode = 0U;
  80008bc:	fe042423          	sw	zero,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:128
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:128
     uint32_t reg = 0U;
  80008c0:	fe042223          	sw	zero,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:131
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:131
 
     /* GPIO mode configuration */
     temp_mode = (uint32_t) (mode & ((uint32_t) 0x0FU));
  80008c4:	fd842783          	lw	a5,-40(s0)
  80008c8:	8bbd                	andi	a5,a5,15
  80008ca:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:134
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:134
 
     /* GPIO speed configuration */
     if (((uint32_t) 0x00U) != ((uint32_t) mode & ((uint32_t) 0x10U))) {
  80008ce:	fd842783          	lw	a5,-40(s0)
  80008d2:	8bc1                	andi	a5,a5,16
  80008d4:	cb81                	beqz	a5,80008e4 <gpio_init+0x3e>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:136
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:136
         /* output mode max speed:10MHz,2MHz,50MHz */
         temp_mode |= (uint32_t) speed;
  80008d6:	fe842703          	lw	a4,-24(s0)
  80008da:	fd442783          	lw	a5,-44(s0)
  80008de:	8fd9                	or	a5,a5,a4
  80008e0:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140
     }
 
     /* configure the eight low port pins with GPIO_CTL0 */
     for (i = 0U; i < 8U; i++) {
  80008e4:	fe041723          	sh	zero,-18(s0)
  80008e8:	a84d                	j	800099a <gpio_init+0xf4>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:141
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:141
         if ((1U << i) & pin) {
  80008ea:	fee45783          	lhu	a5,-18(s0)
  80008ee:	4705                	li	a4,1
@@ -1376,12 +1376,12 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  80008f4:	fd042783          	lw	a5,-48(s0)
  80008f8:	8ff9                	and	a5,a5,a4
  80008fa:	cbd9                	beqz	a5,8000990 <gpio_init+0xea>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:142
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:142
             reg = GPIO_CTL0(gpio_periph);
  80008fc:	fdc42783          	lw	a5,-36(s0)
  8000900:	439c                	lw	a5,0(a5)
  8000902:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:145
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:145
 
             /* clear the specified pin mode bits */
             reg &= ~GPIO_MODE_MASK(i);
@@ -1393,7 +1393,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000916:	fe442703          	lw	a4,-28(s0)
  800091a:	8ff9                	and	a5,a5,a4
  800091c:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:147
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:147
             /* set the specified pin mode bits */
             reg |= GPIO_MODE_SET(i, temp_mode);
  8000920:	fee45783          	lhu	a5,-18(s0)
@@ -1403,14 +1403,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  800092e:	fe442703          	lw	a4,-28(s0)
  8000932:	8fd9                	or	a5,a5,a4
  8000934:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:150
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:150
 
             /* set IPD or IPU */
             if (GPIO_MODE_IPD == mode) {
  8000938:	fd842703          	lw	a4,-40(s0)
  800093c:	02800793          	li	a5,40
  8000940:	02f71063          	bne	a4,a5,8000960 <gpio_init+0xba>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:152
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:152
                 /* reset the corresponding OCTL bit */
                 GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
  8000944:	fee45783          	lhu	a5,-18(s0)
@@ -1423,14 +1423,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  800095a:	8ff9                	and	a5,a5,a4
  800095c:	c29c                	sw	a5,0(a3)
  800095e:	a025                	j	8000986 <gpio_init+0xe0>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:155
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:155
             } else {
                 /* set the corresponding OCTL bit */
                 if (GPIO_MODE_IPU == mode) {
  8000960:	fd842703          	lw	a4,-40(s0)
  8000964:	04800793          	li	a5,72
  8000968:	00f71f63          	bne	a4,a5,8000986 <gpio_init+0xe0>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:156
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:156
                     GPIO_BOP(gpio_periph) = (uint32_t) ((1U << i) & pin);
  800096c:	fee45783          	lhu	a5,-18(s0)
  8000970:	4705                	li	a4,1
@@ -1441,7 +1441,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  800097e:	fd042783          	lw	a5,-48(s0)
  8000982:	8ff9                	and	a5,a5,a4
  8000984:	c29c                	sw	a5,0(a3)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:160
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:160
                 }
             }
             /* set GPIO_CTL0 register */
@@ -1449,16 +1449,16 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000986:	fdc42783          	lw	a5,-36(s0)
  800098a:	fe442703          	lw	a4,-28(s0)
  800098e:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 2)
     for (i = 0U; i < 8U; i++) {
  8000990:	fee45783          	lhu	a5,-18(s0)
  8000994:	0785                	addi	a5,a5,1
  8000996:	fef41723          	sh	a5,-18(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 1)
  800099a:	fee45703          	lhu	a4,-18(s0)
  800099e:	479d                	li	a5,7
  80009a0:	f4e7f5e3          	bgeu	a5,a4,80008ea <gpio_init+0x44>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164
         }
     }
     /* configure the eight high port pins with GPIO_CTL1 */
@@ -1466,7 +1466,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  80009a4:	47a1                	li	a5,8
  80009a6:	fef41723          	sh	a5,-18(s0)
  80009aa:	a0e1                	j	8000a72 <gpio_init+0x1cc>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:165
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:165
         if ((1U << i) & pin) {
  80009ac:	fee45783          	lhu	a5,-18(s0)
  80009b0:	4705                	li	a4,1
@@ -1474,13 +1474,13 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  80009b6:	fd042783          	lw	a5,-48(s0)
  80009ba:	8ff9                	and	a5,a5,a4
  80009bc:	c7d5                	beqz	a5,8000a68 <gpio_init+0x1c2>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:166
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:166
             reg = GPIO_CTL1(gpio_periph);
  80009be:	fdc42783          	lw	a5,-36(s0)
  80009c2:	0791                	addi	a5,a5,4
  80009c4:	439c                	lw	a5,0(a5)
  80009c6:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:169
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:169
 
             /* clear the specified pin mode bits */
             reg &= ~GPIO_MODE_MASK(i - 8U);
@@ -1495,7 +1495,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  80009e2:	fe442703          	lw	a4,-28(s0)
  80009e6:	8ff9                	and	a5,a5,a4
  80009e8:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:171
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:171
             /* set the specified pin mode bits */
             reg |= GPIO_MODE_SET(i - 8U, temp_mode);
  80009ec:	fee45703          	lhu	a4,-18(s0)
@@ -1508,14 +1508,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000a02:	fe442703          	lw	a4,-28(s0)
  8000a06:	8fd9                	or	a5,a5,a4
  8000a08:	fef42223          	sw	a5,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:174
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:174
 
             /* set IPD or IPU */
             if (GPIO_MODE_IPD == mode) {
  8000a0c:	fd842703          	lw	a4,-40(s0)
  8000a10:	02800793          	li	a5,40
  8000a14:	02f71063          	bne	a4,a5,8000a34 <gpio_init+0x18e>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:176
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:176
                 /* reset the corresponding OCTL bit */
                 GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
  8000a18:	fee45783          	lhu	a5,-18(s0)
@@ -1528,14 +1528,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000a2e:	8ff9                	and	a5,a5,a4
  8000a30:	c29c                	sw	a5,0(a3)
  8000a32:	a025                	j	8000a5a <gpio_init+0x1b4>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:179
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:179
             } else {
                 /* set the corresponding OCTL bit */
                 if (GPIO_MODE_IPU == mode) {
  8000a34:	fd842703          	lw	a4,-40(s0)
  8000a38:	04800793          	li	a5,72
  8000a3c:	00f71f63          	bne	a4,a5,8000a5a <gpio_init+0x1b4>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:180
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:180
                     GPIO_BOP(gpio_periph) = (uint32_t) ((1U << i) & pin);
  8000a40:	fee45783          	lhu	a5,-18(s0)
  8000a44:	4705                	li	a4,1
@@ -1546,7 +1546,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000a52:	fd042783          	lw	a5,-48(s0)
  8000a56:	8ff9                	and	a5,a5,a4
  8000a58:	c29c                	sw	a5,0(a3)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:184
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:184
                 }
             }
             /* set GPIO_CTL1 register */
@@ -1556,16 +1556,16 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000a60:	873e                	mv	a4,a5
  8000a62:	fe442783          	lw	a5,-28(s0)
  8000a66:	c31c                	sw	a5,0(a4)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 2)
     for (i = 8U; i < 16U; i++) {
  8000a68:	fee45783          	lhu	a5,-18(s0)
  8000a6c:	0785                	addi	a5,a5,1
  8000a6e:	fef41723          	sh	a5,-18(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 1)
  8000a72:	fee45703          	lhu	a4,-18(s0)
  8000a76:	47bd                	li	a5,15
  8000a78:	f2e7fae3          	bgeu	a5,a4,80009ac <gpio_init+0x106>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:187
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:187
         }
     }
 }
@@ -1576,7 +1576,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000a84 <gpio_bit_reset>:
 gpio_bit_reset():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:213
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:213
       \arg        GPIO_PIN_x(x=0..15), GPIO_PIN_ALL
     \param[out] none
     \retval     none
@@ -1588,14 +1588,14 @@ void gpio_bit_reset(uint32_t gpio_periph, uint32_t pin)
  8000a88:	1000                	addi	s0,sp,32
  8000a8a:	fea42623          	sw	a0,-20(s0)
  8000a8e:	feb42423          	sw	a1,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:214
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:214
     GPIO_BC(gpio_periph) = (uint32_t) pin;
  8000a92:	fec42783          	lw	a5,-20(s0)
  8000a96:	07d1                	addi	a5,a5,20
  8000a98:	873e                	mv	a4,a5
  8000a9a:	fe842783          	lw	a5,-24(s0)
  8000a9e:	c31c                	sw	a5,0(a4)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:215
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:215
 }
  8000aa0:	0001                	nop
  8000aa2:	4472                	lw	s0,28(sp)
@@ -1604,7 +1604,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000aa8 <gpio_bit_write>:
 gpio_bit_write():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:231
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:231
       \arg        SET: set the port pin
     \param[out] none
     \retval     none
@@ -1617,31 +1617,31 @@ void gpio_bit_write(uint32_t gpio_periph, uint32_t pin, bit_status bit_value)
  8000aae:	fea42623          	sw	a0,-20(s0)
  8000ab2:	feb42423          	sw	a1,-24(s0)
  8000ab6:	fec42223          	sw	a2,-28(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:232
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:232
     if (RESET != bit_value) {
  8000aba:	fe442783          	lw	a5,-28(s0)
  8000abe:	cb89                	beqz	a5,8000ad0 <gpio_bit_write+0x28>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:233
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:233
         GPIO_BOP(gpio_periph) = (uint32_t) pin;
  8000ac0:	fec42783          	lw	a5,-20(s0)
  8000ac4:	07c1                	addi	a5,a5,16
  8000ac6:	873e                	mv	a4,a5
  8000ac8:	fe842783          	lw	a5,-24(s0)
  8000acc:	c31c                	sw	a5,0(a4)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:237
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:237
     } else {
         GPIO_BC(gpio_periph) = (uint32_t) pin;
     }
 }
  8000ace:	a801                	j	8000ade <gpio_bit_write+0x36>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:235
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:235
         GPIO_BC(gpio_periph) = (uint32_t) pin;
  8000ad0:	fec42783          	lw	a5,-20(s0)
  8000ad4:	07d1                	addi	a5,a5,20
  8000ad6:	873e                	mv	a4,a5
  8000ad8:	fe842783          	lw	a5,-24(s0)
  8000adc:	c31c                	sw	a5,0(a4)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:237
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:237
 }
  8000ade:	0001                	nop
  8000ae0:	4472                	lw	s0,28(sp)
@@ -1650,7 +1650,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000ae6 <gpio_input_bit_get>:
 gpio_input_bit_get():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:261
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:261
       \arg        GPIO_PIN_x(x=0..15), GPIO_PIN_ALL
     \param[out] none
     \retval     input status of gpio pin: SET or RESET
@@ -1662,7 +1662,7 @@ FlagStatus gpio_input_bit_get(uint32_t gpio_periph, uint32_t pin)
  8000aea:	1000                	addi	s0,sp,32
  8000aec:	fea42623          	sw	a0,-20(s0)
  8000af0:	feb42423          	sw	a1,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:262
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:262
     if ((uint32_t) RESET != (GPIO_ISTAT(gpio_periph) & (pin))) {
  8000af4:	fec42783          	lw	a5,-20(s0)
  8000af8:	07a1                	addi	a5,a5,8
@@ -1670,15 +1670,15 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000afc:	fe842783          	lw	a5,-24(s0)
  8000b00:	8ff9                	and	a5,a5,a4
  8000b02:	c399                	beqz	a5,8000b08 <gpio_input_bit_get+0x22>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:263
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:263
         return SET;
  8000b04:	4785                	li	a5,1
  8000b06:	a011                	j	8000b0a <gpio_input_bit_get+0x24>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:265
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:265
     } else {
         return RESET;
  8000b08:	4781                	li	a5,0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:267
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_gpio.c:267
     }
 }
  8000b0a:	853e                	mv	a0,a5
@@ -1688,7 +1688,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000b12 <rcu_periph_clock_enable>:
 rcu_periph_clock_enable():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:98
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:98
       \arg        RCU_BKPI: BKP interface clock
     \param[out] none
     \retval     none
@@ -1699,7 +1699,7 @@ void rcu_periph_clock_enable(rcu_periph_enum periph)
  8000b14:	ce22                	sw	s0,28(sp)
  8000b16:	1000                	addi	s0,sp,32
  8000b18:	fea42623          	sw	a0,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:99
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:99
     RCU_REG_VAL(periph) |= BIT(RCU_BIT_POS(periph));
  8000b1c:	fec42783          	lw	a5,-20(s0)
  8000b20:	0067d713          	srli	a4,a5,0x6
@@ -1716,7 +1716,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000b44:	96b2                	add	a3,a3,a2
  8000b46:	8fd9                	or	a5,a5,a4
  8000b48:	c29c                	sw	a5,0(a3)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:100
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_rcu.c:100
 }
  8000b4a:	0001                	nop
  8000b4c:	4472                	lw	s0,28(sp)
@@ -1725,7 +1725,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000b52 <usart_data_transmit>:
 usart_data_transmit():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:247
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:247
     \param[in]  data: data of transmission 
     \param[out] none
     \retval     none
@@ -1737,7 +1737,7 @@ void usart_data_transmit(uint32_t usart_periph, uint32_t data)
  8000b56:	1000                	addi	s0,sp,32
  8000b58:	fea42623          	sw	a0,-20(s0)
  8000b5c:	feb42423          	sw	a1,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:248
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:248
     USART_DATA(usart_periph) = USART_DATA_DATA & data;
  8000b60:	fec42783          	lw	a5,-20(s0)
  8000b64:	0791                	addi	a5,a5,4
@@ -1745,7 +1745,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000b68:	fe842783          	lw	a5,-24(s0)
  8000b6c:	1ff7f793          	andi	a5,a5,511
  8000b70:	c31c                	sw	a5,0(a4)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:249
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:249
 }
  8000b72:	0001                	nop
  8000b74:	4472                	lw	s0,28(sp)
@@ -1754,7 +1754,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000b7a <usart_flag_get>:
 usart_flag_get():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:648
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:648
       \arg        USART_FLAG_PERR: parity error flag 
     \param[out] none
     \retval     FlagStatus: SET or RESET
@@ -1766,7 +1766,7 @@ FlagStatus usart_flag_get(uint32_t usart_periph, usart_flag_enum flag)
  8000b7e:	1000                	addi	s0,sp,32
  8000b80:	fea42623          	sw	a0,-20(s0)
  8000b84:	feb42423          	sw	a1,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:649
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:649
     if(RESET != (USART_REG_VAL(usart_periph, flag) & BIT(USART_BIT_POS(flag)))){
  8000b88:	fe842783          	lw	a5,-24(s0)
  8000b8c:	8399                	srli	a5,a5,0x6
@@ -1779,15 +1779,15 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
  8000ba0:	00f757b3          	srl	a5,a4,a5
  8000ba4:	8b85                	andi	a5,a5,1
  8000ba6:	c399                	beqz	a5,8000bac <usart_flag_get+0x32>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:650
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:650
         return SET;
  8000ba8:	4785                	li	a5,1
  8000baa:	a011                	j	8000bae <usart_flag_get+0x34>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:652
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:652
     }else{
         return RESET;
  8000bac:	4781                	li	a5,0
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:654
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf103_usart.c:654
     }
 }
  8000bae:	853e                	mv	a0,a5
@@ -1797,7 +1797,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/Source/gd32vf
 
 08000bb6 <system_clock_config>:
 system_clock_config():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:116
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:116
     \param[in]  none
     \param[out] none
     \retval     none
@@ -1808,7 +1808,7 @@ static void system_clock_config(void)
  8000bb8:	c606                	sw	ra,12(sp)
  8000bba:	c422                	sw	s0,8(sp)
  8000bbc:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:132
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:132
 #elif defined (__SYSTEM_CLOCK_72M_PLL_HXTAL)
     system_clock_72m_hxtal();
 #elif defined (__SYSTEM_CLOCK_96M_PLL_HXTAL)
@@ -1816,7 +1816,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
 #elif defined (__SYSTEM_CLOCK_108M_PLL_HXTAL)
     system_clock_108m_hxtal();
  8000bbe:	2855                	jal	8000c72 <system_clock_108m_hxtal>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:141
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:141
 #elif defined (__SYSTEM_CLOCK_72M_PLL_IRC8M)
     system_clock_72m_irc8m();
 #elif defined (__SYSTEM_CLOCK_108M_PLL_IRC8M)
@@ -1831,7 +1831,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
 
 08000bca <SystemInit>:
 SystemInit():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:150
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:150
     \param[in]  none
     \param[out] none
     \retval     none
@@ -1842,7 +1842,7 @@ void SystemInit(void)
  8000bcc:	c606                	sw	ra,12(sp)
  8000bce:	c422                	sw	s0,8(sp)
  8000bd0:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:153
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:153
     /* reset the RCC clock configuration to the default reset state */
     /* enable IRC8M */
     RCU_CTL |= RCU_CTL_IRC8MEN;
@@ -1851,7 +1851,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000bd8:	400217b7          	lui	a5,0x40021
  8000bdc:	00176713          	ori	a4,a4,1
  8000be0:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:156
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:156
     
     /* reset SCS, AHBPSC, APB1PSC, APB2PSC, ADCPSC, CKOUT0SEL bits */
     RCU_CFG0 &= ~(RCU_CFG0_SCS | RCU_CFG0_AHBPSC | RCU_CFG0_APB1PSC | RCU_CFG0_APB2PSC |
@@ -1864,7 +1864,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000bf4:	0731                	addi	a4,a4,12
  8000bf6:	8f75                	and	a4,a4,a3
  8000bf8:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:160
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:160
                   RCU_CFG0_ADCPSC | RCU_CFG0_ADCPSC_2 | RCU_CFG0_CKOUT0SEL);
 
     /* reset HXTALEN, CKMEN, PLLEN bits */
@@ -1876,7 +1876,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c08:	177d                	addi	a4,a4,-1
  8000c0a:	8f75                	and	a4,a4,a3
  8000c0c:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:163
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:163
 
     /* Reset HXTALBPS bit */
     RCU_CTL &= ~(RCU_CTL_HXTALBPS);
@@ -1887,7 +1887,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c1c:	177d                	addi	a4,a4,-1
  8000c1e:	8f75                	and	a4,a4,a3
  8000c20:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:167
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:167
 
     /* reset PLLSEL, PREDV0_LSB, PLLMF, USBFSPSC bits */
     
@@ -1901,13 +1901,13 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c34:	177d                	addi	a4,a4,-1
  8000c36:	8f75                	and	a4,a4,a3
  8000c38:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:169
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:169
                   RCU_CFG0_USBFSPSC | RCU_CFG0_PLLMF_4);
     RCU_CFG1 = 0x00000000U;
  8000c3a:	400217b7          	lui	a5,0x40021
  8000c3e:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
  8000c42:	0007a023          	sw	zero,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:172
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:172
 
     /* Reset HXTALEN, CKMEN, PLLEN, PLL1EN and PLL2EN bits */
     RCU_CTL &= ~(RCU_CTL_PLLEN | RCU_CTL_PLL1EN | RCU_CTL_PLL2EN | RCU_CTL_CKMEN | RCU_CTL_HXTALEN);
@@ -1918,19 +1918,19 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c54:	177d                	addi	a4,a4,-1
  8000c56:	8f75                	and	a4,a4,a3
  8000c58:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:174
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:174
     /* disable all interrupts */
     RCU_INT = 0x00FF0000U;
  8000c5a:	400217b7          	lui	a5,0x40021
  8000c5e:	07a1                	addi	a5,a5,8
  8000c60:	00ff0737          	lui	a4,0xff0
  8000c64:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:177
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:177
 
     /* Configure the System clock source, PLL Multiplier, AHB/APBx prescalers and Flash settings */
     system_clock_config();
  8000c66:	3f81                	jal	8000bb6 <system_clock_config>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:178
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:178
 }
  8000c68:	0001                	nop
  8000c6a:	40b2                	lw	ra,12(sp)
@@ -1940,7 +1940,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
 
 08000c72 <system_clock_108m_hxtal>:
 system_clock_108m_hxtal():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:751
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:751
     \param[out] none
     \retval     none
 */
@@ -1950,13 +1950,13 @@ static void system_clock_108m_hxtal(void)
  8000c72:	1101                	addi	sp,sp,-32
  8000c74:	ce22                	sw	s0,28(sp)
  8000c76:	1000                	addi	s0,sp,32
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:752
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:752
     uint32_t timeout   = 0U;
  8000c78:	fe042623          	sw	zero,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:753
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:753
     uint32_t stab_flag = 0U;
  8000c7c:	fe042423          	sw	zero,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:756
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:756
 
     /* enable HXTAL */
     RCU_CTL |= RCU_CTL_HXTALEN;
@@ -1966,7 +1966,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c8a:	6741                	lui	a4,0x10
  8000c8c:	8f55                	or	a4,a4,a3
  8000c8e:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:760 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:760 (discriminator 2)
 
     /* wait until HXTAL is stable or the startup time is longer than HXTAL_STARTUP_TIMEOUT */
     do{
@@ -1974,23 +1974,23 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000c90:	fec42783          	lw	a5,-20(s0)
  8000c94:	0785                	addi	a5,a5,1
  8000c96:	fef42623          	sw	a5,-20(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:761 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:761 (discriminator 2)
         stab_flag = (RCU_CTL & RCU_CTL_HXTALSTB);
  8000c9a:	400217b7          	lui	a5,0x40021
  8000c9e:	4398                	lw	a4,0(a5)
  8000ca0:	000207b7          	lui	a5,0x20
  8000ca4:	8ff9                	and	a5,a5,a4
  8000ca6:	fef42423          	sw	a5,-24(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 2)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 2)
     }while((0U == stab_flag) && (HXTAL_STARTUP_TIMEOUT != timeout));
  8000caa:	fe842783          	lw	a5,-24(s0)
  8000cae:	e799                	bnez	a5,8000cbc <system_clock_108m_hxtal+0x4a>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 1)
  8000cb0:	fec42703          	lw	a4,-20(s0)
  8000cb4:	67c1                	lui	a5,0x10
  8000cb6:	17fd                	addi	a5,a5,-1
  8000cb8:	fcf71ce3          	bne	a4,a5,8000c90 <system_clock_108m_hxtal+0x1e>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:765
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:765
 
     /* if fail */
     if(0U == (RCU_CTL & RCU_CTL_HXTALSTB)){
@@ -1999,10 +1999,10 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000cc2:	000207b7          	lui	a5,0x20
  8000cc6:	8ff9                	and	a5,a5,a4
  8000cc8:	e391                	bnez	a5,8000ccc <system_clock_108m_hxtal+0x5a>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:766 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:766 (discriminator 1)
         while(1){
  8000cca:	a001                	j	8000cca <system_clock_108m_hxtal+0x58>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:772
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:772
         }
     }
 
@@ -2015,7 +2015,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000cd8:	0791                	addi	a5,a5,4
  8000cda:	4318                	lw	a4,0(a4)
  8000cdc:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:774
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:774
     /* APB2 = AHB/1 */
     RCU_CFG0 |= RCU_APB2_CKAHB_DIV1;
  8000cde:	400217b7          	lui	a5,0x40021
@@ -2024,7 +2024,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000cea:	0791                	addi	a5,a5,4
  8000cec:	4318                	lw	a4,0(a4)
  8000cee:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:776
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:776
     /* APB1 = AHB/2 */
     RCU_CFG0 |= RCU_APB1_CKAHB_DIV2;
  8000cf0:	400217b7          	lui	a5,0x40021
@@ -2034,7 +2034,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000cfc:	0791                	addi	a5,a5,4
  8000cfe:	40076713          	ori	a4,a4,1024
  8000d02:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:779
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:779
 
     /* CK_PLL = (CK_PREDIV0) * 27 = 108 MHz */ 
     RCU_CFG0 &= ~(RCU_CFG0_PLLMF | RCU_CFG0_PLLMF_4);
@@ -2047,7 +2047,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d16:	177d                	addi	a4,a4,-1
  8000d18:	8f75                	and	a4,a4,a3
  8000d1a:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:780
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:780
     RCU_CFG0 |= (RCU_PLLSRC_HXTAL | RCU_PLL_MUL27);
  8000d1c:	400217b7          	lui	a5,0x40021
  8000d20:	0791                	addi	a5,a5,4
@@ -2057,7 +2057,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d2a:	20290737          	lui	a4,0x20290
  8000d2e:	8f55                	or	a4,a4,a3
  8000d30:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:799
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:799
 		RCU_CTL |= RCU_CTL_PLL2EN;
 		/* wait till PLL1 is ready */
 		while(0U == (RCU_CTL & RCU_CTL_PLL2STB)){
@@ -2072,7 +2072,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d44:	773d                	lui	a4,0xfffef
  8000d46:	8f75                	and	a4,a4,a3
  8000d48:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:800
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:800
 		RCU_CFG1 |= (RCU_PREDV0SRC_HXTAL | RCU_PREDV0_DIV2 | RCU_PREDV1_DIV2 | RCU_PLL1_MUL20 | RCU_PLL2_MUL20);
  8000d4a:	400217b7          	lui	a5,0x40021
  8000d4e:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
@@ -2083,7 +2083,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d5e:	f1170713          	addi	a4,a4,-239 # ff11 <__stack_size+0xf711>
  8000d62:	8f55                	or	a4,a4,a3
  8000d64:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:803
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:803
 
 		/* enable PLL1 */
 		RCU_CTL |= RCU_CTL_PLL1EN;
@@ -2093,17 +2093,17 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d70:	04000737          	lui	a4,0x4000
  8000d74:	8f55                	or	a4,a4,a3
  8000d76:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:805
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:805
 		/* wait till PLL1 is ready */
 		while(0U == (RCU_CTL & RCU_CTL_PLL1STB)){
  8000d78:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:805 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:805 (discriminator 1)
  8000d7a:	400217b7          	lui	a5,0x40021
  8000d7e:	4398                	lw	a4,0(a5)
  8000d80:	080007b7          	lui	a5,0x8000
  8000d84:	8ff9                	and	a5,a5,a4
  8000d86:	dbf5                	beqz	a5,8000d7a <system_clock_108m_hxtal+0x108>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:809
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:809
 		}
 
 		/* enable PLL2 */
@@ -2114,17 +2114,17 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000d92:	10000737          	lui	a4,0x10000
  8000d96:	8f55                	or	a4,a4,a3
  8000d98:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:811
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:811
 		/* wait till PLL1 is ready */
 		while(0U == (RCU_CTL & RCU_CTL_PLL2STB)){
  8000d9a:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:811 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:811 (discriminator 1)
  8000d9c:	400217b7          	lui	a5,0x40021
  8000da0:	4398                	lw	a4,0(a5)
  8000da2:	200007b7          	lui	a5,0x20000
  8000da6:	8ff9                	and	a5,a5,a4
  8000da8:	dbf5                	beqz	a5,8000d9c <system_clock_108m_hxtal+0x12a>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:816
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:816
 		}
 
     }
@@ -2136,18 +2136,18 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000db4:	01000737          	lui	a4,0x1000
  8000db8:	8f55                	or	a4,a4,a3
  8000dba:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:819
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:819
 
     /* wait until PLL is stable */
     while(0U == (RCU_CTL & RCU_CTL_PLLSTB)){
  8000dbc:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:819 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:819 (discriminator 1)
  8000dbe:	400217b7          	lui	a5,0x40021
  8000dc2:	4398                	lw	a4,0(a5)
  8000dc4:	020007b7          	lui	a5,0x2000
  8000dc8:	8ff9                	and	a5,a5,a4
  8000dca:	dbf5                	beqz	a5,8000dbe <system_clock_108m_hxtal+0x14c>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:823
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:823
     }
 
     /* select PLL as system clock */
@@ -2159,7 +2159,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000dd8:	0791                	addi	a5,a5,4
  8000dda:	9b71                	andi	a4,a4,-4
  8000ddc:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:824
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:824
     RCU_CFG0 |= RCU_CKSYSSRC_PLL;
  8000dde:	400217b7          	lui	a5,0x40021
  8000de2:	0791                	addi	a5,a5,4
@@ -2168,18 +2168,18 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
  8000dea:	0791                	addi	a5,a5,4
  8000dec:	00276713          	ori	a4,a4,2
  8000df0:	c398                	sw	a4,0(a5)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:827
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:827
 
     /* wait until PLL is selected as system clock */
     while(0U == (RCU_CFG0 & RCU_SCSS_PLL)){
  8000df2:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:827 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:827 (discriminator 1)
  8000df4:	400217b7          	lui	a5,0x40021
  8000df8:	0791                	addi	a5,a5,4
  8000dfa:	439c                	lw	a5,0(a5)
  8000dfc:	8ba1                	andi	a5,a5,8
  8000dfe:	dbfd                	beqz	a5,8000df4 <system_clock_108m_hxtal+0x182>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:829
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf103.c:829
     }
 }
  8000e00:	0001                	nop
@@ -2189,7 +2189,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Peripherals/system_gd32vf
 
 08000e08 <main>:
 main():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:16
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:16
     \param[in]  none
     \param[out] none
     \retval     none
@@ -2200,20 +2200,20 @@ int main(void)
  8000e0a:	c606                	sw	ra,12(sp)
  8000e0c:	c422                	sw	s0,8(sp)
  8000e0e:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:18
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:18
     /* 初始化start开发板上的LED */
     led_init();
  8000e10:	2061                	jal	8000e98 <led_init>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:20
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:20
     /* 打开start开发板上的按键Wakeup clock */
     rcu_periph_clock_enable(RCU_GPIOA);
  8000e12:	60200513          	li	a0,1538
  8000e16:	39f5                	jal	8000b12 <rcu_periph_clock_enable>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:21
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:21
     rcu_periph_clock_enable(RCU_AF);
  8000e18:	60000513          	li	a0,1536
  8000e1c:	39dd                	jal	8000b12 <rcu_periph_clock_enable>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:23
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:23
     /* 配置作为输入口的按键的端口号 */
     gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_0);
  8000e1e:	4685                	li	a3,1
@@ -2222,7 +2222,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:23
  8000e24:	400117b7          	lui	a5,0x40011
  8000e28:	80078513          	addi	a0,a5,-2048 # 40010800 <_sp+0x20008800>
  8000e2c:	3cad                	jal	80008a6 <gpio_init>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:26
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:26
     while(1)
 	{
 		if(SET ==  gpio_input_bit_get(GPIOA, GPIO_PIN_0))
@@ -2233,13 +2233,13 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:26
  8000e3a:	872a                	mv	a4,a0
  8000e3c:	4785                	li	a5,1
  8000e3e:	fef718e3          	bne	a4,a5,8000e2e <main+0x26>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:29
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:29
 		{
 			/* 按键防抖 */
 			delay_1ms(50);
  8000e42:	03200513          	li	a0,50
  8000e46:	2069                	jal	8000ed0 <delay_1ms>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:30
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:30
 			if(SET == gpio_input_bit_get(GPIOA, GPIO_PIN_0))
  8000e48:	4585                	li	a1,1
  8000e4a:	400117b7          	lui	a5,0x40011
@@ -2248,7 +2248,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:30
  8000e54:	872a                	mv	a4,a0
  8000e56:	4785                	li	a5,1
  8000e58:	02f71463          	bne	a4,a5,8000e80 <main+0x78>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:33
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:33
 			{
 				/* 翻转 LED 的状态 */
 				gpio_bit_write(GPIOA, GPIO_PIN_7, (bit_status)(1-gpio_input_bit_get(GPIOA, GPIO_PIN_7)));
@@ -2264,11 +2264,11 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:33
  8000e76:	400117b7          	lui	a5,0x40011
  8000e7a:	80078513          	addi	a0,a5,-2048 # 40010800 <_sp+0x20008800>
  8000e7e:	312d                	jal	8000aa8 <gpio_bit_write>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:35
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:35
 			}
 			while(SET == gpio_input_bit_get(GPIOA, GPIO_PIN_0))
  8000e80:	0001                	nop
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:35 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:35 (discriminator 1)
  8000e82:	4585                	li	a1,1
  8000e84:	400117b7          	lui	a5,0x40011
  8000e88:	80078513          	addi	a0,a5,-2048 # 40010800 <_sp+0x20008800>
@@ -2276,13 +2276,13 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:35 (di
  8000e8e:	872a                	mv	a4,a0
  8000e90:	4785                	li	a5,1
  8000e92:	fef708e3          	beq	a4,a5,8000e82 <main+0x7a>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:26
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:26
 		if(SET ==  gpio_input_bit_get(GPIOA, GPIO_PIN_0))
  8000e96:	bf61                	j	8000e2e <main+0x26>
 
 08000e98 <led_init>:
 led_init():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:49
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:49
     \param[in]  none
     \param[out] none
     \retval     none
@@ -2293,12 +2293,12 @@ void led_init(void)
  8000e9a:	c606                	sw	ra,12(sp)
  8000e9c:	c422                	sw	s0,8(sp)
  8000e9e:	0800                	addi	s0,sp,16
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:51
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:51
     /* 打开 LED clock */
    rcu_periph_clock_enable(RCU_GPIOA);
  8000ea0:	60200513          	li	a0,1538
  8000ea4:	31bd                	jal	8000b12 <rcu_periph_clock_enable>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:53
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:53
    /* 确定 LED 的 GPIO编号 */
    gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_7);
  8000ea6:	08000693          	li	a3,128
@@ -2307,14 +2307,14 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:53
  8000eae:	400117b7          	lui	a5,0x40011
  8000eb2:	80078513          	addi	a0,a5,-2048 # 40010800 <_sp+0x20008800>
  8000eb6:	3ac5                	jal	80008a6 <gpio_init>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:55
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:55
    /* 关闭 LEDs */
    gpio_bit_reset(GPIOA, GPIO_PIN_7);
  8000eb8:	08000593          	li	a1,128
  8000ebc:	400117b7          	lui	a5,0x40011
  8000ec0:	80078513          	addi	a0,a5,-2048 # 40010800 <_sp+0x20008800>
  8000ec4:	36c1                	jal	8000a84 <gpio_bit_reset>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:56
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:56
 }
  8000ec6:	0001                	nop
  8000ec8:	40b2                	lw	ra,12(sp)
@@ -2324,7 +2324,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:56
 
 08000ed0 <delay_1ms>:
 delay_1ms():
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:65
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:65
     \param[in]  count: 延时1ms
     \param[out] none
     \retval     none
@@ -2340,21 +2340,21 @@ void delay_1ms(uint32_t count)
  8000edc:	dc56                	sw	s5,56(sp)
  8000ede:	0880                	addi	s0,sp,80
  8000ee0:	faa42e23          	sw	a0,-68(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:68
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:68
     uint64_t start_mtime, delta_mtime;
     // Don't start measuruing until we see an mtime tick
     uint64_t tmp = get_timer_value();
  8000ee4:	8b3ff0ef          	jal	ra,8000796 <get_timer_value>
  8000ee8:	fca42c23          	sw	a0,-40(s0)
  8000eec:	fcb42e23          	sw	a1,-36(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:71 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:71 (discriminator 1)
     do
     {
     start_mtime = get_timer_value();
  8000ef0:	8a7ff0ef          	jal	ra,8000796 <get_timer_value>
  8000ef4:	fca42823          	sw	a0,-48(s0)
  8000ef8:	fcb42a23          	sw	a1,-44(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:73 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:73 (discriminator 1)
     }
     while (start_mtime == tmp);
  8000efc:	fd042703          	lw	a4,-48(s0)
@@ -2364,7 +2364,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:73 (di
  8000f0c:	fdc42783          	lw	a5,-36(s0)
  8000f10:	00f71363          	bne	a4,a5,8000f16 <delay_1ms+0x46>
  8000f14:	bff1                	j	8000ef0 <delay_1ms+0x20>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:76 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:76 (discriminator 1)
     do
     {
     delta_mtime = get_timer_value() - start_mtime;
@@ -2381,7 +2381,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:76 (di
  8000f38:	883a                	mv	a6,a4
  8000f3a:	fcf42423          	sw	a5,-56(s0)
  8000f3e:	fd042623          	sw	a6,-52(s0)
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:78 (discriminator 1)
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:78 (discriminator 1)
     }
     while(delta_mtime <(SystemCoreClock/4000.0 *count ));
  8000f42:	fc842503          	lw	a0,-56(s0)
@@ -2419,7 +2419,7 @@ D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:78 (di
  8000f98:	23f9                	jal	8001566 <__ledf2>
  8000f9a:	87aa                	mv	a5,a0
  8000f9c:	f607cde3          	bltz	a5,8000f16 <delay_1ms+0x46>
-D:\NucleiStudio_IDE_201908\GPIO_按键_轮询查询\Debug/../Application/main.c:79
+D:\OneDrive - mail.hfut.edu.cn\文档\GitHub\GD32VF103_Demo_Suites_HFUT_WH\Project\(2) GPIO_按键_轮询查询\Debug/../Application/main.c:79
 }
  8000fa0:	0001                	nop
  8000fa2:	40b6                	lw	ra,76(sp)
