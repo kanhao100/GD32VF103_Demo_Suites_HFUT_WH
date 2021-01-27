@@ -1,0 +1,2132 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+                              ./Application/systick.o (__divdf3)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+                              ./Application/systick.o (__ltdf2)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+                              ./Application/systick.o (__muldf3)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+                              ./Application/systick.o (__floatunsidf)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+                              ./Application/systick.o (__floatundidf)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o) (__clzsi2)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o) (__clz_tab)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+                              ./RISCV/env_Eclipse/start.o (atexit)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+                              ./RISCV/env_Eclipse/start.o (exit)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+                              ./RISCV/env_Eclipse/start.o (__libc_fini_array)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+                              ./RISCV/env_Eclipse/start.o (__libc_init_array)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+                              ./RISCV/stubs/write.o (strlen)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+                              ./RISCV/stubs/fstat.o (isatty)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+                              ./RISCV/stubs/_exit.o (write)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o) (_write_r)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o) (__register_exitproc)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o) (errno)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o) (_free_r)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_free_list)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+                              d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./Utilities/LCD_common/lcd_font.o
+ .data          0x0000000000000000        0x0 ./Utilities/LCD_common/lcd_font.o
+ .bss           0x0000000000000000        0x0 ./Utilities/LCD_common/lcd_font.o
+ .rodata.ascii_8x16
+                0x0000000000000000      0x600 ./Utilities/LCD_common/lcd_font.o
+ .rodata.ASCII_Table_16x24
+                0x0000000000000000     0x11d0 ./Utilities/LCD_common/lcd_font.o
+ .debug_info    0x0000000000000000       0xe0 ./Utilities/LCD_common/lcd_font.o
+ .debug_abbrev  0x0000000000000000       0x75 ./Utilities/LCD_common/lcd_font.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Utilities/LCD_common/lcd_font.o
+ .debug_line    0x0000000000000000      0x182 ./Utilities/LCD_common/lcd_font.o
+ .debug_str     0x0000000000000000      0x1e1 ./Utilities/LCD_common/lcd_font.o
+ .comment       0x0000000000000000       0x3a ./Utilities/LCD_common/lcd_font.o
+ .text          0x0000000000000000        0x0 ./Utilities/gd32vf103v_eval.o
+ .data          0x0000000000000000        0x0 ./Utilities/gd32vf103v_eval.o
+ .bss           0x0000000000000000        0x0 ./Utilities/gd32vf103v_eval.o
+ .data.GPIO_PORT
+                0x0000000000000000       0x10 ./Utilities/gd32vf103v_eval.o
+ .data.GPIO_PIN
+                0x0000000000000000       0x10 ./Utilities/gd32vf103v_eval.o
+ .sdata.COM_CLK
+                0x0000000000000000        0x8 ./Utilities/gd32vf103v_eval.o
+ .sdata.COM_TX_PIN
+                0x0000000000000000        0x8 ./Utilities/gd32vf103v_eval.o
+ .sdata.COM_RX_PIN
+                0x0000000000000000        0x8 ./Utilities/gd32vf103v_eval.o
+ .sdata.COM_GPIO_PORT
+                0x0000000000000000        0x8 ./Utilities/gd32vf103v_eval.o
+ .sdata.COM_GPIO_CLK
+                0x0000000000000000        0x8 ./Utilities/gd32vf103v_eval.o
+ .data.GPIO_CLK
+                0x0000000000000000       0x10 ./Utilities/gd32vf103v_eval.o
+ .data.KEY_PORT
+                0x0000000000000000       0x14 ./Utilities/gd32vf103v_eval.o
+ .data.KEY_PIN  0x0000000000000000       0x14 ./Utilities/gd32vf103v_eval.o
+ .data.KEY_CLK  0x0000000000000000       0x14 ./Utilities/gd32vf103v_eval.o
+ .data.KEY_EXTI_LINE
+                0x0000000000000000       0x14 ./Utilities/gd32vf103v_eval.o
+ .sdata.KEY_PORT_SOURCE
+                0x0000000000000000        0x5 ./Utilities/gd32vf103v_eval.o
+ .sdata.KEY_PIN_SOURCE
+                0x0000000000000000        0x5 ./Utilities/gd32vf103v_eval.o
+ .sdata.KEY_IRQn
+                0x0000000000000000        0x5 ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_led_init
+                0x0000000000000000       0x8e ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_led_on
+                0x0000000000000000       0x3c ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_led_off
+                0x0000000000000000       0x3c ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_led_toggle
+                0x0000000000000000       0x88 ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_key_init
+                0x0000000000000000      0x112 ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_key_state_get
+                0x0000000000000000       0x4c ./Utilities/gd32vf103v_eval.o
+ .text.gd_eval_com_init
+                0x0000000000000000      0x16e ./Utilities/gd32vf103v_eval.o
+ .debug_info    0x0000000000000000      0x7d4 ./Utilities/gd32vf103v_eval.o
+ .debug_abbrev  0x0000000000000000      0x178 ./Utilities/gd32vf103v_eval.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Utilities/gd32vf103v_eval.o
+ .debug_ranges  0x0000000000000000       0x40 ./Utilities/gd32vf103v_eval.o
+ .debug_line    0x0000000000000000      0x4a2 ./Utilities/gd32vf103v_eval.o
+ .debug_str     0x0000000000000000      0x9df ./Utilities/gd32vf103v_eval.o
+ .comment       0x0000000000000000       0x3a ./Utilities/gd32vf103v_eval.o
+ .debug_frame   0x0000000000000000      0x114 ./Utilities/gd32vf103v_eval.o
+ .text          0x0000000000000000        0x0 ./Utilities/gd32vf103v_lcd_eval.o
+ .data          0x0000000000000000        0x0 ./Utilities/gd32vf103v_lcd_eval.o
+ .bss           0x0000000000000000        0x0 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.exmc_lcd_init
+                0x0000000000000000      0x11a ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_register_write
+                0x0000000000000000       0x34 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_register_read
+                0x0000000000000000       0x34 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_command_write
+                0x0000000000000000       0x20 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_gram_write_prepare
+                0x0000000000000000       0x1a ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_gram_write
+                0x0000000000000000       0x20 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_gram_read
+                0x0000000000000000       0x36 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_init
+                0x0000000000000000      0x28e ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_cursor_set
+                0x0000000000000000       0x44 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_clear
+                0x0000000000000000       0x5a ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_point_set
+                0x0000000000000000       0x6c ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_point_get
+                0x0000000000000000       0x62 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_windows_set
+                0x0000000000000000       0x88 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_hline_draw
+                0x0000000000000000       0x94 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_vline_draw
+                0x0000000000000000       0x94 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_rectangle_draw
+                0x0000000000000000      0x128 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_rectangle_fill
+                0x0000000000000000       0x9a ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_picture_draw
+                0x0000000000000000       0xd6 ./Utilities/gd32vf103v_lcd_eval.o
+ .text.lcd_char_display
+                0x0000000000000000      0x326 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_info    0x0000000000000000      0x984 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_abbrev  0x0000000000000000      0x227 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_aranges
+                0x0000000000000000       0xb0 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_ranges  0x0000000000000000       0xa0 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_line    0x0000000000000000      0xd78 ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_str     0x0000000000000000      0x6b8 ./Utilities/gd32vf103v_lcd_eval.o
+ .comment       0x0000000000000000       0x3a ./Utilities/gd32vf103v_lcd_eval.o
+ .debug_frame   0x0000000000000000      0x2b4 ./Utilities/gd32vf103v_lcd_eval.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/_exit.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/_exit.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/_exit.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/close.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/close.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/close.o
+ .text._stub    0x0000000000000000       0x14 ./RISCV/stubs/close.o
+ .text._close   0x0000000000000000       0x22 ./RISCV/stubs/close.o
+ .debug_info    0x0000000000000000      0x9eb ./RISCV/stubs/close.o
+ .debug_abbrev  0x0000000000000000      0x203 ./RISCV/stubs/close.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./RISCV/stubs/close.o
+ .debug_ranges  0x0000000000000000       0x18 ./RISCV/stubs/close.o
+ .debug_line    0x0000000000000000      0x1df ./RISCV/stubs/close.o
+ .debug_str     0x0000000000000000      0x5e4 ./RISCV/stubs/close.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/close.o
+ .debug_frame   0x0000000000000000       0x54 ./RISCV/stubs/close.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/fstat.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/fstat.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/fstat.o
+ .text._stub    0x0000000000000000       0x14 ./RISCV/stubs/fstat.o
+ .text._fstat   0x0000000000000000       0x42 ./RISCV/stubs/fstat.o
+ .debug_info    0x0000000000000000      0xc2a ./RISCV/stubs/fstat.o
+ .debug_abbrev  0x0000000000000000      0x203 ./RISCV/stubs/fstat.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./RISCV/stubs/fstat.o
+ .debug_ranges  0x0000000000000000       0x18 ./RISCV/stubs/fstat.o
+ .debug_line    0x0000000000000000      0x34c ./RISCV/stubs/fstat.o
+ .debug_str     0x0000000000000000      0x755 ./RISCV/stubs/fstat.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/fstat.o
+ .debug_frame   0x0000000000000000       0x54 ./RISCV/stubs/fstat.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/isatty.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/isatty.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/isatty.o
+ .text._isatty  0x0000000000000000       0x2c ./RISCV/stubs/isatty.o
+ .debug_info    0x0000000000000000       0xf3 ./RISCV/stubs/isatty.o
+ .debug_abbrev  0x0000000000000000       0x73 ./RISCV/stubs/isatty.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./RISCV/stubs/isatty.o
+ .debug_ranges  0x0000000000000000       0x10 ./RISCV/stubs/isatty.o
+ .debug_line    0x0000000000000000      0x106 ./RISCV/stubs/isatty.o
+ .debug_str     0x0000000000000000      0x1eb ./RISCV/stubs/isatty.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/isatty.o
+ .debug_frame   0x0000000000000000       0x30 ./RISCV/stubs/isatty.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/lseek.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/lseek.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/lseek.o
+ .text._stub    0x0000000000000000       0x14 ./RISCV/stubs/lseek.o
+ .text._lseek   0x0000000000000000       0x3e ./RISCV/stubs/lseek.o
+ .debug_info    0x0000000000000000      0xa21 ./RISCV/stubs/lseek.o
+ .debug_abbrev  0x0000000000000000      0x203 ./RISCV/stubs/lseek.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./RISCV/stubs/lseek.o
+ .debug_ranges  0x0000000000000000       0x18 ./RISCV/stubs/lseek.o
+ .debug_line    0x0000000000000000      0x202 ./RISCV/stubs/lseek.o
+ .debug_str     0x0000000000000000      0x5f9 ./RISCV/stubs/lseek.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/lseek.o
+ .debug_frame   0x0000000000000000       0x54 ./RISCV/stubs/lseek.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/read.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/read.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/read.o
+ .text._stub    0x0000000000000000       0x14 ./RISCV/stubs/read.o
+ .text._read    0x0000000000000000       0x2a ./RISCV/stubs/read.o
+ .debug_info    0x0000000000000000      0xa21 ./RISCV/stubs/read.o
+ .debug_abbrev  0x0000000000000000      0x203 ./RISCV/stubs/read.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./RISCV/stubs/read.o
+ .debug_ranges  0x0000000000000000       0x18 ./RISCV/stubs/read.o
+ .debug_line    0x0000000000000000      0x1eb ./RISCV/stubs/read.o
+ .debug_str     0x0000000000000000      0x5f2 ./RISCV/stubs/read.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/read.o
+ .debug_frame   0x0000000000000000       0x54 ./RISCV/stubs/read.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/sbrk.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/sbrk.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/sbrk.o
+ .sdata.curbrk.1526
+                0x0000000000000000        0x4 ./RISCV/stubs/sbrk.o
+ .text._sbrk    0x0000000000000000       0x72 ./RISCV/stubs/sbrk.o
+ .debug_info    0x0000000000000000       0xbc ./RISCV/stubs/sbrk.o
+ .debug_abbrev  0x0000000000000000       0xaa ./RISCV/stubs/sbrk.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./RISCV/stubs/sbrk.o
+ .debug_ranges  0x0000000000000000       0x10 ./RISCV/stubs/sbrk.o
+ .debug_line    0x0000000000000000      0x12a ./RISCV/stubs/sbrk.o
+ .debug_str     0x0000000000000000      0x176 ./RISCV/stubs/sbrk.o
+ .comment       0x0000000000000000       0x3a ./RISCV/stubs/sbrk.o
+ .debug_frame   0x0000000000000000       0x30 ./RISCV/stubs/sbrk.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/write.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/write.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/write.o
+ .text.puts     0x0000000000000000       0x36 ./RISCV/stubs/write.o
+ .text          0x0000000000000000        0x0 ./RISCV/stubs/write_hex.o
+ .data          0x0000000000000000        0x0 ./RISCV/stubs/write_hex.o
+ .bss           0x0000000000000000        0x0 ./RISCV/stubs/write_hex.o
+ .text          0x0000000000000000        0x0 ./RISCV/env_Eclipse/entry.o
+ .data          0x0000000000000000        0x0 ./RISCV/env_Eclipse/entry.o
+ .bss           0x0000000000000000        0x0 ./RISCV/env_Eclipse/entry.o
+ .text          0x0000000000000000        0x0 ./RISCV/env_Eclipse/handlers.o
+ .data          0x0000000000000000        0x0 ./RISCV/env_Eclipse/handlers.o
+ .bss           0x0000000000000000        0x0 ./RISCV/env_Eclipse/handlers.o
+ .text          0x0000000000000000        0x0 ./RISCV/env_Eclipse/init.o
+ .data          0x0000000000000000        0x0 ./RISCV/env_Eclipse/init.o
+ .bss           0x0000000000000000        0x0 ./RISCV/env_Eclipse/init.o
+ .text          0x0000000000000000        0x0 ./RISCV/env_Eclipse/start.o
+ .data          0x0000000000000000        0x0 ./RISCV/env_Eclipse/start.o
+ .bss           0x0000000000000000        0x0 ./RISCV/env_Eclipse/start.o
+ .text          0x0000000000000000        0x0 ./RISCV/env_Eclipse/your_printf.o
+ .data          0x0000000000000000        0x0 ./RISCV/env_Eclipse/your_printf.o
+ .bss           0x0000000000000000        0x0 ./RISCV/env_Eclipse/your_printf.o
+ .text.__wrap_printf
+                0x0000000000000000       0x26 ./RISCV/env_Eclipse/your_printf.o
+ .debug_info    0x0000000000000000       0x6a ./RISCV/env_Eclipse/your_printf.o
+ .debug_abbrev  0x0000000000000000       0x6e ./RISCV/env_Eclipse/your_printf.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./RISCV/env_Eclipse/your_printf.o
+ .debug_ranges  0x0000000000000000       0x10 ./RISCV/env_Eclipse/your_printf.o
+ .debug_line    0x0000000000000000       0x59 ./RISCV/env_Eclipse/your_printf.o
+ .debug_str     0x0000000000000000      0x13f ./RISCV/env_Eclipse/your_printf.o
+ .comment       0x0000000000000000       0x3a ./RISCV/env_Eclipse/your_printf.o
+ .debug_frame   0x0000000000000000       0x30 ./RISCV/env_Eclipse/your_printf.o
+ .text          0x0000000000000000        0x0 ./RISCV/drivers/n200_func.o
+ .data          0x0000000000000000        0x0 ./RISCV/drivers/n200_func.o
+ .bss           0x0000000000000000        0x0 ./RISCV/drivers/n200_func.o
+ .text.pmp_open_all_space
+                0x0000000000000000       0x1e ./RISCV/drivers/n200_func.o
+ .text.switch_m2u_mode
+                0x0000000000000000       0x2c ./RISCV/drivers/n200_func.o
+ .text.get_timer_freq
+                0x0000000000000000       0x18 ./RISCV/drivers/n200_func.o
+ .text.get_instret_value
+                0x0000000000000000       0x66 ./RISCV/drivers/n200_func.o
+ .text.get_cycle_value
+                0x0000000000000000       0x66 ./RISCV/drivers/n200_func.o
+ .text.measure_cpu_freq
+                0x0000000000000000       0xc2 ./RISCV/drivers/n200_func.o
+ .text.get_cpu_freq
+                0x0000000000000000       0x30 ./RISCV/drivers/n200_func.o
+ .text.eclic_enable_interrupt
+                0x0000000000000000       0x2a ./RISCV/drivers/n200_func.o
+ .text.eclic_disable_interrupt
+                0x0000000000000000       0x26 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_pending
+                0x0000000000000000       0x2a ./RISCV/drivers/n200_func.o
+ .text.eclic_clear_pending
+                0x0000000000000000       0x26 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_intctrl
+                0x0000000000000000       0x32 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_intctrl
+                0x0000000000000000       0x2a ./RISCV/drivers/n200_func.o
+ .text.eclic_set_intattr
+                0x0000000000000000       0x32 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_intattr
+                0x0000000000000000       0x2a ./RISCV/drivers/n200_func.o
+ .text.eclic_set_cliccfg
+                0x0000000000000000       0x20 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_cliccfg
+                0x0000000000000000       0x1a ./RISCV/drivers/n200_func.o
+ .text.eclic_set_mth
+                0x0000000000000000       0x22 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_mth
+                0x0000000000000000       0x1c ./RISCV/drivers/n200_func.o
+ .text.eclic_set_nlbits
+                0x0000000000000000       0x58 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_nlbits
+                0x0000000000000000       0x34 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_irq_lvl
+                0x0000000000000000       0xb4 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_irq_lvl
+                0x0000000000000000       0x76 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_irq_lvl_abs
+                0x0000000000000000       0x9e ./RISCV/drivers/n200_func.o
+ .text.eclic_get_irq_lvl_abs
+                0x0000000000000000       0x68 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_irq_priority
+                0x0000000000000000       0xa6 ./RISCV/drivers/n200_func.o
+ .text.eclic_get_irq_priority
+                0x0000000000000000       0x6c ./RISCV/drivers/n200_func.o
+ .text.eclic_set_vmode
+                0x0000000000000000       0x46 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_nonvmode
+                0x0000000000000000       0x44 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_level_trig
+                0x0000000000000000       0x44 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_posedge_trig
+                0x0000000000000000       0x50 ./RISCV/drivers/n200_func.o
+ .text.eclic_set_negedge_trig
+                0x0000000000000000       0x52 ./RISCV/drivers/n200_func.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_adc.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_adc.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_deinit
+                0x0000000000000000       0x6c ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_mode_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_special_function_config
+                0x0000000000000000       0xd0 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_data_alignment_config
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_enable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_calibration_enable
+                0x0000000000000000       0x56 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_tempsensor_vrefint_enable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_tempsensor_vrefint_disable
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_dma_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_dma_mode_disable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_discontinuous_mode_config
+                0x0000000000000000       0xba ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_channel_length_config
+                0x0000000000000000       0xba ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_regular_channel_config
+                0x0000000000000000      0x224 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_inserted_channel_config
+                0x0000000000000000      0x170 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_inserted_channel_offset_config
+                0x0000000000000000       0x7a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_external_trigger_source_config
+                0x0000000000000000       0x94 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_external_trigger_config
+                0x0000000000000000       0xa4 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_software_trigger_enable
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_regular_data_read
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_inserted_data_read
+                0x0000000000000000       0x88 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_sync_mode_convert_value_read
+                0x0000000000000000       0x18 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_watchdog_single_channel_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_watchdog_group_channel_enable
+                0x0000000000000000       0x9a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_watchdog_disable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_watchdog_threshold_config
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_flag_get
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_flag_clear
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_regular_software_startconv_flag_get
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_inserted_software_startconv_flag_get
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_interrupt_flag_get
+                0x0000000000000000       0xc2 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_interrupt_flag_clear
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_interrupt_enable
+                0x0000000000000000       0x6a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_interrupt_disable
+                0x0000000000000000       0x6a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_resolution_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_oversample_mode_config
+                0x0000000000000000       0x96 ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_oversample_mode_enable
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_adc.o
+ .text.adc_oversample_mode_disable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_info    0x0000000000000000      0xac2 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_abbrev  0x0000000000000000      0x180 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_aranges
+                0x0000000000000000      0x148 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_ranges  0x0000000000000000      0x138 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_line    0x0000000000000000     0x11a5 ./Peripherals/Source/gd32vf103_adc.o
+ .debug_str     0x0000000000000000      0x8b1 ./Peripherals/Source/gd32vf103_adc.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_adc.o
+ .debug_frame   0x0000000000000000      0x4dc ./Peripherals/Source/gd32vf103_adc.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_bkp.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_bkp.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_deinit
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_data_write
+                0x0000000000000000       0x74 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_data_read
+                0x0000000000000000       0x72 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_calibration_output_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_calibration_output_disable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_signal_output_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_signal_output_disable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_output_select
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_rtc_calibration_value_set
+                0x0000000000000000       0x60 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_tamper_detection_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_tamper_detection_disable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_tamper_active_level_set
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_interrupt_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_interrupt_disable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_flag_clear
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_interrupt_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_bkp.o
+ .text.bkp_interrupt_flag_clear
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_info    0x0000000000000000      0x410 ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_abbrev  0x0000000000000000      0x16d ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_aranges
+                0x0000000000000000       0xa8 ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_ranges  0x0000000000000000       0x98 ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_line    0x0000000000000000      0x643 ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_str     0x0000000000000000      0x5f2 ./Peripherals/Source/gd32vf103_bkp.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_bkp.o
+ .debug_frame   0x0000000000000000      0x254 ./Peripherals/Source/gd32vf103_bkp.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_can.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_can.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_deinit
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_struct_para_init
+                0x0000000000000000      0x196 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_init
+                0x0000000000000000      0x2c4 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_filter_init
+                0x0000000000000000      0x230 ./Peripherals/Source/gd32vf103_can.o
+ .text.can1_filter_start_bank
+                0x0000000000000000       0x84 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_debug_freeze_enable
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_can.o
+ .text.can_debug_freeze_disable
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_time_trigger_mode_enable
+                0x0000000000000000       0x68 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_time_trigger_mode_disable
+                0x0000000000000000       0x68 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_message_transmit
+                0x0000000000000000      0x274 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_transmit_states
+                0x0000000000000000       0xe6 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_transmission_stop
+                0x0000000000000000       0xba ./Peripherals/Source/gd32vf103_can.o
+ .text.can_message_receive
+                0x0000000000000000      0x23e ./Peripherals/Source/gd32vf103_can.o
+ .text.can_fifo_release
+                0x0000000000000000       0x54 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_receive_message_length_get
+                0x0000000000000000       0x56 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_working_mode_set
+                0x0000000000000000      0x154 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_wakeup
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_error_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_can.o
+ .text.can_receive_error_number_get
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_transmit_error_number_get
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_interrupt_enable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_can.o
+ .text.can_interrupt_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_flag_get
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_can.o
+ .text.can_flag_clear
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_can.o
+ .text.can_interrupt_flag_get
+                0x0000000000000000       0x6e ./Peripherals/Source/gd32vf103_can.o
+ .text.can_interrupt_flag_clear
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_can.o
+ .debug_info    0x0000000000000000      0xcf2 ./Peripherals/Source/gd32vf103_can.o
+ .debug_abbrev  0x0000000000000000      0x200 ./Peripherals/Source/gd32vf103_can.o
+ .debug_aranges
+                0x0000000000000000       0xe8 ./Peripherals/Source/gd32vf103_can.o
+ .debug_ranges  0x0000000000000000       0xd8 ./Peripherals/Source/gd32vf103_can.o
+ .debug_line    0x0000000000000000     0x148c ./Peripherals/Source/gd32vf103_can.o
+ .debug_str     0x0000000000000000      0xc7e ./Peripherals/Source/gd32vf103_can.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_can.o
+ .debug_frame   0x0000000000000000      0x374 ./Peripherals/Source/gd32vf103_can.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_crc.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_crc.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_deinit
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_data_register_reset
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_data_register_read
+                0x0000000000000000       0x1c ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_free_data_register_read
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_free_data_register_write
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_single_data_calculate
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_crc.o
+ .text.crc_block_data_calculate
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_crc.o
+ .debug_info    0x0000000000000000      0x1c5 ./Peripherals/Source/gd32vf103_crc.o
+ .debug_abbrev  0x0000000000000000       0xcb ./Peripherals/Source/gd32vf103_crc.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_crc.o
+ .debug_ranges  0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_crc.o
+ .debug_line    0x0000000000000000      0x39c ./Peripherals/Source/gd32vf103_crc.o
+ .debug_str     0x0000000000000000      0x2c7 ./Peripherals/Source/gd32vf103_crc.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_crc.o
+ .debug_frame   0x0000000000000000       0xf0 ./Peripherals/Source/gd32vf103_crc.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dac.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dac.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_deinit
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_enable
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_disable
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_dma_enable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_dma_disable
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_output_buffer_enable
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_output_buffer_disable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_output_value_get
+                0x0000000000000000       0x3e ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_data_set
+                0x0000000000000000       0xba ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_trigger_enable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_trigger_disable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_trigger_source_config
+                0x0000000000000000       0x8a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_software_trigger_enable
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_software_trigger_disable
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_wave_mode_config
+                0x0000000000000000       0x8a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_wave_bit_width_config
+                0x0000000000000000       0x8e ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_lfsr_noise_config
+                0x0000000000000000       0x8e ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_triangle_noise_config
+                0x0000000000000000       0x8e ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_disable
+                0x0000000000000000       0x38 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_software_trigger_enable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_software_trigger_disable
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_output_buffer_enable
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_output_buffer_disable
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_dac.o
+ .text.dac_concurrent_data_set
+                0x0000000000000000       0xa6 ./Peripherals/Source/gd32vf103_dac.o
+ .debug_info    0x0000000000000000      0x60e ./Peripherals/Source/gd32vf103_dac.o
+ .debug_abbrev  0x0000000000000000      0x12d ./Peripherals/Source/gd32vf103_dac.o
+ .debug_aranges
+                0x0000000000000000       0xe0 ./Peripherals/Source/gd32vf103_dac.o
+ .debug_ranges  0x0000000000000000       0xd0 ./Peripherals/Source/gd32vf103_dac.o
+ .debug_line    0x0000000000000000      0x9c5 ./Peripherals/Source/gd32vf103_dac.o
+ .debug_str     0x0000000000000000      0x63a ./Peripherals/Source/gd32vf103_dac.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dac.o
+ .debug_frame   0x0000000000000000      0x334 ./Peripherals/Source/gd32vf103_dac.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dbg.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dbg.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dbg.o
+ .text.dbg_id_get
+                0x0000000000000000       0x14 ./Peripherals/Source/gd32vf103_dbg.o
+ .text.dbg_low_power_enable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_dbg.o
+ .text.dbg_low_power_disable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_dbg.o
+ .text.dbg_periph_enable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_dbg.o
+ .text.dbg_periph_disable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_info    0x0000000000000000      0x1c5 ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_abbrev  0x0000000000000000       0xba ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_ranges  0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_line    0x0000000000000000      0x32d ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_str     0x0000000000000000      0x32d ./Peripherals/Source/gd32vf103_dbg.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dbg.o
+ .debug_frame   0x0000000000000000       0xb0 ./Peripherals/Source/gd32vf103_dbg.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dma.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dma.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_deinit
+                0x0000000000000000       0xec ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_struct_para_init
+                0x0000000000000000       0x5a ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_init
+                0x0000000000000000      0x274 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_circulation_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_circulation_disable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_to_memory_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_to_memory_disable
+                0x0000000000000000       0x68 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_channel_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_channel_disable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_periph_address_config
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_address_config
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_transfer_number_config
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_transfer_number_get
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_priority_config
+                0x0000000000000000       0x8a ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_width_config
+                0x0000000000000000       0x8c ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_periph_width_config
+                0x0000000000000000       0x88 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_increase_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_memory_increase_disable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_periph_increase_enable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_periph_increase_disable
+                0x0000000000000000       0x66 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_transfer_direction_config
+                0x0000000000000000       0xa8 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_flag_get
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_flag_clear
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_interrupt_flag_get
+                0x0000000000000000      0x102 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_interrupt_flag_clear
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_interrupt_enable
+                0x0000000000000000       0x6c ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_interrupt_disable
+                0x0000000000000000       0x72 ./Peripherals/Source/gd32vf103_dma.o
+ .text.dma_periph_and_channel_check
+                0x0000000000000000       0x3e ./Peripherals/Source/gd32vf103_dma.o
+ .debug_info    0x0000000000000000      0x93f ./Peripherals/Source/gd32vf103_dma.o
+ .debug_abbrev  0x0000000000000000      0x1da ./Peripherals/Source/gd32vf103_dma.o
+ .debug_aranges
+                0x0000000000000000       0xf8 ./Peripherals/Source/gd32vf103_dma.o
+ .debug_ranges  0x0000000000000000       0xe8 ./Peripherals/Source/gd32vf103_dma.o
+ .debug_line    0x0000000000000000      0xc20 ./Peripherals/Source/gd32vf103_dma.o
+ .debug_str     0x0000000000000000      0x5c9 ./Peripherals/Source/gd32vf103_dma.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_dma.o
+ .debug_frame   0x0000000000000000      0x3ec ./Peripherals/Source/gd32vf103_dma.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_eclic.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_eclic.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_global_interrupt_enable
+                0x0000000000000000       0x16 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_global_interrupt_disable
+                0x0000000000000000       0x16 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_priority_group_set
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_irq_enable
+                0x0000000000000000       0x54 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_irq_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_system_reset
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_eclic.o
+ .text.eclic_send_event
+                0x0000000000000000       0x16 ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_info    0x0000000000000000      0x1dd ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_abbrev  0x0000000000000000       0xe3 ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_ranges  0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_line    0x0000000000000000      0x302 ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_str     0x0000000000000000      0x2bb ./Peripherals/Source/gd32vf103_eclic.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_eclic.o
+ .debug_frame   0x0000000000000000       0xfc ./Peripherals/Source/gd32vf103_eclic.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exmc.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exmc.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exmc.o
+ .text.exmc_norsram_deinit
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_exmc.o
+ .text.exmc_norsram_struct_para_init
+                0x0000000000000000       0x7c ./Peripherals/Source/gd32vf103_exmc.o
+ .text.exmc_norsram_init
+                0x0000000000000000      0x120 ./Peripherals/Source/gd32vf103_exmc.o
+ .text.exmc_norsram_enable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_exmc.o
+ .text.exmc_norsram_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_info    0x0000000000000000      0x26b ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_abbrev  0x0000000000000000       0xe9 ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_ranges  0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_line    0x0000000000000000      0x54c ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_str     0x0000000000000000      0x395 ./Peripherals/Source/gd32vf103_exmc.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_exmc.o
+ .debug_frame   0x0000000000000000       0xb4 ./Peripherals/Source/gd32vf103_exmc.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exti.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exti.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_deinit
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_init
+                0x0000000000000000      0x1a2 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_interrupt_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_event_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_interrupt_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_event_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_flag_clear
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_interrupt_flag_get
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_interrupt_flag_clear
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_software_interrupt_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_exti.o
+ .text.exti_software_interrupt_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_info    0x0000000000000000      0x3b7 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_abbrev  0x0000000000000000      0x102 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_aranges
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_ranges  0x0000000000000000       0x68 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_line    0x0000000000000000      0x5d8 ./Peripherals/Source/gd32vf103_exti.o
+ .debug_str     0x0000000000000000      0x431 ./Peripherals/Source/gd32vf103_exti.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_exti.o
+ .debug_frame   0x0000000000000000      0x194 ./Peripherals/Source/gd32vf103_exti.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fmc.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fmc.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_wscnt_set
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_unlock
+                0x0000000000000000       0x3c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_lock
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_page_erase
+                0x0000000000000000       0x86 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_mass_erase
+                0x0000000000000000       0x76 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_word_program
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_halfword_program
+                0x0000000000000000       0x7c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_unlock
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_lock  0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_erase
+                0x0000000000000000      0x108 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_write_protection_enable
+                0x0000000000000000      0x16c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_security_protection_config
+                0x0000000000000000       0xf8 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_user_write
+                0x0000000000000000       0xc8 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_data_program
+                0x0000000000000000       0x86 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_user_get
+                0x0000000000000000       0x1c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_data_get
+                0x0000000000000000       0x1c ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_write_protection_get
+                0x0000000000000000       0x18 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.ob_spc_get
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_interrupt_enable
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_interrupt_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_flag_get
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_flag_clear
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_interrupt_flag_get
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_interrupt_flag_clear
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_state_get
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_fmc.o
+ .text.fmc_ready_wait
+                0x0000000000000000       0x56 ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_info    0x0000000000000000      0x676 ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_abbrev  0x0000000000000000      0x19e ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_aranges
+                0x0000000000000000       0xe8 ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_ranges  0x0000000000000000       0xd8 ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_line    0x0000000000000000      0xc6b ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_str     0x0000000000000000      0x50b ./Peripherals/Source/gd32vf103_fmc.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_fmc.o
+ .debug_frame   0x0000000000000000      0x37c ./Peripherals/Source/gd32vf103_fmc.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_write_enable
+                0x0000000000000000       0x1a ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_write_disable
+                0x0000000000000000       0x16 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_enable
+                0x0000000000000000       0x1a ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_counter_reload
+                0x0000000000000000       0x1a ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_config
+                0x0000000000000000       0xc8 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text.fwdgt_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_info    0x0000000000000000      0x1e7 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_abbrev  0x0000000000000000       0xd4 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_ranges  0x0000000000000000       0x38 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_line    0x0000000000000000      0x3f8 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_str     0x0000000000000000      0x2cd ./Peripherals/Source/gd32vf103_fwdgt.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_fwdgt.o
+ .debug_frame   0x0000000000000000       0xd0 ./Peripherals/Source/gd32vf103_fwdgt.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_gpio.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_gpio.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_deinit
+                0x0000000000000000       0xf4 ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_afio_deinit
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_bit_write
+                0x0000000000000000       0x3e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_port_write
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_input_bit_get
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_input_port_get
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_output_bit_get
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_output_port_get
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_pin_remap_config
+                0x0000000000000000      0x148 ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_exti_source_select
+                0x0000000000000000      0x146 ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_event_output_config
+                0x0000000000000000       0x5e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_event_output_enable
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_event_output_disable
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_gpio.o
+ .text.gpio_pin_lock
+                0x0000000000000000       0x6c ./Peripherals/Source/gd32vf103_gpio.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_i2c.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_i2c.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_deinit
+                0x0000000000000000       0x6c ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_clock_config
+                0x0000000000000000      0x210 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_mode_addr_config
+                0x0000000000000000       0x6e ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_smbus_type_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_ack_config
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_ackpos_config
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_master_addressing
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_saddr1_config
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_dualaddr_enable
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_dualaddr_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_enable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_disable
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_start_on_bus
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_stop_on_bus
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_data_transmit
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_data_receive
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_dma_enable
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_dma_last_transfer_config
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_stretch_scl_low_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_slave_response_to_gcall_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_software_reset_config
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_pec_enable
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_pec_transfer_enable
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_pec_value_get
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_smbus_issue_alert
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_smbus_arp_enable
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_flag_get
+                0x0000000000000000       0x3c ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_flag_clear
+                0x0000000000000000       0x72 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_interrupt_enable
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_interrupt_disable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_interrupt_flag_get
+                0x0000000000000000       0xc0 ./Peripherals/Source/gd32vf103_i2c.o
+ .text.i2c_interrupt_flag_clear
+                0x0000000000000000       0x74 ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_info    0x0000000000000000      0xb5c ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_abbrev  0x0000000000000000      0x1a2 ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_aranges
+                0x0000000000000000      0x118 ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_ranges  0x0000000000000000      0x108 ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_line    0x0000000000000000      0xc79 ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_str     0x0000000000000000      0x9c7 ./Peripherals/Source/gd32vf103_i2c.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_i2c.o
+ .debug_frame   0x0000000000000000      0x41c ./Peripherals/Source/gd32vf103_i2c.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_pmu.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_pmu.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_deinit
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_lvd_select
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_lvd_disable
+                0x0000000000000000       0x1c ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_to_sleepmode
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_to_deepsleepmode
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_to_standbymode
+                0x0000000000000000       0x74 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_wakeup_pin_enable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_wakeup_pin_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_backup_write_enable
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_backup_write_disable
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_flag_get
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_pmu.o
+ .text.pmu_flag_clear
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_info    0x0000000000000000      0x58a ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_abbrev  0x0000000000000000      0x191 ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_aranges
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_ranges  0x0000000000000000       0x68 ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_line    0x0000000000000000      0x60d ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_str     0x0000000000000000      0x4cc ./Peripherals/Source/gd32vf103_pmu.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_pmu.o
+ .debug_frame   0x0000000000000000      0x194 ./Peripherals/Source/gd32vf103_pmu.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rcu.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rcu.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_deinit
+                0x0000000000000000       0xa6 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_periph_clock_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_periph_clock_sleep_enable
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_periph_clock_sleep_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_periph_reset_enable
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_periph_reset_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_bkp_reset_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_bkp_reset_disable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_system_clock_source_config
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_system_clock_source_get
+                0x0000000000000000       0x18 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_ahb_clock_config
+                0x0000000000000000       0x3c ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_apb1_clock_config
+                0x0000000000000000       0x3c ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_apb2_clock_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_ckout0_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_pll_config
+                0x0000000000000000       0x56 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_predv0_config
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_predv1_config
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_pll1_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_pll2_config
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_adc_clock_config
+                0x0000000000000000       0x9e ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_usb_clock_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_rtc_clock_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_i2s1_clock_config
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_i2s2_clock_config
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_flag_get
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_all_reset_flag_clear
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_interrupt_flag_get
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_interrupt_flag_clear
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_interrupt_enable
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_interrupt_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_osci_stab_wait
+                0x0000000000000000      0x274 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_osci_on
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_osci_off
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_osci_bypass_mode_enable
+                0x0000000000000000       0xa6 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_osci_bypass_mode_disable
+                0x0000000000000000       0xa6 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_hxtal_clock_monitor_enable
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_hxtal_clock_monitor_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_irc8m_adjust_value_set
+                0x0000000000000000       0x3e ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_deepsleep_voltage_set
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_rcu.o
+ .rodata        0x0000000000000000       0x10 ./Peripherals/Source/gd32vf103_rcu.o
+ .srodata       0x0000000000000000        0x8 ./Peripherals/Source/gd32vf103_rcu.o
+ .text.rcu_clock_freq_get
+                0x0000000000000000      0x2f0 ./Peripherals/Source/gd32vf103_rcu.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rtc.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rtc.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_configuration_mode_enter
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_configuration_mode_exit
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_counter_set
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_prescaler_set
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_lwoff_wait
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_register_sync_wait
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_alarm_config
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_counter_get
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_divider_get
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_flag_clear
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_interrupt_flag_get
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_interrupt_flag_clear
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_interrupt_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_rtc.o
+ .text.rtc_interrupt_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_info    0x0000000000000000      0x2c3 ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_abbrev  0x0000000000000000      0x14a ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_aranges
+                0x0000000000000000       0x90 ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_ranges  0x0000000000000000       0x80 ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_line    0x0000000000000000      0x5c9 ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_str     0x0000000000000000      0x337 ./Peripherals/Source/gd32vf103_rtc.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_rtc.o
+ .debug_frame   0x0000000000000000      0x1fc ./Peripherals/Source/gd32vf103_rtc.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_spi.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_spi.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_deinit
+                0x0000000000000000       0x92 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_struct_para_init
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_init
+                0x0000000000000000       0xc8 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_enable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.i2s_init
+                0x0000000000000000       0x86 ./Peripherals/Source/gd32vf103_spi.o
+ .text.i2s_psc_config
+                0x0000000000000000      0x208 ./Peripherals/Source/gd32vf103_spi.o
+ .text.i2s_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.i2s_disable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nss_output_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nss_output_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nss_internal_high
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nss_internal_low
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_dma_enable
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_dma_disable
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_data_frame_format_config
+                0x0000000000000000       0x3e ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_data_transmit
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_data_receive
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_bidirectional_transfer_config
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_polynomial_set
+                0x0000000000000000       0x36 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_polynomial_get
+                0x0000000000000000       0x1e ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_on
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_off
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_next
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_get
+                0x0000000000000000       0x38 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_ti_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_ti_mode_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nssp_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_nssp_mode_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_interrupt_enable
+                0x0000000000000000       0x6e ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_interrupt_disable
+                0x0000000000000000       0x6e ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_interrupt_flag_get
+                0x0000000000000000      0x10e ./Peripherals/Source/gd32vf103_spi.o
+ .rodata.spi_i2s_interrupt_flag_get
+                0x0000000000000000       0x1c ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_i2s_flag_get
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_spi.o
+ .text.spi_crc_error_clear
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_spi.o
+ .debug_info    0x0000000000000000      0x96b ./Peripherals/Source/gd32vf103_spi.o
+ .debug_abbrev  0x0000000000000000      0x1c2 ./Peripherals/Source/gd32vf103_spi.o
+ .debug_aranges
+                0x0000000000000000      0x128 ./Peripherals/Source/gd32vf103_spi.o
+ .debug_ranges  0x0000000000000000      0x118 ./Peripherals/Source/gd32vf103_spi.o
+ .debug_line    0x0000000000000000      0xc25 ./Peripherals/Source/gd32vf103_spi.o
+ .debug_str     0x0000000000000000      0x752 ./Peripherals/Source/gd32vf103_spi.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_spi.o
+ .debug_frame   0x0000000000000000      0x460 ./Peripherals/Source/gd32vf103_spi.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_timer.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_timer.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_deinit
+                0x0000000000000000      0x148 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_struct_para_init
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_init
+                0x0000000000000000      0x170 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_enable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_disable
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_auto_reload_shadow_enable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_auto_reload_shadow_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_update_event_enable
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_update_event_disable
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_counter_alignment
+                0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_counter_up_direction
+                0x0000000000000000       0x20 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_counter_down_direction
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_prescaler_config
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_repetition_value_config
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_autoreload_value_config
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_counter_value_config
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_counter_read
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_prescaler_read
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_single_pulse_mode_config
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_update_source_config
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_dma_enable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_dma_disable
+                0x0000000000000000       0x32 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_dma_request_source_select
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_dma_transfer_config
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_event_software_generate
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_break_struct_para_init
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_break_config
+                0x0000000000000000       0x88 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_break_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_break_disable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_automatic_output_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_automatic_output_disable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_primary_output_config
+                0x0000000000000000       0x58 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_control_shadow_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_control_shadow_update_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_struct_para_init
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_config
+                0x0000000000000000      0x548 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_mode_config
+                0x0000000000000000       0xfe ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_pulse_value_config
+                0x0000000000000000       0x86 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_shadow_config
+                0x0000000000000000       0xfe ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_fast_config
+                0x0000000000000000       0xf2 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_clear_config
+                0x0000000000000000       0xfe ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_polarity_config
+                0x0000000000000000      0x11a ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_complementary_output_polarity_config
+                0x0000000000000000       0xd8 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_output_state_config
+                0x0000000000000000      0x116 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_complementary_output_state_config
+                0x0000000000000000       0xd2 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_input_struct_para_init
+                0x0000000000000000       0x34 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_input_capture_config
+                0x0000000000000000      0x394 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_input_capture_prescaler_config
+                0x0000000000000000       0xfe ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_channel_capture_value_register_read
+                0x0000000000000000       0x82 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_input_pwm_capture_config
+                0x0000000000000000      0x3c8 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_hall_mode_config
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_input_trigger_source_select
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_master_output_trigger_source_select
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_slave_mode_select
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_master_slave_mode_config
+                0x0000000000000000       0x52 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_external_trigger_config
+                0x0000000000000000       0x6c ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_quadrature_decoder_mode_config
+                0x0000000000000000       0xc6 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_internal_clock_config
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_internal_trigger_as_external_clock_config
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_external_trigger_as_external_clock_config
+                0x0000000000000000      0x1d2 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_external_clock_mode0_config
+                0x0000000000000000       0x62 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_external_clock_mode1_config
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_external_clock_mode1_disable
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_interrupt_enable
+                0x0000000000000000       0x2e ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_interrupt_disable
+                0x0000000000000000       0x30 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_interrupt_flag_get
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_interrupt_flag_clear
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_flag_get
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_timer.o
+ .text.timer_flag_clear
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_timer.o
+ .debug_info    0x0000000000000000     0x136d ./Peripherals/Source/gd32vf103_timer.o
+ .debug_abbrev  0x0000000000000000      0x1cf ./Peripherals/Source/gd32vf103_timer.o
+ .debug_aranges
+                0x0000000000000000      0x240 ./Peripherals/Source/gd32vf103_timer.o
+ .debug_ranges  0x0000000000000000      0x230 ./Peripherals/Source/gd32vf103_timer.o
+ .debug_line    0x0000000000000000     0x20e6 ./Peripherals/Source/gd32vf103_timer.o
+ .debug_str     0x0000000000000000      0xedd ./Peripherals/Source/gd32vf103_timer.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_timer.o
+ .debug_frame   0x0000000000000000      0x8ec ./Peripherals/Source/gd32vf103_timer.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_usart.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_usart.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_deinit
+                0x0000000000000000       0xf8 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_baudrate_set
+                0x0000000000000000      0x126 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_parity_config
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_word_length_set
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_stop_bit_set
+                0x0000000000000000       0x46 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_enable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_disable
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_transmit_config
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_receive_config
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_data_receive
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_address_config
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_mute_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_mute_mode_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_mute_mode_wakeup_config
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_lin_mode_enable
+                0x0000000000000000       0x28 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_lin_mode_disable
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_lin_break_detection_length_config
+                0x0000000000000000       0x44 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_send_break
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_halfduplex_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_halfduplex_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_synchronous_clock_enable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_synchronous_clock_disable
+                0x0000000000000000       0x2c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_synchronous_clock_config
+                0x0000000000000000       0x6e ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_guard_time_config
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_smartcard_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_smartcard_mode_disable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_smartcard_mode_nack_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_smartcard_mode_nack_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_irda_mode_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_irda_mode_disable
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_prescaler_config
+                0x0000000000000000       0x42 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_irda_lowpower_config
+                0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_hardware_flow_rts_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_hardware_flow_cts_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_dma_receive_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_dma_transmit_config
+                0x0000000000000000       0x4e ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_flag_clear
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_interrupt_enable
+                0x0000000000000000       0x48 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_interrupt_disable
+                0x0000000000000000       0x4c ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_interrupt_flag_get
+                0x0000000000000000       0x78 ./Peripherals/Source/gd32vf103_usart.o
+ .text.usart_interrupt_flag_clear
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_usart.o
+ .text          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .data          0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_deinit
+                0x0000000000000000       0x2a ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_counter_update
+                0x0000000000000000       0x4a ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_config
+                0x0000000000000000       0x9a ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_interrupt_enable
+                0x0000000000000000       0x26 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_flag_get
+                0x0000000000000000       0x22 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text.wwdgt_flag_clear
+                0x0000000000000000       0x24 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_info    0x0000000000000000      0x2c4 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_abbrev  0x0000000000000000      0x135 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_ranges  0x0000000000000000       0x40 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_line    0x0000000000000000      0x428 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_str     0x0000000000000000      0x44d ./Peripherals/Source/gd32vf103_wwdgt.o
+ .comment       0x0000000000000000       0x3a ./Peripherals/Source/gd32vf103_wwdgt.o
+ .debug_frame   0x0000000000000000       0xf4 ./Peripherals/Source/gd32vf103_wwdgt.o
+ .text          0x0000000000000000        0x0 ./Peripherals/system_gd32vf103.o
+ .data          0x0000000000000000        0x0 ./Peripherals/system_gd32vf103.o
+ .bss           0x0000000000000000        0x0 ./Peripherals/system_gd32vf103.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000      0x1ba ./Peripherals/system_gd32vf103.o
+ .text          0x0000000000000000        0x0 ./Application/main.o
+ .data          0x0000000000000000        0x0 ./Application/main.o
+ .bss           0x0000000000000000        0x0 ./Application/main.o
+ .text          0x0000000000000000        0x0 ./Application/systick.o
+ .data          0x0000000000000000        0x0 ./Application/systick.o
+ .bss           0x0000000000000000        0x0 ./Application/systick.o
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000000000       0x12 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000000       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+ .text.isatty   0x0000000000000000        0x8 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+ .debug_frame   0x0000000000000000       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sysisatty.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ .sdata.__atexit_dummy
+                0x0000000000000000        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x2c d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000      0x10c d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000000000000       0xb8 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x40 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x0000000000000000      0x102 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .sbss.__malloc_free_list
+                0x0000000000000000        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .sbss.__malloc_sbrk_start
+                0x0000000000000000        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000000       0x40 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x36 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x30 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000000000        0x2 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x0000000000000000        0x2 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-mlock.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x0000000008000000 0x0000000000020000 axrl !w
+ram              0x0000000020000000 0x0000000000008000 axw !rl
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Utilities/LCD_common/lcd_font.o
+LOAD ./Utilities/gd32vf103v_eval.o
+LOAD ./Utilities/gd32vf103v_lcd_eval.o
+LOAD ./RISCV/stubs/_exit.o
+LOAD ./RISCV/stubs/close.o
+LOAD ./RISCV/stubs/fstat.o
+LOAD ./RISCV/stubs/isatty.o
+LOAD ./RISCV/stubs/lseek.o
+LOAD ./RISCV/stubs/read.o
+LOAD ./RISCV/stubs/sbrk.o
+LOAD ./RISCV/stubs/write.o
+LOAD ./RISCV/stubs/write_hex.o
+LOAD ./RISCV/env_Eclipse/entry.o
+LOAD ./RISCV/env_Eclipse/handlers.o
+LOAD ./RISCV/env_Eclipse/init.o
+LOAD ./RISCV/env_Eclipse/start.o
+LOAD ./RISCV/env_Eclipse/your_printf.o
+LOAD ./RISCV/drivers/n200_func.o
+LOAD ./Peripherals/Source/gd32vf103_adc.o
+LOAD ./Peripherals/Source/gd32vf103_bkp.o
+LOAD ./Peripherals/Source/gd32vf103_can.o
+LOAD ./Peripherals/Source/gd32vf103_crc.o
+LOAD ./Peripherals/Source/gd32vf103_dac.o
+LOAD ./Peripherals/Source/gd32vf103_dbg.o
+LOAD ./Peripherals/Source/gd32vf103_dma.o
+LOAD ./Peripherals/Source/gd32vf103_eclic.o
+LOAD ./Peripherals/Source/gd32vf103_exmc.o
+LOAD ./Peripherals/Source/gd32vf103_exti.o
+LOAD ./Peripherals/Source/gd32vf103_fmc.o
+LOAD ./Peripherals/Source/gd32vf103_fwdgt.o
+LOAD ./Peripherals/Source/gd32vf103_gpio.o
+LOAD ./Peripherals/Source/gd32vf103_i2c.o
+LOAD ./Peripherals/Source/gd32vf103_pmu.o
+LOAD ./Peripherals/Source/gd32vf103_rcu.o
+LOAD ./Peripherals/Source/gd32vf103_rtc.o
+LOAD ./Peripherals/Source/gd32vf103_spi.o
+LOAD ./Peripherals/Source/gd32vf103_timer.o
+LOAD ./Peripherals/Source/gd32vf103_usart.o
+LOAD ./Peripherals/Source/gd32vf103_wwdgt.o
+LOAD ./Peripherals/system_gd32vf103.o
+LOAD ./Application/main.o
+LOAD ./Application/systick.o
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libstdc++_nano.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libm.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+START GROUP
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+END GROUP
+                0x0000000000000800                __stack_size = DEFINED (__stack_size)?__stack_size:0x800
+
+.init           0x0000000008000000      0x238
+ *(SORT_NONE(.init))
+ .init          0x0000000008000000      0x238 ./RISCV/env_Eclipse/start.o
+                0x000000000800015c                _start
+                0x000000000800022a                disable_mcycle_minstret
+                0x0000000008000230                enable_mcycle_minstret
+
+.ilalign        0x0000000008000238        0x0
+                0x0000000008000238                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_ilm_lma = .)
+
+.ialign         0x0000000008000238        0x0
+                [!provide]                        PROVIDE (_ilm = .)
+
+.text           0x0000000008000240     0x1cec
+ *(.rodata .rodata.*)
+ .rodata        0x0000000008000240       0x23 ./RISCV/stubs/_exit.o
+ *fill*         0x0000000008000263        0x1 
+ .rodata        0x0000000008000264        0x3 ./RISCV/stubs/write_hex.o
+ *fill*         0x0000000008000267        0x1 
+ .rodata        0x0000000008000268        0xe ./RISCV/env_Eclipse/handlers.o
+ *fill*         0x0000000008000276        0x2 
+ .rodata        0x0000000008000278        0x8 ./Application/systick.o
+ .rodata.__divdf3
+                0x0000000008000280       0x40 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .rodata.__muldf3
+                0x00000000080002c0       0x40 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .rodata.__clz_tab
+                0x0000000008000300      0x100 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x0000000008000300                __clz_tab
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text .text.*)
+ .text._exit    0x0000000008000400       0x94 ./RISCV/stubs/_exit.o
+                0x0000000008000400                _exit
+ .text._write   0x0000000008000494       0x70 ./RISCV/stubs/write.o
+                0x0000000008000494                _write
+ .text._put_char
+                0x0000000008000504       0x40 ./RISCV/stubs/write.o
+                0x0000000008000504                _put_char
+ .text.write_hex
+                0x0000000008000544       0xb0 ./RISCV/stubs/write_hex.o
+                0x0000000008000544                write_hex
+ *fill*         0x00000000080005f4        0xc 
+ .text.trap     0x0000000008000600       0x7c ./RISCV/env_Eclipse/entry.o
+                0x0000000008000600                trap_entry
+ *fill*         0x000000000800067c        0x0 
+ .text.irq      0x000000000800067c       0x72 ./RISCV/env_Eclipse/entry.o
+                0x000000000800067c                irq_entry
+ .text.handle_nmi
+                0x00000000080006ee       0x1c ./RISCV/env_Eclipse/handlers.o
+                0x00000000080006ee                handle_nmi
+ .text.handle_trap
+                0x000000000800070a       0x36 ./RISCV/env_Eclipse/handlers.o
+                0x000000000800070a                handle_trap
+ .text._init    0x0000000008000740       0x1e ./RISCV/env_Eclipse/init.o
+                0x0000000008000740                _init
+ .text._fini    0x000000000800075e        0xe ./RISCV/env_Eclipse/init.o
+                0x000000000800075e                _fini
+ .text.mtime_lo
+                0x000000000800076c       0x14 ./RISCV/drivers/n200_func.o
+                0x000000000800076c                mtime_lo
+ .text.mtime_hi
+                0x0000000008000780       0x16 ./RISCV/drivers/n200_func.o
+                0x0000000008000780                mtime_hi
+ .text.get_timer_value
+                0x0000000008000796       0x6e ./RISCV/drivers/n200_func.o
+                0x0000000008000796                get_timer_value
+ .text.eclic_init
+                0x0000000008000804       0x64 ./RISCV/drivers/n200_func.o
+                0x0000000008000804                eclic_init
+ .text.eclic_mode_enable
+                0x0000000008000868       0x3e ./RISCV/drivers/n200_func.o
+                0x0000000008000868                eclic_mode_enable
+ .text.gpio_init
+                0x00000000080008a6      0x1de ./Peripherals/Source/gd32vf103_gpio.o
+                0x00000000080008a6                gpio_init
+ .text.gpio_bit_set
+                0x0000000008000a84       0x24 ./Peripherals/Source/gd32vf103_gpio.o
+                0x0000000008000a84                gpio_bit_set
+ .text.gpio_bit_reset
+                0x0000000008000aa8       0x24 ./Peripherals/Source/gd32vf103_gpio.o
+                0x0000000008000aa8                gpio_bit_reset
+ .text.rcu_periph_clock_enable
+                0x0000000008000acc       0x40 ./Peripherals/Source/gd32vf103_rcu.o
+                0x0000000008000acc                rcu_periph_clock_enable
+ .text.usart_data_transmit
+                0x0000000008000b0c       0x28 ./Peripherals/Source/gd32vf103_usart.o
+                0x0000000008000b0c                usart_data_transmit
+ .text.usart_flag_get
+                0x0000000008000b34       0x3c ./Peripherals/Source/gd32vf103_usart.o
+                0x0000000008000b34                usart_flag_get
+ .text.system_clock_config
+                0x0000000008000b70       0x14 ./Peripherals/system_gd32vf103.o
+ .text.SystemInit
+                0x0000000008000b84       0xa8 ./Peripherals/system_gd32vf103.o
+                0x0000000008000b84                SystemInit
+ .text.system_clock_108m_hxtal
+                0x0000000008000c2c      0x196 ./Peripherals/system_gd32vf103.o
+ .text.main     0x0000000008000dc2       0xa0 ./Application/main.o
+                0x0000000008000dc2                main
+ .text.delay_1ms
+                0x0000000008000e62       0xde ./Application/systick.o
+                0x0000000008000e62                delay_1ms
+ .text.__divdf3
+                0x0000000008000f40      0x5b4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+                0x0000000008000f40                __divdf3
+ .text.__ledf2  0x00000000080014f4       0xb6 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+                0x00000000080014f4                __ledf2
+                0x00000000080014f4                __ltdf2
+ .text.__muldf3
+                0x00000000080015aa      0x4b0 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+                0x00000000080015aa                __muldf3
+ .text.__floatunsidf
+                0x0000000008001a5a       0x66 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+                0x0000000008001a5a                __floatunsidf
+ .text.__floatundidf
+                0x0000000008001ac0      0x188 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+                0x0000000008001ac0                __floatundidf
+ .text.__clzsi2
+                0x0000000008001c48       0x76 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                0x0000000008001c48                __clzsi2
+ .text.atexit   0x0000000008001cbe        0xa d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+                0x0000000008001cbe                atexit
+ .text.exit     0x0000000008001cc8       0x2c d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+                0x0000000008001cc8                exit
+ .text.__libc_fini_array
+                0x0000000008001cf4       0x3a d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+                0x0000000008001cf4                __libc_fini_array
+ .text.__libc_init_array
+                0x0000000008001d2e       0x6e d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+                0x0000000008001d2e                __libc_init_array
+ .text.write    0x0000000008001d9c       0x12 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+                0x0000000008001d9c                write
+ .text._write_r
+                0x0000000008001dae       0x2e d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+                0x0000000008001dae                _write_r
+ .text.__register_exitproc
+                0x0000000008001ddc       0x88 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+                0x0000000008001ddc                __register_exitproc
+ .text.__call_exitprocs
+                0x0000000008001e64       0xc8 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+                0x0000000008001e64                __call_exitprocs
+ *(.gnu.linkonce.t.*)
+
+.sdata2._global_impure_ptr
+                0x0000000008001f2c        0x4
+ .sdata2._global_impure_ptr
+                0x0000000008001f2c        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000008001f2c                _global_impure_ptr
+
+.rela.dyn       0x0000000008001f30        0x0
+ .rela.text._write
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text.trap
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text.handle_trap
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.init     0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text.__libc_fini_array
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.data.impure_data
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text.__libc_init_array
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text._write_r
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+ .rela.text.__register_exitproc
+                0x0000000008001f30        0x0 ./RISCV/stubs/_exit.o
+
+.fini
+ *(SORT_NONE(.fini))
+                0x0000000008001f30                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                [!provide]                        PROVIDE (_eilm = .)
+
+.preinit_array  0x0000000008001f30        0x0
+                0x0000000008001f30                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000008001f30                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000008001f30        0x0
+                0x0000000008001f30                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x0000000008001f30                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000008001f30        0x0
+                0x0000000008001f30                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                0x0000000008001f30                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0000000008001f30                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_eilm = .)
+
+.lalign         0x0000000008001f30        0x0
+                0x0000000008001f30                . = ALIGN (0x4)
+                0x0000000008001f30                PROVIDE (_data_lma = .)
+
+.dalign         0x0000000020000000        0x0 load address 0x0000000008001f30
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_data = .)
+
+.data           0x0000000020000000       0x68 load address 0x0000000008001f30
+ *(.rdata)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data.impure_data
+                0x0000000020000000       0x60 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000060                . = ALIGN (0x8)
+                0x0000000020000860                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.SystemCoreClock
+                0x0000000020000060        0x4 ./Peripherals/system_gd32vf103.o
+                0x0000000020000060                SystemCoreClock
+ .sdata._impure_ptr
+                0x0000000020000064        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000020000064                _impure_ptr
+ *(.gnu.linkonce.s.*)
+                0x0000000020000068                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x0000000020000068                PROVIDE (__bss_start = .)
+
+.bss            0x0000000020000068       0x94
+ *(.sbss*)
+ .sbss._global_atexit
+                0x0000000020000068        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+                0x0000000020000068                _global_atexit
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss._global_atexit0
+                0x000000002000006c       0x8c d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+ COMMON         0x00000000200000f8        0x4 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)
+                0x00000000200000f8                errno
+                0x00000000200000fc                . = ALIGN (0x4)
+                0x0000000020000100                . = ALIGN (0x8)
+                0x0000000020000100                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020007800      0x800 load address 0x00000000200000fc
+                0x0000000020007800                PROVIDE (_heap_end = .)
+                0x0000000000000800                . = __stack_size
+ *fill*         0x0000000020007800      0x800 
+                0x0000000020008000                PROVIDE (_sp = .)
+OUTPUT((1) GPIO_LEDÁ÷Ë®µÆ.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x62b4
+ .debug_info    0x0000000000000000      0x11d ./RISCV/stubs/_exit.o
+ .debug_info    0x000000000000011d      0xb32 ./RISCV/stubs/write.o
+ .debug_info    0x0000000000000c4f      0x15a ./RISCV/stubs/write_hex.o
+ .debug_info    0x0000000000000da9       0x22 ./RISCV/env_Eclipse/entry.o
+ .debug_info    0x0000000000000dcb      0x9d5 ./RISCV/env_Eclipse/handlers.o
+ .debug_info    0x00000000000017a0      0xb56 ./RISCV/env_Eclipse/init.o
+ .debug_info    0x00000000000022f6       0x26 ./RISCV/env_Eclipse/start.o
+ .debug_info    0x000000000000231c     0x132b ./RISCV/drivers/n200_func.o
+ .debug_info    0x0000000000003647      0x5f6 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_info    0x0000000000003c3d      0xdbd ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_info    0x00000000000049fa      0xb75 ./Peripherals/Source/gd32vf103_usart.o
+ .debug_info    0x000000000000556f      0x1c0 ./Peripherals/system_gd32vf103.o
+ .debug_info    0x000000000000572f      0xa86 ./Application/main.o
+ .debug_info    0x00000000000061b5       0xff ./Application/systick.o
+
+.debug_abbrev   0x0000000000000000     0x1449
+ .debug_abbrev  0x0000000000000000       0xa0 ./RISCV/stubs/_exit.o
+ .debug_abbrev  0x00000000000000a0      0x258 ./RISCV/stubs/write.o
+ .debug_abbrev  0x00000000000002f8       0xab ./RISCV/stubs/write_hex.o
+ .debug_abbrev  0x00000000000003a3       0x12 ./RISCV/env_Eclipse/entry.o
+ .debug_abbrev  0x00000000000003b5      0x20f ./RISCV/env_Eclipse/handlers.o
+ .debug_abbrev  0x00000000000005c4      0x203 ./RISCV/env_Eclipse/init.o
+ .debug_abbrev  0x00000000000007c7       0x14 ./RISCV/env_Eclipse/start.o
+ .debug_abbrev  0x00000000000007db      0x3af ./RISCV/drivers/n200_func.o
+ .debug_abbrev  0x0000000000000b8a      0x1d1 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_abbrev  0x0000000000000d5b      0x1ea ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_abbrev  0x0000000000000f45      0x199 ./Peripherals/Source/gd32vf103_usart.o
+ .debug_abbrev  0x00000000000010de       0xe5 ./Peripherals/system_gd32vf103.o
+ .debug_abbrev  0x00000000000011c3      0x1ed ./Application/main.o
+ .debug_abbrev  0x00000000000013b0       0x99 ./Application/systick.o
+
+.debug_aranges  0x0000000000000000      0x630
+ .debug_aranges
+                0x0000000000000000       0x20 ./RISCV/stubs/_exit.o
+ .debug_aranges
+                0x0000000000000020       0x30 ./RISCV/stubs/write.o
+ .debug_aranges
+                0x0000000000000050       0x20 ./RISCV/stubs/write_hex.o
+ .debug_aranges
+                0x0000000000000070       0x28 ./RISCV/env_Eclipse/entry.o
+ .debug_aranges
+                0x0000000000000098       0x28 ./RISCV/env_Eclipse/handlers.o
+ .debug_aranges
+                0x00000000000000c0       0x28 ./RISCV/env_Eclipse/init.o
+ .debug_aranges
+                0x00000000000000e8       0x20 ./RISCV/env_Eclipse/start.o
+ .debug_aranges
+                0x0000000000000108      0x140 ./RISCV/drivers/n200_func.o
+ .debug_aranges
+                0x0000000000000248       0xa0 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_aranges
+                0x00000000000002e8      0x160 ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_aranges
+                0x0000000000000448      0x170 ./Peripherals/Source/gd32vf103_usart.o
+ .debug_aranges
+                0x00000000000005b8       0x38 ./Peripherals/system_gd32vf103.o
+ .debug_aranges
+                0x00000000000005f0       0x20 ./Application/main.o
+ .debug_aranges
+                0x0000000000000610       0x20 ./Application/systick.o
+
+.debug_ranges   0x0000000000000000      0x548
+ .debug_ranges  0x0000000000000000       0x10 ./RISCV/stubs/_exit.o
+ .debug_ranges  0x0000000000000010       0x20 ./RISCV/stubs/write.o
+ .debug_ranges  0x0000000000000030       0x10 ./RISCV/stubs/write_hex.o
+ .debug_ranges  0x0000000000000040       0x20 ./RISCV/env_Eclipse/entry.o
+ .debug_ranges  0x0000000000000060       0x18 ./RISCV/env_Eclipse/handlers.o
+ .debug_ranges  0x0000000000000078       0x18 ./RISCV/env_Eclipse/init.o
+ .debug_ranges  0x0000000000000090      0x130 ./RISCV/drivers/n200_func.o
+ .debug_ranges  0x00000000000001c0       0x90 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_ranges  0x0000000000000250      0x150 ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_ranges  0x00000000000003a0      0x160 ./Peripherals/Source/gd32vf103_usart.o
+ .debug_ranges  0x0000000000000500       0x28 ./Peripherals/system_gd32vf103.o
+ .debug_ranges  0x0000000000000528       0x10 ./Application/main.o
+ .debug_ranges  0x0000000000000538       0x10 ./Application/systick.o
+
+.debug_line     0x0000000000000000     0x50f8
+ .debug_line    0x0000000000000000       0xff ./RISCV/stubs/_exit.o
+ .debug_line    0x00000000000000ff      0x42f ./RISCV/stubs/write.o
+ .debug_line    0x000000000000052e      0x246 ./RISCV/stubs/write_hex.o
+ .debug_line    0x0000000000000774       0xd7 ./RISCV/env_Eclipse/entry.o
+ .debug_line    0x000000000000084b      0x288 ./RISCV/env_Eclipse/handlers.o
+ .debug_line    0x0000000000000ad3      0x303 ./RISCV/env_Eclipse/init.o
+ .debug_line    0x0000000000000dd6      0x175 ./RISCV/env_Eclipse/start.o
+ .debug_line    0x0000000000000f4b      0xdbf ./RISCV/drivers/n200_func.o
+ .debug_line    0x0000000000001d0a      0xae2 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_line    0x00000000000027ec     0x115e ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_line    0x000000000000394a      0xc4e ./Peripherals/Source/gd32vf103_usart.o
+ .debug_line    0x0000000000004598      0x543 ./Peripherals/system_gd32vf103.o
+ .debug_line    0x0000000000004adb      0x3bf ./Application/main.o
+ .debug_line    0x0000000000004e9a      0x25e ./Application/systick.o
+
+.debug_str      0x0000000000000000     0x2274
+ .debug_str     0x0000000000000000      0x1b5 ./RISCV/stubs/_exit.o
+                                        0x1f5 (size before relaxing)
+ .debug_str     0x00000000000001b5      0x4d5 ./RISCV/stubs/write.o
+                                        0x6e6 (size before relaxing)
+ .debug_str     0x000000000000068a       0x33 ./RISCV/stubs/write_hex.o
+                                        0x210 (size before relaxing)
+ .debug_str     0x00000000000006bd       0x29 ./RISCV/env_Eclipse/entry.o
+                                         0x7f (size before relaxing)
+ .debug_str     0x00000000000006e6       0x4a ./RISCV/env_Eclipse/handlers.o
+                                        0x604 (size before relaxing)
+ .debug_str     0x0000000000000730      0x3c1 ./RISCV/env_Eclipse/init.o
+                                        0x9a0 (size before relaxing)
+ .debug_str     0x0000000000000af1       0x1d ./RISCV/env_Eclipse/start.o
+                                         0x7f (size before relaxing)
+ .debug_str     0x0000000000000b0e      0x37c ./RISCV/drivers/n200_func.o
+                                        0x9b7 (size before relaxing)
+ .debug_str     0x0000000000000e8a      0x3a5 ./Peripherals/Source/gd32vf103_gpio.o
+                                        0x599 (size before relaxing)
+ .debug_str     0x000000000000122f      0xa98 ./Peripherals/Source/gd32vf103_rcu.o
+                                        0xe31 (size before relaxing)
+ .debug_str     0x0000000000001cc7      0x4e9 ./Peripherals/Source/gd32vf103_usart.o
+                                        0x946 (size before relaxing)
+ .debug_str     0x00000000000021b0       0x86 ./Peripherals/system_gd32vf103.o
+                                        0x29c (size before relaxing)
+ .debug_str     0x0000000000002236       0x1b ./Application/main.o
+                                        0x738 (size before relaxing)
+ .debug_str     0x0000000000002251       0x23 ./Application/systick.o
+                                        0x212 (size before relaxing)
+
+.comment        0x0000000000000000       0x39
+ .comment       0x0000000000000000       0x39 ./RISCV/stubs/_exit.o
+                                         0x3a (size before relaxing)
+ .comment       0x0000000000000039       0x3a ./RISCV/stubs/write.o
+ .comment       0x0000000000000039       0x3a ./RISCV/stubs/write_hex.o
+ .comment       0x0000000000000039       0x3a ./RISCV/env_Eclipse/handlers.o
+ .comment       0x0000000000000039       0x3a ./RISCV/env_Eclipse/init.o
+ .comment       0x0000000000000039       0x3a ./RISCV/drivers/n200_func.o
+ .comment       0x0000000000000039       0x3a ./Peripherals/Source/gd32vf103_gpio.o
+ .comment       0x0000000000000039       0x3a ./Peripherals/Source/gd32vf103_rcu.o
+ .comment       0x0000000000000039       0x3a ./Peripherals/Source/gd32vf103_usart.o
+ .comment       0x0000000000000039       0x3a ./Peripherals/system_gd32vf103.o
+ .comment       0x0000000000000039       0x3a ./Application/main.o
+ .comment       0x0000000000000039       0x3a ./Application/systick.o
+
+.debug_frame    0x0000000000000000     0x17f4
+ .debug_frame   0x0000000000000000       0x2c ./RISCV/stubs/_exit.o
+ .debug_frame   0x000000000000002c       0x7c ./RISCV/stubs/write.o
+ .debug_frame   0x00000000000000a8       0x34 ./RISCV/stubs/write_hex.o
+ .debug_frame   0x00000000000000dc       0x48 ./RISCV/env_Eclipse/handlers.o
+ .debug_frame   0x0000000000000124       0x54 ./RISCV/env_Eclipse/init.o
+ .debug_frame   0x0000000000000178      0x510 ./RISCV/drivers/n200_func.o
+ .debug_frame   0x0000000000000688      0x244 ./Peripherals/Source/gd32vf103_gpio.o
+ .debug_frame   0x00000000000008cc      0x540 ./Peripherals/Source/gd32vf103_rcu.o
+ .debug_frame   0x0000000000000e0c      0x57c ./Peripherals/Source/gd32vf103_usart.o
+ .debug_frame   0x0000000000001388       0xa0 ./Peripherals/system_gd32vf103.o
+ .debug_frame   0x0000000000001428       0x2c ./Application/main.o
+ .debug_frame   0x0000000000001454       0x44 ./Application/systick.o
+ .debug_frame   0x0000000000001498       0x50 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000014e8       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000001508       0x54 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_frame   0x000000000000155c       0x38 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000001594       0x50 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .debug_frame   0x00000000000015e4       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000001604       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000001624       0x28 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000000000000164c       0x38 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-fini.o)
+ .debug_frame   0x0000000000001684       0x3c d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000016c0       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-syswrite.o)
+ .debug_frame   0x00000000000016e0       0x30 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000000000001710       0x20 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000001730       0x54 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000001784       0x70 d:/nucleistudio_ide_201908/nucleistudio_ide_201908/toolchain/risc-v embedded gcc/8.2.0-2.2-20190521-0004/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-reent.o)

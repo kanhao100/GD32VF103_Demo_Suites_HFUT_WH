@@ -7,10 +7,10 @@
 #include "gd32vf103c_start.h"
 
 /*!
-    \brief      main function
-    \param[in]  none
-    \param[out] none
-    \retval     none
+    \brief      主函数
+    \param[in]  无
+    \param[out] 无
+    \retval     无
 */
 int main(void)
 {
@@ -39,9 +39,9 @@ int main(void)
 
 /*!
     \brief      初始化  LED
-    \param[in]  none
-    \param[out] none
-    \retval     none
+    \param[in]  无
+    \param[out] 无
+    \retval     无
 */
 void led_init(void)
 {
@@ -55,9 +55,9 @@ void led_init(void)
 
 /*!
     \brief      延时1ms
-    \param[in]  count: 延时1ms
-    \param[out] none
-    \retval     none
+    \param[in]  count:延时1ms
+    \param[out] 无
+    \retval     无
 */
 void delay_1ms(uint32_t count)
 {
@@ -78,10 +78,10 @@ void delay_1ms(uint32_t count)
 
 
 /*!
-    \brief      flash the LEDs for test
-    \param[in]  times: times to flash the LEDs
-    \param[out] none
-    \retval     none
+    \brief      翻转LED信号
+    \param[in]  times: 翻转LED信号的次数
+    \param[out] 无
+    \retval     无
 */
 void led_flash(int times)
 {

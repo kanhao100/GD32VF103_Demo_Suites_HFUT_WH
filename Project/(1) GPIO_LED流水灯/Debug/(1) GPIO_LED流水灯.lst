@@ -1,0 +1,3812 @@
+
+(1) GPIO_LED流水灯.elf:     file format elf32-littleriscv
+(1) GPIO_LED流水灯.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x0800015c
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x08000000 paddr 0x08000000 align 2**12
+         filesz 0x00001f30 memsz 0x00001f30 flags r-x
+    LOAD off    0x00003000 vaddr 0x20000000 paddr 0x08001f30 align 2**12
+         filesz 0x00000068 memsz 0x00000068 flags rw-
+    LOAD off    0x00003068 vaddr 0x20000068 paddr 0x20000068 align 2**12
+         filesz 0x00000000 memsz 0x00000094 flags rw-
+    LOAD off    0x00003800 vaddr 0x20007800 paddr 0x200000fc align 2**12
+         filesz 0x00000000 memsz 0x00000800 flags rw-
+
+Sections:
+Idx Name                       Size      VMA       LMA       File off  Algn  Flags
+  0 .init                      00000238  08000000  08000000  00001000  2**2  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .ilalign                   00000000  08000238  08000238  00003068  2**0  CONTENTS
+  2 .text                      00001cec  08000240  08000240  00001240  2**6  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .sdata2._global_impure_ptr 00000004  08001f2c  08001f2c  00002f2c  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .lalign                    00000000  08001f30  08001f30  00003068  2**0  CONTENTS
+  5 .dalign                    00000000  20000000  20000000  00003068  2**0  CONTENTS
+  6 .data                      00000068  20000000  08001f30  00003000  2**2  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss                       00000094  20000068  20000068  00003068  2**2  ALLOC
+  8 .stack                     00000800  20007800  200000fc  00003800  2**0  ALLOC
+  9 .debug_info                000062b4  00000000  00000000  00003068  2**0  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_abbrev              00001449  00000000  00000000  0000931c  2**0  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_aranges             00000630  00000000  00000000  0000a768  2**3  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges              00000548  00000000  00000000  0000ad98  2**3  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_line                000050f8  00000000  00000000  0000b2e0  2**0  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_str                 00002274  00000000  00000000  000103d8  2**0  CONTENTS, READONLY, DEBUGGING
+ 15 .comment                   00000039  00000000  00000000  0001264c  2**0  CONTENTS, READONLY
+ 16 .debug_frame               000017f4  00000000  00000000  00012688  2**2  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+08000000 l    d  .init	00000000 .init
+08000238 l    d  .ilalign	00000000 .ilalign
+08000240 l    d  .text	00000000 .text
+08001f2c l    d  .sdata2._global_impure_ptr	00000000 .sdata2._global_impure_ptr
+08001f30 l    d  .lalign	00000000 .lalign
+20000000 l    d  .dalign	00000000 .dalign
+20000000 l    d  .data	00000000 .data
+20000068 l    d  .bss	00000000 .bss
+20007800 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 ./RISCV/env_Eclipse/start.o
+08000000 l       .init	00000000 vector_base
+08000182 l       .init	00000000 _start0800
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 write_hex.c
+00000000 l    df *ABS*	00000000 handlers.c
+00000000 l    df *ABS*	00000000 systick.c
+00000000 l    df *ABS*	00000000 divdf3.c
+00000000 l    df *ABS*	00000000 muldf3.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 write.c
+00000000 l    df *ABS*	00000000 ./RISCV/env_Eclipse/entry.o
+080006ac l       .text	00000000 service_loop
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 n200_func.c
+00000000 l    df *ABS*	00000000 gd32vf103_gpio.c
+00000000 l    df *ABS*	00000000 gd32vf103_rcu.c
+00000000 l    df *ABS*	00000000 gd32vf103_usart.c
+00000000 l    df *ABS*	00000000 system_gd32vf103.c
+08000b70 l     F .text	00000014 system_clock_config
+08000c2c l     F .text	00000196 system_clock_108m_hxtal
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 ledf2.c
+00000000 l    df *ABS*	00000000 floatunsidf.c
+00000000 l    df *ABS*	00000000 floatundidf.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 atexit.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 fini.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 syswrite.c
+00000000 l    df *ABS*	00000000 writer.c
+00000000 l    df *ABS*	00000000 __atexit.c
+2000006c l     O .bss	0000008c _global_atexit0
+00000000 l    df *ABS*	00000000 __call_atexit.c
+00000000 l    df *ABS*	00000000 impure.c
+20000000 l     O .data	00000060 impure_data
+00000000 l    df *ABS*	00000000 reent.c
+00000000 l    df *ABS*	00000000 
+08001f30 l       .sdata2._global_impure_ptr	00000000 __fini_array_end
+08001f30 l       .sdata2._global_impure_ptr	00000000 __fini_array_start
+08001f30 l       .sdata2._global_impure_ptr	00000000 __init_array_end
+08001f30 l       .sdata2._global_impure_ptr	00000000 __preinit_array_end
+08001f30 l       .sdata2._global_impure_ptr	00000000 __init_array_start
+08001f30 l       .sdata2._global_impure_ptr	00000000 __preinit_array_start
+20000860 g       .data	00000000 __global_pointer$
+200000f8 g     O .bss	00000004 errno
+00000800 g       *ABS*	00000000 __stack_size
+080014f4 g     F .text	000000b6 .hidden __ltdf2
+08000a84 g     F .text	00000024 gpio_bit_set
+20000060 g     O .data	00000004 SystemCoreClock
+0800070a  w    F .text	00000036 handle_trap
+0800067c  w      .text	00000000 irq_entry
+20007800 g       .stack	00000000 _heap_end
+08001f2c g     O .sdata2._global_impure_ptr	00000004 _global_impure_ptr
+08001d2e g     F .text	0000006e __libc_init_array
+08001a5a g     F .text	00000066 .hidden __floatunsidf
+08000740 g     F .text	0000001e _init
+08001cf4 g     F .text	0000003a __libc_fini_array
+080006ee  w    F .text	0000001c handle_nmi
+08001d9c g     F .text	00000012 write
+080014f4 g     F .text	000000b6 .hidden __ledf2
+08000e62 g     F .text	000000de delay_1ms
+08000544 g     F .text	000000b0 write_hex
+08001c48 g     F .text	00000076 .hidden __clzsi2
+08000aa8 g     F .text	00000024 gpio_bit_reset
+20000068 g     O .bss	00000004 _global_atexit
+08001e64 g     F .text	000000c8 __call_exitprocs
+20008000 g       .stack	00000000 _sp
+0800015c g     F .init	00000000 _start
+08000acc g     F .text	00000040 rcu_periph_clock_enable
+08001ac0 g     F .text	00000188 .hidden __floatundidf
+08000230 g       .init	00000000 enable_mcycle_minstret
+08001ddc g     F .text	00000088 __register_exitproc
+08000796 g     F .text	0000006e get_timer_value
+08000f40 g     F .text	000005b4 .hidden __divdf3
+080015aa g     F .text	000004b0 .hidden __muldf3
+20000068 g       .bss	00000000 __bss_start
+08000b0c g     F .text	00000028 usart_data_transmit
+08000dc2 g     F .text	000000a0 main
+08000600  w      .text	00000000 trap_entry
+0800022a g       .init	00000000 disable_mcycle_minstret
+08000780 g     F .text	00000016 mtime_hi
+08000868 g     F .text	0000003e eclic_mode_enable
+08000b84 g     F .text	000000a8 SystemInit
+0800075e g     F .text	0000000e _fini
+08000300 g     O .text	00000100 .hidden __clz_tab
+08001cbe g     F .text	0000000a atexit
+08001dae g     F .text	0000002e _write_r
+20000064 g     O .data	00000004 _impure_ptr
+20000000 g       .dalign	00000000 _data
+08000494 g     F .text	00000070 _write
+20000068 g       .bss	00000000 _edata
+20000100 g       .bss	00000000 _end
+08000504  w    F .text	00000040 _put_char
+08001f30 g       .lalign	00000000 _data_lma
+0800076c g     F .text	00000014 mtime_lo
+08001cc8 g     F .text	0000002c exit
+08000804 g     F .text	00000064 eclic_init
+08000400 g     F .text	00000094 _exit
+08000b34 g     F .text	0000003c usart_flag_get
+080008a6 g     F .text	000001de gpio_init
+
+
+
+Disassembly of section .init:
+
+08000000 <vector_base>:
+vector_base():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:73
+    .weak  CAN1_RX1_IRQHandler
+    .weak  CAN1_EWMC_IRQHandler
+    .weak  USBFS_IRQHandler
+
+vector_base:
+    j _start
+ 8000000:	aab1                	j	800015c <_start>
+ 8000002:	0001                	nop
+	...
+
+0800015c <_start>:
+_start():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:167
+	.globl _start
+	.type _start,@function
+
+_start:
+
+	csrc CSR_MSTATUS, MSTATUS_MIE
+ 800015c:	30047073          	csrci	mstatus,8
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:169
+	/* Jump to logical address first to ensure correct operation of RAM region  */
+    la		a0,	_start
+ 8000160:	00000517          	auipc	a0,0x0
+ 8000164:	ffc50513          	addi	a0,a0,-4 # 800015c <_start>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:170
+    li		a1,	1
+ 8000168:	4585                	li	a1,1
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:171
+	slli	a1,	a1, 29
+ 800016a:	05f6                	slli	a1,a1,0x1d
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:172
+    bleu	a1, a0, _start0800
+ 800016c:	00b57b63          	bgeu	a0,a1,8000182 <_start0800>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:173
+    srli	a1,	a1, 2
+ 8000170:	8189                	srli	a1,a1,0x2
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:174
+    bleu	a1, a0, _start0800
+ 8000172:	00b57863          	bgeu	a0,a1,8000182 <_start0800>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:175
+    la		a0,	_start0800
+ 8000176:	00000517          	auipc	a0,0x0
+ 800017a:	00c50513          	addi	a0,a0,12 # 8000182 <_start0800>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:176
+    add		a0, a0, a1
+ 800017e:	952e                	add	a0,a0,a1
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:177
+	jr      a0
+ 8000180:	8502                	jr	a0
+
+08000182 <_start0800>:
+_start0800():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:182
+
+_start0800:
+
+    /* Set the the NMI base to share with mtvec by setting CSR_MMISC_CTL */
+    li t0, 0x200
+ 8000182:	20000293          	li	t0,512
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:183
+    csrs CSR_MMISC_CTL, t0
+ 8000186:	7d02a073          	csrs	0x7d0,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:186
+
+	/* Intial the mtvt*/
+    la t0, vector_base
+ 800018a:	00000297          	auipc	t0,0x0
+ 800018e:	e7628293          	addi	t0,t0,-394 # 8000000 <vector_base>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:187
+    csrw CSR_MTVT, t0
+ 8000192:	30729073          	csrw	mtvt,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:190
+
+	/* Intial the mtvt2 and enable it*/
+    la t0, irq_entry
+ 8000196:	00000297          	auipc	t0,0x0
+ 800019a:	4e628293          	addi	t0,t0,1254 # 800067c <irq_entry>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:191
+    csrw CSR_MTVT2, t0
+ 800019e:	7ec29073          	csrw	0x7ec,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:192
+    csrs CSR_MTVT2, 0x1
+ 80001a2:	7ec0e073          	csrsi	0x7ec,1
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:195
+
+    /* Intial the CSR MTVEC for the Trap ane NMI base addr*/
+    la t0, trap_entry
+ 80001a6:	00000297          	auipc	t0,0x0
+ 80001aa:	45a28293          	addi	t0,t0,1114 # 8000600 <trap_entry>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:196
+    csrw CSR_MTVEC, t0
+ 80001ae:	30529073          	csrw	mtvec,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:207
+	csrw fcsr, x0
+#endif
+
+.option push
+.option norelax
+	la gp, __global_pointer$
+ 80001b2:	18000197          	auipc	gp,0x18000
+ 80001b6:	6ae18193          	addi	gp,gp,1710 # 20000860 <__global_pointer$>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:209
+.option pop
+	la sp, _sp
+ 80001ba:	18008117          	auipc	sp,0x18008
+ 80001be:	e4610113          	addi	sp,sp,-442 # 20008000 <_sp>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:212
+
+	/* Load data section */
+	la a0, _data_lma
+ 80001c2:	00002517          	auipc	a0,0x2
+ 80001c6:	d6e50513          	addi	a0,a0,-658 # 8001f30 <__fini_array_end>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:213
+	la a1, _data
+ 80001ca:	18000597          	auipc	a1,0x18000
+ 80001ce:	e3658593          	addi	a1,a1,-458 # 20000000 <_data>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:214
+	la a2, _edata
+ 80001d2:	18000617          	auipc	a2,0x18000
+ 80001d6:	e9660613          	addi	a2,a2,-362 # 20000068 <_global_atexit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:215
+	bgeu a1, a2, 2f
+ 80001da:	00c5fa63          	bgeu	a1,a2,80001ee <_start0800+0x6c>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:217
+1:
+	lw t0, (a0)
+ 80001de:	00052283          	lw	t0,0(a0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:218
+	sw t0, (a1)
+ 80001e2:	0055a023          	sw	t0,0(a1)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:219
+	addi a0, a0, 4
+ 80001e6:	0511                	addi	a0,a0,4
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:220
+	addi a1, a1, 4
+ 80001e8:	0591                	addi	a1,a1,4
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:221
+	bltu a1, a2, 1b
+ 80001ea:	fec5eae3          	bltu	a1,a2,80001de <_start0800+0x5c>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:224
+2:
+	/* Clear bss section */
+	la a0, __bss_start
+ 80001ee:	18000517          	auipc	a0,0x18000
+ 80001f2:	e7a50513          	addi	a0,a0,-390 # 20000068 <_global_atexit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:225
+	la a1, _end
+ 80001f6:	8a018593          	addi	a1,gp,-1888 # 20000100 <_end>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:226
+	bgeu a0, a1, 2f
+ 80001fa:	00b57763          	bgeu	a0,a1,8000208 <_start0800+0x86>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:228
+1:
+	sw zero, (a0)
+ 80001fe:	00052023          	sw	zero,0(a0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:229
+	addi a0, a0, 4
+ 8000202:	0511                	addi	a0,a0,4
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:230
+	bltu a0, a1, 1b
+ 8000204:	feb56de3          	bltu	a0,a1,80001fe <_start0800+0x7c>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:233
+2:
+	/*enable mcycle_minstret*/
+    csrci CSR_MCOUNTINHIBIT, 0x5
+ 8000208:	3202f073          	csrci	mucounteren,5
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:235
+	/* Call global constructors */
+	la a0, __libc_fini_array
+ 800020c:	00002517          	auipc	a0,0x2
+ 8000210:	ae850513          	addi	a0,a0,-1304 # 8001cf4 <__libc_fini_array>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:236
+	call atexit
+ 8000214:	2ab010ef          	jal	ra,8001cbe <atexit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:237
+	call __libc_init_array
+ 8000218:	317010ef          	jal	ra,8001d2e <__libc_init_array>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:241
+
+
+	/* argc = argv = 0 */
+	li a0, 0
+ 800021c:	4501                	li	a0,0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:242
+	li a1, 0
+ 800021e:	4581                	li	a1,0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:243
+	call main
+ 8000220:	3a3000ef          	jal	ra,8000dc2 <main>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:244
+	tail exit
+ 8000224:	2a50106f          	j	8001cc8 <exit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:247
+
+1:
+	j 1b
+ 8000228:	a001                	j	8000228 <_start0800+0xa6>
+
+0800022a <disable_mcycle_minstret>:
+disable_mcycle_minstret():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:251
+	
+	.global disable_mcycle_minstret
+disable_mcycle_minstret:
+        csrsi CSR_MCOUNTINHIBIT, 0x5
+ 800022a:	3202e073          	csrsi	mucounteren,5
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:252
+	ret
+ 800022e:	8082                	ret
+
+08000230 <enable_mcycle_minstret>:
+enable_mcycle_minstret():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:256
+
+	.global enable_mcycle_minstret
+enable_mcycle_minstret:
+        csrci CSR_MCOUNTINHIBIT, 0x5
+ 8000230:	3202f073          	csrci	mucounteren,5
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/start.S:257
+	ret
+ 8000234:	8082                	ret
+	...
+
+Disassembly of section .text:
+
+08000240 <__clz_tab-0xc0>:
+ 8000240:	000a                	c.slli	zero,0x2
+ 8000242:	0000                	unimp
+ 8000244:	500a                	0x500a
+ 8000246:	6f72                	flw	ft10,28(sp)
+ 8000248:	6d617267          	0x6d617267
+ 800024c:	6820                	flw	fs0,80(s0)
+ 800024e:	7361                	lui	t1,0xffff8
+ 8000250:	6520                	flw	fs0,72(a0)
+ 8000252:	6978                	flw	fa4,84(a0)
+ 8000254:	6574                	flw	fa3,76(a0)
+ 8000256:	2064                	fld	fs1,192(s0)
+ 8000258:	68746977          	0x68746977
+ 800025c:	6320                	flw	fs0,64(a4)
+ 800025e:	3a65646f          	jal	s0,8056604 <__fini_array_end+0x546d4>
+ 8000262:	0000                	unimp
+ 8000264:	7830                	flw	fa2,112(s0)
+ 8000266:	0000                	unimp
+ 8000268:	6d6e                	flw	fs10,216(sp)
+ 800026a:	0a69                	addi	s4,s4,26
+ 800026c:	0000                	unimp
+ 800026e:	0000                	unimp
+ 8000270:	7274                	flw	fa3,100(a2)
+ 8000272:	7061                	c.lui	zero,0xffff8
+ 8000274:	000a                	c.slli	zero,0x2
+ 8000276:	0000                	unimp
+ 8000278:	0000                	unimp
+ 800027a:	0000                	unimp
+ 800027c:	4000                	lw	s0,0(s0)
+ 800027e:	0f0240af          	0xf0240af
+ 8000282:	0000                	unimp
+ 8000284:	0d86                	slli	s11,s11,0x1
+ 8000286:	0000                	unimp
+ 8000288:	0e96                	slli	t4,t4,0x5
+ 800028a:	0000                	unimp
+ 800028c:	0e9e                	slli	t4,t4,0x7
+ 800028e:	0000                	unimp
+ 8000290:	0e96                	slli	t4,t4,0x5
+ 8000292:	0000                	unimp
+ 8000294:	0db6                	slli	s11,s11,0xd
+ 8000296:	0000                	unimp
+ 8000298:	0e96                	slli	t4,t4,0x5
+ 800029a:	0000                	unimp
+ 800029c:	0e9e                	slli	t4,t4,0x7
+ 800029e:	0000                	unimp
+ 80002a0:	0d86                	slli	s11,s11,0x1
+ 80002a2:	0000                	unimp
+ 80002a4:	0d86                	slli	s11,s11,0x1
+ 80002a6:	0000                	unimp
+ 80002a8:	0db6                	slli	s11,s11,0xd
+ 80002aa:	0000                	unimp
+ 80002ac:	0e9e                	slli	t4,t4,0x7
+ 80002ae:	0000                	unimp
+ 80002b0:	0ef8                	addi	a4,sp,860
+ 80002b2:	0000                	unimp
+ 80002b4:	0ef8                	addi	a4,sp,860
+ 80002b6:	0000                	unimp
+ 80002b8:	0ef8                	addi	a4,sp,860
+ 80002ba:	0000                	unimp
+ 80002bc:	0db6                	slli	s11,s11,0xd
+ 80002be:	0000                	unimp
+ 80002c0:	14f6                	slli	s1,s1,0x3d
+ 80002c2:	0000                	unimp
+ 80002c4:	13ec                	addi	a1,sp,492
+ 80002c6:	0000                	unimp
+ 80002c8:	13ec                	addi	a1,sp,492
+ 80002ca:	0000                	unimp
+ 80002cc:	13ea                	slli	t2,t2,0x3a
+ 80002ce:	0000                	unimp
+ 80002d0:	13f2                	slli	t2,t2,0x3c
+ 80002d2:	0000                	unimp
+ 80002d4:	13f2                	slli	t2,t2,0x3c
+ 80002d6:	0000                	unimp
+ 80002d8:	13b8                	addi	a4,sp,488
+ 80002da:	0000                	unimp
+ 80002dc:	13ea                	slli	t2,t2,0x3a
+ 80002de:	0000                	unimp
+ 80002e0:	13f2                	slli	t2,t2,0x3c
+ 80002e2:	0000                	unimp
+ 80002e4:	13b8                	addi	a4,sp,488
+ 80002e6:	0000                	unimp
+ 80002e8:	13f2                	slli	t2,t2,0x3c
+ 80002ea:	0000                	unimp
+ 80002ec:	13ea                	slli	t2,t2,0x3a
+ 80002ee:	0000                	unimp
+ 80002f0:	14e2                	slli	s1,s1,0x38
+ 80002f2:	0000                	unimp
+ 80002f4:	14e2                	slli	s1,s1,0x38
+ 80002f6:	0000                	unimp
+ 80002f8:	14e2                	slli	s1,s1,0x38
+ 80002fa:	0000                	unimp
+ 80002fc:	13b8                	addi	a4,sp,488
+	...
+
+08000300 <__clz_tab>:
+ 8000300:	0100 0202 0303 0303 0404 0404 0404 0404     ................
+ 8000310:	0505 0505 0505 0505 0505 0505 0505 0505     ................
+ 8000320:	0606 0606 0606 0606 0606 0606 0606 0606     ................
+ 8000330:	0606 0606 0606 0606 0606 0606 0606 0606     ................
+ 8000340:	0707 0707 0707 0707 0707 0707 0707 0707     ................
+ 8000350:	0707 0707 0707 0707 0707 0707 0707 0707     ................
+ 8000360:	0707 0707 0707 0707 0707 0707 0707 0707     ................
+ 8000370:	0707 0707 0707 0707 0707 0707 0707 0707     ................
+ 8000380:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 8000390:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003a0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003b0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003c0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003d0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003e0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+ 80003f0:	0808 0808 0808 0808 0808 0808 0808 0808     ................
+
+08000400 <_exit>:
+_exit():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:9
+
+#include "stub.h"
+
+
+void _exit(int code)
+{
+ 8000400:	7139                	addi	sp,sp,-64
+ 8000402:	de06                	sw	ra,60(sp)
+ 8000404:	dc22                	sw	s0,56(sp)
+ 8000406:	0080                	addi	s0,sp,64
+ 8000408:	fca42623          	sw	a0,-52(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:10
+  const char message[] = "\nProgram has exited with code:";
+ 800040c:	080007b7          	lui	a5,0x8000
+ 8000410:	2447a883          	lw	a7,580(a5) # 8000244 <enable_mcycle_minstret+0x14>
+ 8000414:	24478713          	addi	a4,a5,580
+ 8000418:	00472803          	lw	a6,4(a4)
+ 800041c:	24478713          	addi	a4,a5,580
+ 8000420:	4708                	lw	a0,8(a4)
+ 8000422:	24478713          	addi	a4,a5,580
+ 8000426:	474c                	lw	a1,12(a4)
+ 8000428:	24478713          	addi	a4,a5,580
+ 800042c:	4b10                	lw	a2,16(a4)
+ 800042e:	24478713          	addi	a4,a5,580
+ 8000432:	4b54                	lw	a3,20(a4)
+ 8000434:	24478713          	addi	a4,a5,580
+ 8000438:	4f18                	lw	a4,24(a4)
+ 800043a:	fd142823          	sw	a7,-48(s0)
+ 800043e:	fd042a23          	sw	a6,-44(s0)
+ 8000442:	fca42c23          	sw	a0,-40(s0)
+ 8000446:	fcb42e23          	sw	a1,-36(s0)
+ 800044a:	fec42023          	sw	a2,-32(s0)
+ 800044e:	fed42223          	sw	a3,-28(s0)
+ 8000452:	fee42423          	sw	a4,-24(s0)
+ 8000456:	24478793          	addi	a5,a5,580
+ 800045a:	01c7d703          	lhu	a4,28(a5)
+ 800045e:	fee41623          	sh	a4,-20(s0)
+ 8000462:	01e7c783          	lbu	a5,30(a5)
+ 8000466:	fef40723          	sb	a5,-18(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:12
+
+  write(STDERR_FILENO, message, sizeof(message) - 1);
+ 800046a:	fd040793          	addi	a5,s0,-48
+ 800046e:	4679                	li	a2,30
+ 8000470:	85be                	mv	a1,a5
+ 8000472:	4509                	li	a0,2
+ 8000474:	129010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:13
+  write_hex(STDERR_FILENO, code);
+ 8000478:	fcc42783          	lw	a5,-52(s0)
+ 800047c:	85be                	mv	a1,a5
+ 800047e:	4509                	li	a0,2
+ 8000480:	20d1                	jal	8000544 <write_hex>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:14
+  write(STDERR_FILENO, "\n", 1);
+ 8000482:	4605                	li	a2,1
+ 8000484:	080007b7          	lui	a5,0x8000
+ 8000488:	24078593          	addi	a1,a5,576 # 8000240 <enable_mcycle_minstret+0x10>
+ 800048c:	4509                	li	a0,2
+ 800048e:	10f010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/_exit.c:16 (discriminator 1)
+
+  for (;;);
+ 8000492:	a001                	j	8000492 <_exit+0x92>
+
+08000494 <_write>:
+_write():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:17
+
+typedef unsigned int size_t;
+
+extern int _put_char(int ch) __attribute__((weak));
+
+ssize_t _write(int fd, const void* ptr, size_t len) {
+ 8000494:	7179                	addi	sp,sp,-48
+ 8000496:	d606                	sw	ra,44(sp)
+ 8000498:	d422                	sw	s0,40(sp)
+ 800049a:	1800                	addi	s0,sp,48
+ 800049c:	fca42e23          	sw	a0,-36(s0)
+ 80004a0:	fcb42c23          	sw	a1,-40(s0)
+ 80004a4:	fcc42a23          	sw	a2,-44(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:18
+	const uint8_t * current = (const uint8_t *) ptr;
+ 80004a8:	fd842783          	lw	a5,-40(s0)
+ 80004ac:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:22
+
+//	if (isatty(fd)) 
+	{
+		for (size_t jj = 0; jj < len; jj++) {
+ 80004b0:	fe042623          	sw	zero,-20(s0)
+ 80004b4:	a81d                	j	80004ea <_write+0x56>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:23
+			_put_char(current[jj]);
+ 80004b6:	fe842703          	lw	a4,-24(s0)
+ 80004ba:	fec42783          	lw	a5,-20(s0)
+ 80004be:	97ba                	add	a5,a5,a4
+ 80004c0:	0007c783          	lbu	a5,0(a5)
+ 80004c4:	853e                	mv	a0,a5
+ 80004c6:	283d                	jal	8000504 <_put_char>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:25
+
+			if (current[jj] == '\n') {
+ 80004c8:	fe842703          	lw	a4,-24(s0)
+ 80004cc:	fec42783          	lw	a5,-20(s0)
+ 80004d0:	97ba                	add	a5,a5,a4
+ 80004d2:	0007c703          	lbu	a4,0(a5)
+ 80004d6:	47a9                	li	a5,10
+ 80004d8:	00f71463          	bne	a4,a5,80004e0 <_write+0x4c>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:26
+				_put_char('\r');
+ 80004dc:	4535                	li	a0,13
+ 80004de:	201d                	jal	8000504 <_put_char>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:22 (discriminator 2)
+		for (size_t jj = 0; jj < len; jj++) {
+ 80004e0:	fec42783          	lw	a5,-20(s0)
+ 80004e4:	0785                	addi	a5,a5,1
+ 80004e6:	fef42623          	sw	a5,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:22 (discriminator 1)
+ 80004ea:	fec42703          	lw	a4,-20(s0)
+ 80004ee:	fd442783          	lw	a5,-44(s0)
+ 80004f2:	fcf762e3          	bltu	a4,a5,80004b6 <_write+0x22>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:29
+			}
+		}
+		return len;
+ 80004f6:	fd442783          	lw	a5,-44(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:33
+	}
+
+	return _stub(EBADF);
+}
+ 80004fa:	853e                	mv	a0,a5
+ 80004fc:	50b2                	lw	ra,44(sp)
+ 80004fe:	5422                	lw	s0,40(sp)
+ 8000500:	6145                	addi	sp,sp,48
+ 8000502:	8082                	ret
+
+08000504 <_put_char>:
+_put_char():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:40
+int puts(const char* string) {
+	return _write(0, (const void *) string, strlen(string));
+}
+
+int _put_char(int ch)
+{
+ 8000504:	1101                	addi	sp,sp,-32
+ 8000506:	ce06                	sw	ra,28(sp)
+ 8000508:	cc22                	sw	s0,24(sp)
+ 800050a:	1000                	addi	s0,sp,32
+ 800050c:	fea42623          	sw	a0,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:41
+    usart_data_transmit(USART0, (uint8_t) ch );
+ 8000510:	fec42783          	lw	a5,-20(s0)
+ 8000514:	0ff7f793          	andi	a5,a5,255
+ 8000518:	85be                	mv	a1,a5
+ 800051a:	400147b7          	lui	a5,0x40014
+ 800051e:	80078513          	addi	a0,a5,-2048 # 40013800 <_sp+0x2000b800>
+ 8000522:	23ed                	jal	8000b0c <usart_data_transmit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:42
+    while (usart_flag_get(USART0, USART_FLAG_TBE)== RESET){
+ 8000524:	0001                	nop
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:42 (discriminator 1)
+ 8000526:	459d                	li	a1,7
+ 8000528:	400147b7          	lui	a5,0x40014
+ 800052c:	80078513          	addi	a0,a5,-2048 # 40013800 <_sp+0x2000b800>
+ 8000530:	2511                	jal	8000b34 <usart_flag_get>
+ 8000532:	87aa                	mv	a5,a0
+ 8000534:	dbed                	beqz	a5,8000526 <_put_char+0x22>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:45
+    }
+
+    return ch;
+ 8000536:	fec42783          	lw	a5,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write.c:46
+}
+ 800053a:	853e                	mv	a0,a5
+ 800053c:	40f2                	lw	ra,28(sp)
+ 800053e:	4462                	lw	s0,24(sp)
+ 8000540:	6105                	addi	sp,sp,32
+ 8000542:	8082                	ret
+
+08000544 <write_hex>:
+write_hex():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:7
+
+#include <stdint.h>
+#include <unistd.h>
+
+void write_hex(int fd, unsigned long int hex)
+{
+ 8000544:	7179                	addi	sp,sp,-48
+ 8000546:	d606                	sw	ra,44(sp)
+ 8000548:	d422                	sw	s0,40(sp)
+ 800054a:	1800                	addi	s0,sp,48
+ 800054c:	fca42e23          	sw	a0,-36(s0)
+ 8000550:	fcb42c23          	sw	a1,-40(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:11
+  uint8_t ii;
+  uint8_t jj;
+  char towrite;
+  write(fd , "0x", 2);
+ 8000554:	4609                	li	a2,2
+ 8000556:	080007b7          	lui	a5,0x8000
+ 800055a:	26478593          	addi	a1,a5,612 # 8000264 <enable_mcycle_minstret+0x34>
+ 800055e:	fdc42503          	lw	a0,-36(s0)
+ 8000562:	03b010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:12
+  for (ii = sizeof(unsigned long int) * 2 ; ii > 0; ii--) {
+ 8000566:	47a1                	li	a5,8
+ 8000568:	fef407a3          	sb	a5,-17(s0)
+ 800056c:	a8a5                	j	80005e4 <write_hex+0xa0>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:13
+    jj = ii - 1;
+ 800056e:	fef44783          	lbu	a5,-17(s0)
+ 8000572:	17fd                	addi	a5,a5,-1
+ 8000574:	fef40723          	sb	a5,-18(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:14
+    uint8_t digit = ((hex & (0xF << (jj*4))) >> (jj*4));
+ 8000578:	fee44783          	lbu	a5,-18(s0)
+ 800057c:	078a                	slli	a5,a5,0x2
+ 800057e:	473d                	li	a4,15
+ 8000580:	00f717b3          	sll	a5,a4,a5
+ 8000584:	873e                	mv	a4,a5
+ 8000586:	fd842783          	lw	a5,-40(s0)
+ 800058a:	8f7d                	and	a4,a4,a5
+ 800058c:	fee44783          	lbu	a5,-18(s0)
+ 8000590:	078a                	slli	a5,a5,0x2
+ 8000592:	00f757b3          	srl	a5,a4,a5
+ 8000596:	fef406a3          	sb	a5,-19(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:15
+    towrite = digit < 0xA ? ('0' + digit) : ('A' +  (digit - 0xA));
+ 800059a:	fed44703          	lbu	a4,-19(s0)
+ 800059e:	47a5                	li	a5,9
+ 80005a0:	00e7eb63          	bltu	a5,a4,80005b6 <write_hex+0x72>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 1)
+ 80005a4:	fed44783          	lbu	a5,-19(s0)
+ 80005a8:	03078793          	addi	a5,a5,48
+ 80005ac:	0ff7f793          	andi	a5,a5,255
+ 80005b0:	07e2                	slli	a5,a5,0x18
+ 80005b2:	87e1                	srai	a5,a5,0x18
+ 80005b4:	a809                	j	80005c6 <write_hex+0x82>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 2)
+ 80005b6:	fed44783          	lbu	a5,-19(s0)
+ 80005ba:	03778793          	addi	a5,a5,55
+ 80005be:	0ff7f793          	andi	a5,a5,255
+ 80005c2:	07e2                	slli	a5,a5,0x18
+ 80005c4:	87e1                	srai	a5,a5,0x18
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:15 (discriminator 4)
+ 80005c6:	fef40623          	sb	a5,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:16 (discriminator 4)
+    write(fd, &towrite, 1);
+ 80005ca:	fec40793          	addi	a5,s0,-20
+ 80005ce:	4605                	li	a2,1
+ 80005d0:	85be                	mv	a1,a5
+ 80005d2:	fdc42503          	lw	a0,-36(s0)
+ 80005d6:	7c6010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 4)
+  for (ii = sizeof(unsigned long int) * 2 ; ii > 0; ii--) {
+ 80005da:	fef44783          	lbu	a5,-17(s0)
+ 80005de:	17fd                	addi	a5,a5,-1
+ 80005e0:	fef407a3          	sb	a5,-17(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:12 (discriminator 2)
+ 80005e4:	fef44783          	lbu	a5,-17(s0)
+ 80005e8:	f3d9                	bnez	a5,800056e <write_hex+0x2a>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/stubs/write_hex.c:18
+  }
+}
+ 80005ea:	0001                	nop
+ 80005ec:	50b2                	lw	ra,44(sp)
+ 80005ee:	5422                	lw	s0,40(sp)
+ 80005f0:	6145                	addi	sp,sp,48
+ 80005f2:	8082                	ret
+	...
+
+08000600 <trap_entry>:
+trap_entry():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:218
+trap_entry:
+  // Allocate the stack space
+ // addi sp, sp, -19*REGBYTES
+
+  // Save the caller saving registers (context)
+  SAVE_CONTEXT
+ 8000600:	715d                	addi	sp,sp,-80
+ 8000602:	c006                	sw	ra,0(sp)
+ 8000604:	c212                	sw	tp,4(sp)
+ 8000606:	c416                	sw	t0,8(sp)
+ 8000608:	c61a                	sw	t1,12(sp)
+ 800060a:	c81e                	sw	t2,16(sp)
+ 800060c:	ca2a                	sw	a0,20(sp)
+ 800060e:	cc2e                	sw	a1,24(sp)
+ 8000610:	ce32                	sw	a2,28(sp)
+ 8000612:	d036                	sw	a3,32(sp)
+ 8000614:	d23a                	sw	a4,36(sp)
+ 8000616:	d43e                	sw	a5,40(sp)
+ 8000618:	d642                	sw	a6,44(sp)
+ 800061a:	d846                	sw	a7,48(sp)
+ 800061c:	da72                	sw	t3,52(sp)
+ 800061e:	dc76                	sw	t4,56(sp)
+ 8000620:	de7a                	sw	t5,60(sp)
+ 8000622:	c0fe                	sw	t6,64(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:220
+  // Save the MEPC/Mstatus/Msubm reg
+  SAVE_EPC_STATUS
+ 8000624:	341022f3          	csrr	t0,mepc
+ 8000628:	c096                	sw	t0,64(sp)
+ 800062a:	300022f3          	csrr	t0,mstatus
+ 800062e:	c296                	sw	t0,68(sp)
+ 8000630:	7c4022f3          	csrr	t0,0x7c4
+ 8000634:	c496                	sw	t0,72(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:223
+
+     // Set the function argument
+  csrr a0, mcause
+ 8000636:	34202573          	csrr	a0,mcause
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:224
+  mv a1, sp
+ 800063a:	858a                	mv	a1,sp
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:226
+     // Call the function
+  call handle_trap
+ 800063c:	20f9                	jal	800070a <handle_trap>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:229
+
+  // Restore the MEPC/Mstatus/Msubm reg
+  RESTORE_EPC_STATUS
+ 800063e:	4286                	lw	t0,64(sp)
+ 8000640:	34129073          	csrw	mepc,t0
+ 8000644:	4296                	lw	t0,68(sp)
+ 8000646:	30029073          	csrw	mstatus,t0
+ 800064a:	42a6                	lw	t0,72(sp)
+ 800064c:	7c429073          	csrw	0x7c4,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:231
+  // Restore the caller saving registers (context)
+  RESTORE_CONTEXT
+ 8000650:	4082                	lw	ra,0(sp)
+ 8000652:	4212                	lw	tp,4(sp)
+ 8000654:	42a2                	lw	t0,8(sp)
+ 8000656:	4332                	lw	t1,12(sp)
+ 8000658:	43c2                	lw	t2,16(sp)
+ 800065a:	4552                	lw	a0,20(sp)
+ 800065c:	45e2                	lw	a1,24(sp)
+ 800065e:	4672                	lw	a2,28(sp)
+ 8000660:	5682                	lw	a3,32(sp)
+ 8000662:	5712                	lw	a4,36(sp)
+ 8000664:	57a2                	lw	a5,40(sp)
+ 8000666:	5832                	lw	a6,44(sp)
+ 8000668:	58c2                	lw	a7,48(sp)
+ 800066a:	5e52                	lw	t3,52(sp)
+ 800066c:	5ee2                	lw	t4,56(sp)
+ 800066e:	5f72                	lw	t5,60(sp)
+ 8000670:	4f86                	lw	t6,64(sp)
+ 8000672:	6161                	addi	sp,sp,80
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:236
+
+  // De-allocate the stack space
+ // addi sp, sp, 19*REGBYTES
+  // Return to regular code
+  mret
+ 8000674:	30200073          	mret
+ 8000678:	0000                	unimp
+	...
+
+0800067c <irq_entry>:
+irq_entry():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:251
+.weak irq_entry
+irq_entry: // -------------> This label will be set to MTVT2 register
+  // Allocate the stack space
+  
+
+  SAVE_CONTEXT// Save 16 regs
+ 800067c:	715d                	addi	sp,sp,-80
+ 800067e:	c006                	sw	ra,0(sp)
+ 8000680:	c212                	sw	tp,4(sp)
+ 8000682:	c416                	sw	t0,8(sp)
+ 8000684:	c61a                	sw	t1,12(sp)
+ 8000686:	c81e                	sw	t2,16(sp)
+ 8000688:	ca2a                	sw	a0,20(sp)
+ 800068a:	cc2e                	sw	a1,24(sp)
+ 800068c:	ce32                	sw	a2,28(sp)
+ 800068e:	d036                	sw	a3,32(sp)
+ 8000690:	d23a                	sw	a4,36(sp)
+ 8000692:	d43e                	sw	a5,40(sp)
+ 8000694:	d642                	sw	a6,44(sp)
+ 8000696:	d846                	sw	a7,48(sp)
+ 8000698:	da72                	sw	t3,52(sp)
+ 800069a:	dc76                	sw	t4,56(sp)
+ 800069c:	de7a                	sw	t5,60(sp)
+ 800069e:	c0fe                	sw	t6,64(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:254
+
+  //------This special CSR read operation, which is actually use mcause as operand to directly store it to memory
+  csrrwi  x0, CSR_PUSHMCAUSE, 17
+ 80006a0:	7ee8d073          	csrwi	0x7ee,17
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:256
+  //------This special CSR read operation, which is actually use mepc as operand to directly store it to memory
+  csrrwi  x0, CSR_PUSHMEPC, 18
+ 80006a4:	7ef95073          	csrwi	0x7ef,18
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:258
+  //------This special CSR read operation, which is actually use Msubm as operand to directly store it to memory
+  csrrwi  x0, CSR_PUSHMSUBM, 19
+ 80006a8:	7eb9d073          	csrwi	0x7eb,19
+
+080006ac <service_loop>:
+service_loop():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:264
+ 
+service_loop:
+  //------This special CSR read/write operation, which is actually Claim the CLIC to find its pending highest
+  // ID, if the ID is not 0, then automatically enable the mstatus.MIE, and jump to its vector-entry-label, and
+  // update the link register 
+  csrrw ra, CSR_JALMNXTI, ra 
+ 80006ac:	7ed090f3          	csrrw	ra,0x7ed,ra
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:269
+  
+  //RESTORE_CONTEXT_EXCPT_X5
+
+  #---- Critical section with interrupts disabled -----------------------
+  DISABLE_MIE # Disable interrupts 
+ 80006b0:	30047073          	csrci	mstatus,8
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:271
+
+  LOAD x5,  19*REGBYTES(sp)
+ 80006b4:	42b6                	lw	t0,76(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:272
+  csrw CSR_MSUBM, x5  
+ 80006b6:	7c429073          	csrw	0x7c4,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:273
+  LOAD x5,  18*REGBYTES(sp)
+ 80006ba:	42a6                	lw	t0,72(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:274
+  csrw CSR_MEPC, x5  
+ 80006bc:	34129073          	csrw	mepc,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:275
+  LOAD x5,  17*REGBYTES(sp)
+ 80006c0:	4296                	lw	t0,68(sp)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:276
+  csrw CSR_MCAUSE, x5  
+ 80006c2:	34229073          	csrw	mcause,t0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:279
+
+
+  RESTORE_CONTEXT
+ 80006c6:	4082                	lw	ra,0(sp)
+ 80006c8:	4212                	lw	tp,4(sp)
+ 80006ca:	42a2                	lw	t0,8(sp)
+ 80006cc:	4332                	lw	t1,12(sp)
+ 80006ce:	43c2                	lw	t2,16(sp)
+ 80006d0:	4552                	lw	a0,20(sp)
+ 80006d2:	45e2                	lw	a1,24(sp)
+ 80006d4:	4672                	lw	a2,28(sp)
+ 80006d6:	5682                	lw	a3,32(sp)
+ 80006d8:	5712                	lw	a4,36(sp)
+ 80006da:	57a2                	lw	a5,40(sp)
+ 80006dc:	5832                	lw	a6,44(sp)
+ 80006de:	58c2                	lw	a7,48(sp)
+ 80006e0:	5e52                	lw	t3,52(sp)
+ 80006e2:	5ee2                	lw	t4,56(sp)
+ 80006e4:	5f72                	lw	t5,60(sp)
+ 80006e6:	4f86                	lw	t6,64(sp)
+ 80006e8:	6161                	addi	sp,sp,80
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/entry.S:283
+
+  
+  // Return to regular code
+  mret
+ 80006ea:	30200073          	mret
+
+080006ee <handle_nmi>:
+handle_nmi():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:9
+#include <unistd.h>
+#include "riscv_encoding.h"
+#include "n200_func.h"
+
+__attribute__((weak)) uintptr_t handle_nmi()
+{
+ 80006ee:	1141                	addi	sp,sp,-16
+ 80006f0:	c606                	sw	ra,12(sp)
+ 80006f2:	c422                	sw	s0,8(sp)
+ 80006f4:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:10
+  write(1, "nmi\n", 5);
+ 80006f6:	4615                	li	a2,5
+ 80006f8:	080007b7          	lui	a5,0x8000
+ 80006fc:	26878593          	addi	a1,a5,616 # 8000268 <enable_mcycle_minstret+0x38>
+ 8000700:	4505                	li	a0,1
+ 8000702:	69a010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:11
+  _exit(1);
+ 8000706:	4505                	li	a0,1
+ 8000708:	39e5                	jal	8000400 <_exit>
+
+0800070a <handle_trap>:
+handle_trap():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:17
+  return 0;
+}
+
+
+__attribute__((weak)) uintptr_t handle_trap(uintptr_t mcause, uintptr_t sp)
+{
+ 800070a:	1101                	addi	sp,sp,-32
+ 800070c:	ce06                	sw	ra,28(sp)
+ 800070e:	cc22                	sw	s0,24(sp)
+ 8000710:	1000                	addi	s0,sp,32
+ 8000712:	fea42623          	sw	a0,-20(s0)
+ 8000716:	feb42423          	sw	a1,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:18
+  if(mcause == 0xFFF) {
+ 800071a:	fec42703          	lw	a4,-20(s0)
+ 800071e:	6785                	lui	a5,0x1
+ 8000720:	17fd                	addi	a5,a5,-1
+ 8000722:	00f71363          	bne	a4,a5,8000728 <handle_trap+0x1e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:19
+      handle_nmi();
+ 8000726:	37e1                	jal	80006ee <handle_nmi>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:21
+  }
+  write(1, "trap\n", 5);
+ 8000728:	4615                	li	a2,5
+ 800072a:	080007b7          	lui	a5,0x8000
+ 800072e:	27078593          	addi	a1,a5,624 # 8000270 <enable_mcycle_minstret+0x40>
+ 8000732:	4505                	li	a0,1
+ 8000734:	668010ef          	jal	ra,8001d9c <write>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/handlers.c:25
+  //printf("In trap handler, the mcause is %d\n", mcause);
+  //printf("In trap handler, the mepc is 0x%x\n", read_csr(mepc));
+  //printf("In trap handler, the mtval is 0x%x\n", read_csr(mbadaddr));
+  _exit(mcause);
+ 8000738:	fec42783          	lw	a5,-20(s0)
+ 800073c:	853e                	mv	a0,a5
+ 800073e:	31c9                	jal	8000400 <_exit>
+
+08000740 <_init>:
+_init():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:11
+#include "riscv_encoding.h"
+#include "n200_func.h"
+
+extern uint32_t disable_mcycle_minstret();
+void _init()
+{
+ 8000740:	1141                	addi	sp,sp,-16
+ 8000742:	c606                	sw	ra,12(sp)
+ 8000744:	c422                	sw	s0,8(sp)
+ 8000746:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:12
+	SystemInit();
+ 8000748:	2935                	jal	8000b84 <SystemInit>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:15
+
+	//ECLIC init
+	eclic_init(ECLIC_NUM_INTERRUPTS);
+ 800074a:	05700513          	li	a0,87
+ 800074e:	285d                	jal	8000804 <eclic_init>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:16
+	eclic_mode_enable();
+ 8000750:	2a21                	jal	8000868 <eclic_mode_enable>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:29
+	//pmp_open_all_space();
+	//switch_m2u_mode();
+	
+    /* Before enter into main, add the cycle/instret disable by default to save power,
+    only use them when needed to measure the cycle/instret */
+	disable_mcycle_minstret();
+ 8000752:	3ce1                	jal	800022a <disable_mcycle_minstret>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:30
+}
+ 8000754:	0001                	nop
+ 8000756:	40b2                	lw	ra,12(sp)
+ 8000758:	4422                	lw	s0,8(sp)
+ 800075a:	0141                	addi	sp,sp,16
+ 800075c:	8082                	ret
+
+0800075e <_fini>:
+_fini():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:33
+
+void _fini()
+{
+ 800075e:	1141                	addi	sp,sp,-16
+ 8000760:	c622                	sw	s0,12(sp)
+ 8000762:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/env_Eclipse/init.c:34
+}
+ 8000764:	0001                	nop
+ 8000766:	4432                	lw	s0,12(sp)
+ 8000768:	0141                	addi	sp,sp,16
+ 800076a:	8082                	ret
+
+0800076c <mtime_lo>:
+mtime_lo():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:32
+    asm volatile ("mret":::);
+    asm volatile ("1:":::);
+} 
+
+uint32_t mtime_lo(void)
+{
+ 800076c:	1141                	addi	sp,sp,-16
+ 800076e:	c622                	sw	s0,12(sp)
+ 8000770:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:33
+  return *(volatile uint32_t *)(TIMER_CTRL_ADDR + TIMER_MTIME);
+ 8000772:	d10007b7          	lui	a5,0xd1000
+ 8000776:	439c                	lw	a5,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:34
+}
+ 8000778:	853e                	mv	a0,a5
+ 800077a:	4432                	lw	s0,12(sp)
+ 800077c:	0141                	addi	sp,sp,16
+ 800077e:	8082                	ret
+
+08000780 <mtime_hi>:
+mtime_hi():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:38
+
+
+uint32_t mtime_hi(void)
+{
+ 8000780:	1141                	addi	sp,sp,-16
+ 8000782:	c622                	sw	s0,12(sp)
+ 8000784:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:39
+  return *(volatile uint32_t *)(TIMER_CTRL_ADDR + TIMER_MTIME + 4);
+ 8000786:	d10007b7          	lui	a5,0xd1000
+ 800078a:	0791                	addi	a5,a5,4
+ 800078c:	439c                	lw	a5,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:40
+}
+ 800078e:	853e                	mv	a0,a5
+ 8000790:	4432                	lw	s0,12(sp)
+ 8000792:	0141                	addi	sp,sp,16
+ 8000794:	8082                	ret
+
+08000796 <get_timer_value>:
+get_timer_value():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:43
+
+uint64_t get_timer_value()
+{
+ 8000796:	7139                	addi	sp,sp,-64
+ 8000798:	de06                	sw	ra,60(sp)
+ 800079a:	dc22                	sw	s0,56(sp)
+ 800079c:	da4a                	sw	s2,52(sp)
+ 800079e:	d84e                	sw	s3,48(sp)
+ 80007a0:	d652                	sw	s4,44(sp)
+ 80007a2:	d456                	sw	s5,40(sp)
+ 80007a4:	d25a                	sw	s6,36(sp)
+ 80007a6:	d05e                	sw	s7,32(sp)
+ 80007a8:	ce62                	sw	s8,28(sp)
+ 80007aa:	cc66                	sw	s9,24(sp)
+ 80007ac:	0080                	addi	s0,sp,64
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:45
+  while (1) {
+    uint32_t hi = mtime_hi();
+ 80007ae:	3fc9                	jal	8000780 <mtime_hi>
+ 80007b0:	fca42623          	sw	a0,-52(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:46
+    uint32_t lo = mtime_lo();
+ 80007b4:	3f65                	jal	800076c <mtime_lo>
+ 80007b6:	fca42423          	sw	a0,-56(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:47
+    if (hi == mtime_hi())
+ 80007ba:	37d9                	jal	8000780 <mtime_hi>
+ 80007bc:	872a                	mv	a4,a0
+ 80007be:	fcc42783          	lw	a5,-52(s0)
+ 80007c2:	fee796e3          	bne	a5,a4,80007ae <get_timer_value+0x18>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:48
+      return ((uint64_t)hi << 32) | lo;
+ 80007c6:	fcc42783          	lw	a5,-52(s0)
+ 80007ca:	8c3e                	mv	s8,a5
+ 80007cc:	4c81                	li	s9,0
+ 80007ce:	000c1993          	slli	s3,s8,0x0
+ 80007d2:	4901                	li	s2,0
+ 80007d4:	fc842783          	lw	a5,-56(s0)
+ 80007d8:	8a3e                	mv	s4,a5
+ 80007da:	4a81                	li	s5,0
+ 80007dc:	01496b33          	or	s6,s2,s4
+ 80007e0:	0159ebb3          	or	s7,s3,s5
+ 80007e4:	87da                	mv	a5,s6
+ 80007e6:	885e                	mv	a6,s7
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:50
+  }
+}
+ 80007e8:	853e                	mv	a0,a5
+ 80007ea:	85c2                	mv	a1,a6
+ 80007ec:	50f2                	lw	ra,60(sp)
+ 80007ee:	5462                	lw	s0,56(sp)
+ 80007f0:	5952                	lw	s2,52(sp)
+ 80007f2:	59c2                	lw	s3,48(sp)
+ 80007f4:	5a32                	lw	s4,44(sp)
+ 80007f6:	5aa2                	lw	s5,40(sp)
+ 80007f8:	5b12                	lw	s6,36(sp)
+ 80007fa:	5b82                	lw	s7,32(sp)
+ 80007fc:	4c72                	lw	s8,28(sp)
+ 80007fe:	4ce2                	lw	s9,24(sp)
+ 8000800:	6121                	addi	sp,sp,64
+ 8000802:	8082                	ret
+
+08000804 <eclic_init>:
+eclic_init():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:121
+
+
+
+  
+void eclic_init ( uint32_t num_irq )
+{
+ 8000804:	7179                	addi	sp,sp,-48
+ 8000806:	d622                	sw	s0,44(sp)
+ 8000808:	1800                	addi	s0,sp,48
+ 800080a:	fca42e23          	sw	a0,-36(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:126
+
+  typedef volatile uint32_t vuint32_t;
+
+  //clear cfg register 
+  *(volatile uint8_t*)(ECLIC_ADDR_BASE+ECLIC_CFG_OFFSET)=0;
+ 800080e:	d20007b7          	lui	a5,0xd2000
+ 8000812:	00078023          	sb	zero,0(a5) # d2000000 <_sp+0xb1ff8000>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:129
+
+  //clear minthresh register 
+  *(volatile uint8_t*)(ECLIC_ADDR_BASE+ECLIC_MTH_OFFSET)=0;
+ 8000816:	d20007b7          	lui	a5,0xd2000
+ 800081a:	07ad                	addi	a5,a5,11
+ 800081c:	00078023          	sb	zero,0(a5) # d2000000 <_sp+0xb1ff8000>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:134
+
+  //clear all IP/IE/ATTR/CTRL bits for all interrupt sources
+  vuint32_t * ptr;
+
+  vuint32_t * base = (vuint32_t*)(ECLIC_ADDR_BASE + ECLIC_INT_IP_OFFSET);
+ 8000820:	d20017b7          	lui	a5,0xd2001
+ 8000824:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:135
+  vuint32_t * upper = (vuint32_t*)(base + num_irq*4);
+ 8000828:	fdc42783          	lw	a5,-36(s0)
+ 800082c:	0792                	slli	a5,a5,0x4
+ 800082e:	fe842703          	lw	a4,-24(s0)
+ 8000832:	97ba                	add	a5,a5,a4
+ 8000834:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:137
+
+  for (ptr = base; ptr < upper; ptr=ptr+4){
+ 8000838:	fe842783          	lw	a5,-24(s0)
+ 800083c:	fef42623          	sw	a5,-20(s0)
+ 8000840:	a811                	j	8000854 <eclic_init+0x50>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:138 (discriminator 3)
+    *ptr = 0;
+ 8000842:	fec42783          	lw	a5,-20(s0)
+ 8000846:	0007a023          	sw	zero,0(a5) # d2001000 <_sp+0xb1ff9000>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 3)
+  for (ptr = base; ptr < upper; ptr=ptr+4){
+ 800084a:	fec42783          	lw	a5,-20(s0)
+ 800084e:	07c1                	addi	a5,a5,16
+ 8000850:	fef42623          	sw	a5,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:137 (discriminator 1)
+ 8000854:	fec42703          	lw	a4,-20(s0)
+ 8000858:	fe442783          	lw	a5,-28(s0)
+ 800085c:	fef763e3          	bltu	a4,a5,8000842 <eclic_init+0x3e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:140
+  }
+}
+ 8000860:	0001                	nop
+ 8000862:	5432                	lw	s0,44(sp)
+ 8000864:	6145                	addi	sp,sp,48
+ 8000866:	8082                	ret
+
+08000868 <eclic_mode_enable>:
+eclic_mode_enable():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:332
+	uint8_t priority = intctrl >> (nlbits+(8 - ECLICINTCTLBITS));
+
+	return priority;
+}
+
+void eclic_mode_enable() {
+ 8000868:	1101                	addi	sp,sp,-32
+ 800086a:	ce22                	sw	s0,28(sp)
+ 800086c:	1000                	addi	s0,sp,32
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:333
+  uint32_t mtvec_value = read_csr(mtvec);
+ 800086e:	305027f3          	csrr	a5,mtvec
+ 8000872:	fef42623          	sw	a5,-20(s0)
+ 8000876:	fec42783          	lw	a5,-20(s0)
+ 800087a:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:334
+  mtvec_value = mtvec_value & 0xFFFFFFC0;
+ 800087e:	fe842783          	lw	a5,-24(s0)
+ 8000882:	fc07f793          	andi	a5,a5,-64
+ 8000886:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:335
+  mtvec_value = mtvec_value | 0x00000003;
+ 800088a:	fe842783          	lw	a5,-24(s0)
+ 800088e:	0037e793          	ori	a5,a5,3
+ 8000892:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:336
+  write_csr(mtvec,mtvec_value);
+ 8000896:	fe842783          	lw	a5,-24(s0)
+ 800089a:	30579073          	csrw	mtvec,a5
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../RISCV/drivers/n200_func.c:337
+}
+ 800089e:	0001                	nop
+ 80008a0:	4472                	lw	s0,28(sp)
+ 80008a2:	6105                	addi	sp,sp,32
+ 80008a4:	8082                	ret
+
+080008a6 <gpio_init>:
+gpio_init():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:125
+    \param[out] none
+    \retval     none
+*/
+void gpio_init(uint32_t gpio_periph, uint32_t mode, uint32_t speed,
+        uint32_t pin)
+{
+ 80008a6:	7179                	addi	sp,sp,-48
+ 80008a8:	d622                	sw	s0,44(sp)
+ 80008aa:	1800                	addi	s0,sp,48
+ 80008ac:	fca42e23          	sw	a0,-36(s0)
+ 80008b0:	fcb42c23          	sw	a1,-40(s0)
+ 80008b4:	fcc42a23          	sw	a2,-44(s0)
+ 80008b8:	fcd42823          	sw	a3,-48(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:127
+    uint16_t i;
+    uint32_t temp_mode = 0U;
+ 80008bc:	fe042423          	sw	zero,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:128
+    uint32_t reg = 0U;
+ 80008c0:	fe042223          	sw	zero,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:131
+
+    /* GPIO mode configuration */
+    temp_mode = (uint32_t) (mode & ((uint32_t) 0x0FU));
+ 80008c4:	fd842783          	lw	a5,-40(s0)
+ 80008c8:	8bbd                	andi	a5,a5,15
+ 80008ca:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:134
+
+    /* GPIO speed configuration */
+    if (((uint32_t) 0x00U) != ((uint32_t) mode & ((uint32_t) 0x10U))) {
+ 80008ce:	fd842783          	lw	a5,-40(s0)
+ 80008d2:	8bc1                	andi	a5,a5,16
+ 80008d4:	cb81                	beqz	a5,80008e4 <gpio_init+0x3e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:136
+        /* output mode max speed:10MHz,2MHz,50MHz */
+        temp_mode |= (uint32_t) speed;
+ 80008d6:	fe842703          	lw	a4,-24(s0)
+ 80008da:	fd442783          	lw	a5,-44(s0)
+ 80008de:	8fd9                	or	a5,a5,a4
+ 80008e0:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:140
+    }
+
+    /* configure the eight low port pins with GPIO_CTL0 */
+    for (i = 0U; i < 8U; i++) {
+ 80008e4:	fe041723          	sh	zero,-18(s0)
+ 80008e8:	a84d                	j	800099a <gpio_init+0xf4>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:141
+        if ((1U << i) & pin) {
+ 80008ea:	fee45783          	lhu	a5,-18(s0)
+ 80008ee:	4705                	li	a4,1
+ 80008f0:	00f71733          	sll	a4,a4,a5
+ 80008f4:	fd042783          	lw	a5,-48(s0)
+ 80008f8:	8ff9                	and	a5,a5,a4
+ 80008fa:	cbd9                	beqz	a5,8000990 <gpio_init+0xea>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:142
+            reg = GPIO_CTL0(gpio_periph);
+ 80008fc:	fdc42783          	lw	a5,-36(s0)
+ 8000900:	439c                	lw	a5,0(a5)
+ 8000902:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:145
+
+            /* clear the specified pin mode bits */
+            reg &= ~GPIO_MODE_MASK(i);
+ 8000906:	fee45783          	lhu	a5,-18(s0)
+ 800090a:	078a                	slli	a5,a5,0x2
+ 800090c:	473d                	li	a4,15
+ 800090e:	00f717b3          	sll	a5,a4,a5
+ 8000912:	fff7c793          	not	a5,a5
+ 8000916:	fe442703          	lw	a4,-28(s0)
+ 800091a:	8ff9                	and	a5,a5,a4
+ 800091c:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:147
+            /* set the specified pin mode bits */
+            reg |= GPIO_MODE_SET(i, temp_mode);
+ 8000920:	fee45783          	lhu	a5,-18(s0)
+ 8000924:	078a                	slli	a5,a5,0x2
+ 8000926:	fe842703          	lw	a4,-24(s0)
+ 800092a:	00f717b3          	sll	a5,a4,a5
+ 800092e:	fe442703          	lw	a4,-28(s0)
+ 8000932:	8fd9                	or	a5,a5,a4
+ 8000934:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:150
+
+            /* set IPD or IPU */
+            if (GPIO_MODE_IPD == mode) {
+ 8000938:	fd842703          	lw	a4,-40(s0)
+ 800093c:	02800793          	li	a5,40
+ 8000940:	02f71063          	bne	a4,a5,8000960 <gpio_init+0xba>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:152
+                /* reset the corresponding OCTL bit */
+                GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
+ 8000944:	fee45783          	lhu	a5,-18(s0)
+ 8000948:	4705                	li	a4,1
+ 800094a:	00f71733          	sll	a4,a4,a5
+ 800094e:	fdc42783          	lw	a5,-36(s0)
+ 8000952:	07d1                	addi	a5,a5,20
+ 8000954:	86be                	mv	a3,a5
+ 8000956:	fd042783          	lw	a5,-48(s0)
+ 800095a:	8ff9                	and	a5,a5,a4
+ 800095c:	c29c                	sw	a5,0(a3)
+ 800095e:	a025                	j	8000986 <gpio_init+0xe0>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:155
+            } else {
+                /* set the corresponding OCTL bit */
+                if (GPIO_MODE_IPU == mode) {
+ 8000960:	fd842703          	lw	a4,-40(s0)
+ 8000964:	04800793          	li	a5,72
+ 8000968:	00f71f63          	bne	a4,a5,8000986 <gpio_init+0xe0>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:156
+                    GPIO_BOP(gpio_periph) = (uint32_t) ((1U << i) & pin);
+ 800096c:	fee45783          	lhu	a5,-18(s0)
+ 8000970:	4705                	li	a4,1
+ 8000972:	00f71733          	sll	a4,a4,a5
+ 8000976:	fdc42783          	lw	a5,-36(s0)
+ 800097a:	07c1                	addi	a5,a5,16
+ 800097c:	86be                	mv	a3,a5
+ 800097e:	fd042783          	lw	a5,-48(s0)
+ 8000982:	8ff9                	and	a5,a5,a4
+ 8000984:	c29c                	sw	a5,0(a3)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:160
+                }
+            }
+            /* set GPIO_CTL0 register */
+            GPIO_CTL0(gpio_periph) = reg;
+ 8000986:	fdc42783          	lw	a5,-36(s0)
+ 800098a:	fe442703          	lw	a4,-28(s0)
+ 800098e:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 2)
+    for (i = 0U; i < 8U; i++) {
+ 8000990:	fee45783          	lhu	a5,-18(s0)
+ 8000994:	0785                	addi	a5,a5,1
+ 8000996:	fef41723          	sh	a5,-18(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:140 (discriminator 1)
+ 800099a:	fee45703          	lhu	a4,-18(s0)
+ 800099e:	479d                	li	a5,7
+ 80009a0:	f4e7f5e3          	bgeu	a5,a4,80008ea <gpio_init+0x44>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:164
+        }
+    }
+    /* configure the eight high port pins with GPIO_CTL1 */
+    for (i = 8U; i < 16U; i++) {
+ 80009a4:	47a1                	li	a5,8
+ 80009a6:	fef41723          	sh	a5,-18(s0)
+ 80009aa:	a0e1                	j	8000a72 <gpio_init+0x1cc>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:165
+        if ((1U << i) & pin) {
+ 80009ac:	fee45783          	lhu	a5,-18(s0)
+ 80009b0:	4705                	li	a4,1
+ 80009b2:	00f71733          	sll	a4,a4,a5
+ 80009b6:	fd042783          	lw	a5,-48(s0)
+ 80009ba:	8ff9                	and	a5,a5,a4
+ 80009bc:	c7d5                	beqz	a5,8000a68 <gpio_init+0x1c2>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:166
+            reg = GPIO_CTL1(gpio_periph);
+ 80009be:	fdc42783          	lw	a5,-36(s0)
+ 80009c2:	0791                	addi	a5,a5,4
+ 80009c4:	439c                	lw	a5,0(a5)
+ 80009c6:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:169
+
+            /* clear the specified pin mode bits */
+            reg &= ~GPIO_MODE_MASK(i - 8U);
+ 80009ca:	fee45703          	lhu	a4,-18(s0)
+ 80009ce:	400007b7          	lui	a5,0x40000
+ 80009d2:	17e1                	addi	a5,a5,-8
+ 80009d4:	97ba                	add	a5,a5,a4
+ 80009d6:	078a                	slli	a5,a5,0x2
+ 80009d8:	473d                	li	a4,15
+ 80009da:	00f717b3          	sll	a5,a4,a5
+ 80009de:	fff7c793          	not	a5,a5
+ 80009e2:	fe442703          	lw	a4,-28(s0)
+ 80009e6:	8ff9                	and	a5,a5,a4
+ 80009e8:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:171
+            /* set the specified pin mode bits */
+            reg |= GPIO_MODE_SET(i - 8U, temp_mode);
+ 80009ec:	fee45703          	lhu	a4,-18(s0)
+ 80009f0:	400007b7          	lui	a5,0x40000
+ 80009f4:	17e1                	addi	a5,a5,-8
+ 80009f6:	97ba                	add	a5,a5,a4
+ 80009f8:	078a                	slli	a5,a5,0x2
+ 80009fa:	fe842703          	lw	a4,-24(s0)
+ 80009fe:	00f717b3          	sll	a5,a4,a5
+ 8000a02:	fe442703          	lw	a4,-28(s0)
+ 8000a06:	8fd9                	or	a5,a5,a4
+ 8000a08:	fef42223          	sw	a5,-28(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:174
+
+            /* set IPD or IPU */
+            if (GPIO_MODE_IPD == mode) {
+ 8000a0c:	fd842703          	lw	a4,-40(s0)
+ 8000a10:	02800793          	li	a5,40
+ 8000a14:	02f71063          	bne	a4,a5,8000a34 <gpio_init+0x18e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:176
+                /* reset the corresponding OCTL bit */
+                GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
+ 8000a18:	fee45783          	lhu	a5,-18(s0)
+ 8000a1c:	4705                	li	a4,1
+ 8000a1e:	00f71733          	sll	a4,a4,a5
+ 8000a22:	fdc42783          	lw	a5,-36(s0)
+ 8000a26:	07d1                	addi	a5,a5,20
+ 8000a28:	86be                	mv	a3,a5
+ 8000a2a:	fd042783          	lw	a5,-48(s0)
+ 8000a2e:	8ff9                	and	a5,a5,a4
+ 8000a30:	c29c                	sw	a5,0(a3)
+ 8000a32:	a025                	j	8000a5a <gpio_init+0x1b4>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:179
+            } else {
+                /* set the corresponding OCTL bit */
+                if (GPIO_MODE_IPU == mode) {
+ 8000a34:	fd842703          	lw	a4,-40(s0)
+ 8000a38:	04800793          	li	a5,72
+ 8000a3c:	00f71f63          	bne	a4,a5,8000a5a <gpio_init+0x1b4>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:180
+                    GPIO_BOP(gpio_periph) = (uint32_t) ((1U << i) & pin);
+ 8000a40:	fee45783          	lhu	a5,-18(s0)
+ 8000a44:	4705                	li	a4,1
+ 8000a46:	00f71733          	sll	a4,a4,a5
+ 8000a4a:	fdc42783          	lw	a5,-36(s0)
+ 8000a4e:	07c1                	addi	a5,a5,16
+ 8000a50:	86be                	mv	a3,a5
+ 8000a52:	fd042783          	lw	a5,-48(s0)
+ 8000a56:	8ff9                	and	a5,a5,a4
+ 8000a58:	c29c                	sw	a5,0(a3)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:184
+                }
+            }
+            /* set GPIO_CTL1 register */
+            GPIO_CTL1(gpio_periph) = reg;
+ 8000a5a:	fdc42783          	lw	a5,-36(s0)
+ 8000a5e:	0791                	addi	a5,a5,4
+ 8000a60:	873e                	mv	a4,a5
+ 8000a62:	fe442783          	lw	a5,-28(s0)
+ 8000a66:	c31c                	sw	a5,0(a4)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 2)
+    for (i = 8U; i < 16U; i++) {
+ 8000a68:	fee45783          	lhu	a5,-18(s0)
+ 8000a6c:	0785                	addi	a5,a5,1
+ 8000a6e:	fef41723          	sh	a5,-18(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:164 (discriminator 1)
+ 8000a72:	fee45703          	lhu	a4,-18(s0)
+ 8000a76:	47bd                	li	a5,15
+ 8000a78:	f2e7fae3          	bgeu	a5,a4,80009ac <gpio_init+0x106>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:187
+        }
+    }
+}
+ 8000a7c:	0001                	nop
+ 8000a7e:	5432                	lw	s0,44(sp)
+ 8000a80:	6145                	addi	sp,sp,48
+ 8000a82:	8082                	ret
+
+08000a84 <gpio_bit_set>:
+gpio_bit_set():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:199
+      \arg        GPIO_PIN_x(x=0..15), GPIO_PIN_ALL
+    \param[out] none
+    \retval     none
+*/
+void gpio_bit_set(uint32_t gpio_periph, uint32_t pin)
+{
+ 8000a84:	1101                	addi	sp,sp,-32
+ 8000a86:	ce22                	sw	s0,28(sp)
+ 8000a88:	1000                	addi	s0,sp,32
+ 8000a8a:	fea42623          	sw	a0,-20(s0)
+ 8000a8e:	feb42423          	sw	a1,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:200
+    GPIO_BOP(gpio_periph) = (uint32_t) pin;
+ 8000a92:	fec42783          	lw	a5,-20(s0)
+ 8000a96:	07c1                	addi	a5,a5,16
+ 8000a98:	873e                	mv	a4,a5
+ 8000a9a:	fe842783          	lw	a5,-24(s0)
+ 8000a9e:	c31c                	sw	a5,0(a4)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:201
+}
+ 8000aa0:	0001                	nop
+ 8000aa2:	4472                	lw	s0,28(sp)
+ 8000aa4:	6105                	addi	sp,sp,32
+ 8000aa6:	8082                	ret
+
+08000aa8 <gpio_bit_reset>:
+gpio_bit_reset():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:213
+      \arg        GPIO_PIN_x(x=0..15), GPIO_PIN_ALL
+    \param[out] none
+    \retval     none
+*/
+void gpio_bit_reset(uint32_t gpio_periph, uint32_t pin)
+{
+ 8000aa8:	1101                	addi	sp,sp,-32
+ 8000aaa:	ce22                	sw	s0,28(sp)
+ 8000aac:	1000                	addi	s0,sp,32
+ 8000aae:	fea42623          	sw	a0,-20(s0)
+ 8000ab2:	feb42423          	sw	a1,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:214
+    GPIO_BC(gpio_periph) = (uint32_t) pin;
+ 8000ab6:	fec42783          	lw	a5,-20(s0)
+ 8000aba:	07d1                	addi	a5,a5,20
+ 8000abc:	873e                	mv	a4,a5
+ 8000abe:	fe842783          	lw	a5,-24(s0)
+ 8000ac2:	c31c                	sw	a5,0(a4)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_gpio.c:215
+}
+ 8000ac4:	0001                	nop
+ 8000ac6:	4472                	lw	s0,28(sp)
+ 8000ac8:	6105                	addi	sp,sp,32
+ 8000aca:	8082                	ret
+
+08000acc <rcu_periph_clock_enable>:
+rcu_periph_clock_enable():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_rcu.c:98
+      \arg        RCU_BKPI: BKP interface clock
+    \param[out] none
+    \retval     none
+*/
+void rcu_periph_clock_enable(rcu_periph_enum periph)
+{
+ 8000acc:	1101                	addi	sp,sp,-32
+ 8000ace:	ce22                	sw	s0,28(sp)
+ 8000ad0:	1000                	addi	s0,sp,32
+ 8000ad2:	fea42623          	sw	a0,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_rcu.c:99
+    RCU_REG_VAL(periph) |= BIT(RCU_BIT_POS(periph));
+ 8000ad6:	fec42783          	lw	a5,-20(s0)
+ 8000ada:	0067d713          	srli	a4,a5,0x6
+ 8000ade:	400217b7          	lui	a5,0x40021
+ 8000ae2:	97ba                	add	a5,a5,a4
+ 8000ae4:	4398                	lw	a4,0(a5)
+ 8000ae6:	fec42783          	lw	a5,-20(s0)
+ 8000aea:	8bfd                	andi	a5,a5,31
+ 8000aec:	4685                	li	a3,1
+ 8000aee:	00f697b3          	sll	a5,a3,a5
+ 8000af2:	fec42683          	lw	a3,-20(s0)
+ 8000af6:	0066d613          	srli	a2,a3,0x6
+ 8000afa:	400216b7          	lui	a3,0x40021
+ 8000afe:	96b2                	add	a3,a3,a2
+ 8000b00:	8fd9                	or	a5,a5,a4
+ 8000b02:	c29c                	sw	a5,0(a3)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_rcu.c:100
+}
+ 8000b04:	0001                	nop
+ 8000b06:	4472                	lw	s0,28(sp)
+ 8000b08:	6105                	addi	sp,sp,32
+ 8000b0a:	8082                	ret
+
+08000b0c <usart_data_transmit>:
+usart_data_transmit():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:247
+    \param[in]  data: data of transmission 
+    \param[out] none
+    \retval     none
+*/
+void usart_data_transmit(uint32_t usart_periph, uint32_t data)
+{
+ 8000b0c:	1101                	addi	sp,sp,-32
+ 8000b0e:	ce22                	sw	s0,28(sp)
+ 8000b10:	1000                	addi	s0,sp,32
+ 8000b12:	fea42623          	sw	a0,-20(s0)
+ 8000b16:	feb42423          	sw	a1,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:248
+    USART_DATA(usart_periph) = USART_DATA_DATA & data;
+ 8000b1a:	fec42783          	lw	a5,-20(s0)
+ 8000b1e:	0791                	addi	a5,a5,4
+ 8000b20:	873e                	mv	a4,a5
+ 8000b22:	fe842783          	lw	a5,-24(s0)
+ 8000b26:	1ff7f793          	andi	a5,a5,511
+ 8000b2a:	c31c                	sw	a5,0(a4)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:249
+}
+ 8000b2c:	0001                	nop
+ 8000b2e:	4472                	lw	s0,28(sp)
+ 8000b30:	6105                	addi	sp,sp,32
+ 8000b32:	8082                	ret
+
+08000b34 <usart_flag_get>:
+usart_flag_get():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:648
+      \arg        USART_FLAG_PERR: parity error flag 
+    \param[out] none
+    \retval     FlagStatus: SET or RESET
+*/
+FlagStatus usart_flag_get(uint32_t usart_periph, usart_flag_enum flag)
+{
+ 8000b34:	1101                	addi	sp,sp,-32
+ 8000b36:	ce22                	sw	s0,28(sp)
+ 8000b38:	1000                	addi	s0,sp,32
+ 8000b3a:	fea42623          	sw	a0,-20(s0)
+ 8000b3e:	feb42423          	sw	a1,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:649
+    if(RESET != (USART_REG_VAL(usart_periph, flag) & BIT(USART_BIT_POS(flag)))){
+ 8000b42:	fe842783          	lw	a5,-24(s0)
+ 8000b46:	8399                	srli	a5,a5,0x6
+ 8000b48:	3ff7f713          	andi	a4,a5,1023
+ 8000b4c:	fec42783          	lw	a5,-20(s0)
+ 8000b50:	97ba                	add	a5,a5,a4
+ 8000b52:	4398                	lw	a4,0(a5)
+ 8000b54:	fe842783          	lw	a5,-24(s0)
+ 8000b58:	8bfd                	andi	a5,a5,31
+ 8000b5a:	00f757b3          	srl	a5,a4,a5
+ 8000b5e:	8b85                	andi	a5,a5,1
+ 8000b60:	c399                	beqz	a5,8000b66 <usart_flag_get+0x32>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:650
+        return SET;
+ 8000b62:	4785                	li	a5,1
+ 8000b64:	a011                	j	8000b68 <usart_flag_get+0x34>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:652
+    }else{
+        return RESET;
+ 8000b66:	4781                	li	a5,0
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/Source/gd32vf103_usart.c:654
+    }
+}
+ 8000b68:	853e                	mv	a0,a5
+ 8000b6a:	4472                	lw	s0,28(sp)
+ 8000b6c:	6105                	addi	sp,sp,32
+ 8000b6e:	8082                	ret
+
+08000b70 <system_clock_config>:
+system_clock_config():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:116
+    \param[in]  none
+    \param[out] none
+    \retval     none
+*/
+static void system_clock_config(void)
+{
+ 8000b70:	1141                	addi	sp,sp,-16
+ 8000b72:	c606                	sw	ra,12(sp)
+ 8000b74:	c422                	sw	s0,8(sp)
+ 8000b76:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:132
+#elif defined (__SYSTEM_CLOCK_72M_PLL_HXTAL)
+    system_clock_72m_hxtal();
+#elif defined (__SYSTEM_CLOCK_96M_PLL_HXTAL)
+    system_clock_96m_hxtal();
+#elif defined (__SYSTEM_CLOCK_108M_PLL_HXTAL)
+    system_clock_108m_hxtal();
+ 8000b78:	2855                	jal	8000c2c <system_clock_108m_hxtal>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:141
+#elif defined (__SYSTEM_CLOCK_72M_PLL_IRC8M)
+    system_clock_72m_irc8m();
+#elif defined (__SYSTEM_CLOCK_108M_PLL_IRC8M)
+    system_clock_108m_irc8m();
+#endif /* __SYSTEM_CLOCK_HXTAL */
+}
+ 8000b7a:	0001                	nop
+ 8000b7c:	40b2                	lw	ra,12(sp)
+ 8000b7e:	4422                	lw	s0,8(sp)
+ 8000b80:	0141                	addi	sp,sp,16
+ 8000b82:	8082                	ret
+
+08000b84 <SystemInit>:
+SystemInit():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:150
+    \param[in]  none
+    \param[out] none
+    \retval     none
+*/
+void SystemInit(void)
+{
+ 8000b84:	1141                	addi	sp,sp,-16
+ 8000b86:	c606                	sw	ra,12(sp)
+ 8000b88:	c422                	sw	s0,8(sp)
+ 8000b8a:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:153
+    /* reset the RCC clock configuration to the default reset state */
+    /* enable IRC8M */
+    RCU_CTL |= RCU_CTL_IRC8MEN;
+ 8000b8c:	400217b7          	lui	a5,0x40021
+ 8000b90:	4398                	lw	a4,0(a5)
+ 8000b92:	400217b7          	lui	a5,0x40021
+ 8000b96:	00176713          	ori	a4,a4,1
+ 8000b9a:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:156
+    
+    /* reset SCS, AHBPSC, APB1PSC, APB2PSC, ADCPSC, CKOUT0SEL bits */
+    RCU_CFG0 &= ~(RCU_CFG0_SCS | RCU_CFG0_AHBPSC | RCU_CFG0_APB1PSC | RCU_CFG0_APB2PSC |
+ 8000b9c:	400217b7          	lui	a5,0x40021
+ 8000ba0:	0791                	addi	a5,a5,4
+ 8000ba2:	4394                	lw	a3,0(a5)
+ 8000ba4:	400217b7          	lui	a5,0x40021
+ 8000ba8:	0791                	addi	a5,a5,4
+ 8000baa:	e0ff0737          	lui	a4,0xe0ff0
+ 8000bae:	0731                	addi	a4,a4,12
+ 8000bb0:	8f75                	and	a4,a4,a3
+ 8000bb2:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:160
+                  RCU_CFG0_ADCPSC | RCU_CFG0_ADCPSC_2 | RCU_CFG0_CKOUT0SEL);
+
+    /* reset HXTALEN, CKMEN, PLLEN bits */
+    RCU_CTL &= ~(RCU_CTL_HXTALEN | RCU_CTL_CKMEN | RCU_CTL_PLLEN);
+ 8000bb4:	400217b7          	lui	a5,0x40021
+ 8000bb8:	4394                	lw	a3,0(a5)
+ 8000bba:	400217b7          	lui	a5,0x40021
+ 8000bbe:	fef70737          	lui	a4,0xfef70
+ 8000bc2:	177d                	addi	a4,a4,-1
+ 8000bc4:	8f75                	and	a4,a4,a3
+ 8000bc6:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:163
+
+    /* Reset HXTALBPS bit */
+    RCU_CTL &= ~(RCU_CTL_HXTALBPS);
+ 8000bc8:	400217b7          	lui	a5,0x40021
+ 8000bcc:	4394                	lw	a3,0(a5)
+ 8000bce:	400217b7          	lui	a5,0x40021
+ 8000bd2:	fffc0737          	lui	a4,0xfffc0
+ 8000bd6:	177d                	addi	a4,a4,-1
+ 8000bd8:	8f75                	and	a4,a4,a3
+ 8000bda:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:167
+
+    /* reset PLLSEL, PREDV0_LSB, PLLMF, USBFSPSC bits */
+    
+    RCU_CFG0 &= ~(RCU_CFG0_PLLSEL | RCU_CFG0_PREDV0_LSB | RCU_CFG0_PLLMF |
+ 8000bdc:	400217b7          	lui	a5,0x40021
+ 8000be0:	0791                	addi	a5,a5,4
+ 8000be2:	4394                	lw	a3,0(a5)
+ 8000be4:	400217b7          	lui	a5,0x40021
+ 8000be8:	0791                	addi	a5,a5,4
+ 8000bea:	df010737          	lui	a4,0xdf010
+ 8000bee:	177d                	addi	a4,a4,-1
+ 8000bf0:	8f75                	and	a4,a4,a3
+ 8000bf2:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:169
+                  RCU_CFG0_USBFSPSC | RCU_CFG0_PLLMF_4);
+    RCU_CFG1 = 0x00000000U;
+ 8000bf4:	400217b7          	lui	a5,0x40021
+ 8000bf8:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
+ 8000bfc:	0007a023          	sw	zero,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:172
+
+    /* Reset HXTALEN, CKMEN, PLLEN, PLL1EN and PLL2EN bits */
+    RCU_CTL &= ~(RCU_CTL_PLLEN | RCU_CTL_PLL1EN | RCU_CTL_PLL2EN | RCU_CTL_CKMEN | RCU_CTL_HXTALEN);
+ 8000c00:	400217b7          	lui	a5,0x40021
+ 8000c04:	4394                	lw	a3,0(a5)
+ 8000c06:	400217b7          	lui	a5,0x40021
+ 8000c0a:	eaf70737          	lui	a4,0xeaf70
+ 8000c0e:	177d                	addi	a4,a4,-1
+ 8000c10:	8f75                	and	a4,a4,a3
+ 8000c12:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:174
+    /* disable all interrupts */
+    RCU_INT = 0x00FF0000U;
+ 8000c14:	400217b7          	lui	a5,0x40021
+ 8000c18:	07a1                	addi	a5,a5,8
+ 8000c1a:	00ff0737          	lui	a4,0xff0
+ 8000c1e:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:177
+
+    /* Configure the System clock source, PLL Multiplier, AHB/APBx prescalers and Flash settings */
+    system_clock_config();
+ 8000c20:	3f81                	jal	8000b70 <system_clock_config>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:178
+}
+ 8000c22:	0001                	nop
+ 8000c24:	40b2                	lw	ra,12(sp)
+ 8000c26:	4422                	lw	s0,8(sp)
+ 8000c28:	0141                	addi	sp,sp,16
+ 8000c2a:	8082                	ret
+
+08000c2c <system_clock_108m_hxtal>:
+system_clock_108m_hxtal():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:751
+    \param[out] none
+    \retval     none
+*/
+
+static void system_clock_108m_hxtal(void)
+{
+ 8000c2c:	1101                	addi	sp,sp,-32
+ 8000c2e:	ce22                	sw	s0,28(sp)
+ 8000c30:	1000                	addi	s0,sp,32
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:752
+    uint32_t timeout   = 0U;
+ 8000c32:	fe042623          	sw	zero,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:753
+    uint32_t stab_flag = 0U;
+ 8000c36:	fe042423          	sw	zero,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:756
+
+    /* enable HXTAL */
+    RCU_CTL |= RCU_CTL_HXTALEN;
+ 8000c3a:	400217b7          	lui	a5,0x40021
+ 8000c3e:	4394                	lw	a3,0(a5)
+ 8000c40:	400217b7          	lui	a5,0x40021
+ 8000c44:	6741                	lui	a4,0x10
+ 8000c46:	8f55                	or	a4,a4,a3
+ 8000c48:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:760 (discriminator 2)
+
+    /* wait until HXTAL is stable or the startup time is longer than HXTAL_STARTUP_TIMEOUT */
+    do{
+        timeout++;
+ 8000c4a:	fec42783          	lw	a5,-20(s0)
+ 8000c4e:	0785                	addi	a5,a5,1
+ 8000c50:	fef42623          	sw	a5,-20(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:761 (discriminator 2)
+        stab_flag = (RCU_CTL & RCU_CTL_HXTALSTB);
+ 8000c54:	400217b7          	lui	a5,0x40021
+ 8000c58:	4398                	lw	a4,0(a5)
+ 8000c5a:	000207b7          	lui	a5,0x20
+ 8000c5e:	8ff9                	and	a5,a5,a4
+ 8000c60:	fef42423          	sw	a5,-24(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 2)
+    }while((0U == stab_flag) && (HXTAL_STARTUP_TIMEOUT != timeout));
+ 8000c64:	fe842783          	lw	a5,-24(s0)
+ 8000c68:	e799                	bnez	a5,8000c76 <system_clock_108m_hxtal+0x4a>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:762 (discriminator 1)
+ 8000c6a:	fec42703          	lw	a4,-20(s0)
+ 8000c6e:	67c1                	lui	a5,0x10
+ 8000c70:	17fd                	addi	a5,a5,-1
+ 8000c72:	fcf71ce3          	bne	a4,a5,8000c4a <system_clock_108m_hxtal+0x1e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:765
+
+    /* if fail */
+    if(0U == (RCU_CTL & RCU_CTL_HXTALSTB)){
+ 8000c76:	400217b7          	lui	a5,0x40021
+ 8000c7a:	4398                	lw	a4,0(a5)
+ 8000c7c:	000207b7          	lui	a5,0x20
+ 8000c80:	8ff9                	and	a5,a5,a4
+ 8000c82:	e391                	bnez	a5,8000c86 <system_clock_108m_hxtal+0x5a>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:766 (discriminator 1)
+        while(1){
+ 8000c84:	a001                	j	8000c84 <system_clock_108m_hxtal+0x58>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:772
+        }
+    }
+
+    /* HXTAL is stable */
+    /* AHB = SYSCLK */
+    RCU_CFG0 |= RCU_AHB_CKSYS_DIV1;
+ 8000c86:	400217b7          	lui	a5,0x40021
+ 8000c8a:	00478713          	addi	a4,a5,4 # 40021004 <_sp+0x20019004>
+ 8000c8e:	400217b7          	lui	a5,0x40021
+ 8000c92:	0791                	addi	a5,a5,4
+ 8000c94:	4318                	lw	a4,0(a4)
+ 8000c96:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:774
+    /* APB2 = AHB/1 */
+    RCU_CFG0 |= RCU_APB2_CKAHB_DIV1;
+ 8000c98:	400217b7          	lui	a5,0x40021
+ 8000c9c:	00478713          	addi	a4,a5,4 # 40021004 <_sp+0x20019004>
+ 8000ca0:	400217b7          	lui	a5,0x40021
+ 8000ca4:	0791                	addi	a5,a5,4
+ 8000ca6:	4318                	lw	a4,0(a4)
+ 8000ca8:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:776
+    /* APB1 = AHB/2 */
+    RCU_CFG0 |= RCU_APB1_CKAHB_DIV2;
+ 8000caa:	400217b7          	lui	a5,0x40021
+ 8000cae:	0791                	addi	a5,a5,4
+ 8000cb0:	4398                	lw	a4,0(a5)
+ 8000cb2:	400217b7          	lui	a5,0x40021
+ 8000cb6:	0791                	addi	a5,a5,4
+ 8000cb8:	40076713          	ori	a4,a4,1024
+ 8000cbc:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:779
+
+    /* CK_PLL = (CK_PREDIV0) * 27 = 108 MHz */ 
+    RCU_CFG0 &= ~(RCU_CFG0_PLLMF | RCU_CFG0_PLLMF_4);
+ 8000cbe:	400217b7          	lui	a5,0x40021
+ 8000cc2:	0791                	addi	a5,a5,4
+ 8000cc4:	4394                	lw	a3,0(a5)
+ 8000cc6:	400217b7          	lui	a5,0x40021
+ 8000cca:	0791                	addi	a5,a5,4
+ 8000ccc:	dfc40737          	lui	a4,0xdfc40
+ 8000cd0:	177d                	addi	a4,a4,-1
+ 8000cd2:	8f75                	and	a4,a4,a3
+ 8000cd4:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:780
+    RCU_CFG0 |= (RCU_PLLSRC_HXTAL | RCU_PLL_MUL27);
+ 8000cd6:	400217b7          	lui	a5,0x40021
+ 8000cda:	0791                	addi	a5,a5,4
+ 8000cdc:	4394                	lw	a3,0(a5)
+ 8000cde:	400217b7          	lui	a5,0x40021
+ 8000ce2:	0791                	addi	a5,a5,4
+ 8000ce4:	20290737          	lui	a4,0x20290
+ 8000ce8:	8f55                	or	a4,a4,a3
+ 8000cea:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:799
+		RCU_CTL |= RCU_CTL_PLL2EN;
+		/* wait till PLL1 is ready */
+		while(0U == (RCU_CTL & RCU_CTL_PLL2STB)){
+		}
+    }else if(HXTAL_VALUE==8000000){
+		RCU_CFG1 &= ~(RCU_CFG1_PREDV0SEL | RCU_CFG1_PREDV1 | RCU_CFG1_PLL1MF | RCU_CFG1_PREDV0);
+ 8000cec:	400217b7          	lui	a5,0x40021
+ 8000cf0:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
+ 8000cf4:	4394                	lw	a3,0(a5)
+ 8000cf6:	400217b7          	lui	a5,0x40021
+ 8000cfa:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
+ 8000cfe:	773d                	lui	a4,0xfffef
+ 8000d00:	8f75                	and	a4,a4,a3
+ 8000d02:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:800
+		RCU_CFG1 |= (RCU_PREDV0SRC_HXTAL | RCU_PREDV0_DIV2 | RCU_PREDV1_DIV2 | RCU_PLL1_MUL20 | RCU_PLL2_MUL20);
+ 8000d04:	400217b7          	lui	a5,0x40021
+ 8000d08:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
+ 8000d0c:	4394                	lw	a3,0(a5)
+ 8000d0e:	400217b7          	lui	a5,0x40021
+ 8000d12:	02c78793          	addi	a5,a5,44 # 4002102c <_sp+0x2001902c>
+ 8000d16:	6741                	lui	a4,0x10
+ 8000d18:	f1170713          	addi	a4,a4,-239 # ff11 <__stack_size+0xf711>
+ 8000d1c:	8f55                	or	a4,a4,a3
+ 8000d1e:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:803
+
+		/* enable PLL1 */
+		RCU_CTL |= RCU_CTL_PLL1EN;
+ 8000d20:	400217b7          	lui	a5,0x40021
+ 8000d24:	4394                	lw	a3,0(a5)
+ 8000d26:	400217b7          	lui	a5,0x40021
+ 8000d2a:	04000737          	lui	a4,0x4000
+ 8000d2e:	8f55                	or	a4,a4,a3
+ 8000d30:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:805
+		/* wait till PLL1 is ready */
+		while(0U == (RCU_CTL & RCU_CTL_PLL1STB)){
+ 8000d32:	0001                	nop
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:805 (discriminator 1)
+ 8000d34:	400217b7          	lui	a5,0x40021
+ 8000d38:	4398                	lw	a4,0(a5)
+ 8000d3a:	080007b7          	lui	a5,0x8000
+ 8000d3e:	8ff9                	and	a5,a5,a4
+ 8000d40:	dbf5                	beqz	a5,8000d34 <system_clock_108m_hxtal+0x108>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:809
+		}
+
+		/* enable PLL2 */
+		RCU_CTL |= RCU_CTL_PLL2EN;
+ 8000d42:	400217b7          	lui	a5,0x40021
+ 8000d46:	4394                	lw	a3,0(a5)
+ 8000d48:	400217b7          	lui	a5,0x40021
+ 8000d4c:	10000737          	lui	a4,0x10000
+ 8000d50:	8f55                	or	a4,a4,a3
+ 8000d52:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:811
+		/* wait till PLL1 is ready */
+		while(0U == (RCU_CTL & RCU_CTL_PLL2STB)){
+ 8000d54:	0001                	nop
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:811 (discriminator 1)
+ 8000d56:	400217b7          	lui	a5,0x40021
+ 8000d5a:	4398                	lw	a4,0(a5)
+ 8000d5c:	200007b7          	lui	a5,0x20000
+ 8000d60:	8ff9                	and	a5,a5,a4
+ 8000d62:	dbf5                	beqz	a5,8000d56 <system_clock_108m_hxtal+0x12a>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:816
+		}
+
+    }
+    /* enable PLL */
+    RCU_CTL |= RCU_CTL_PLLEN;
+ 8000d64:	400217b7          	lui	a5,0x40021
+ 8000d68:	4394                	lw	a3,0(a5)
+ 8000d6a:	400217b7          	lui	a5,0x40021
+ 8000d6e:	01000737          	lui	a4,0x1000
+ 8000d72:	8f55                	or	a4,a4,a3
+ 8000d74:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:819
+
+    /* wait until PLL is stable */
+    while(0U == (RCU_CTL & RCU_CTL_PLLSTB)){
+ 8000d76:	0001                	nop
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:819 (discriminator 1)
+ 8000d78:	400217b7          	lui	a5,0x40021
+ 8000d7c:	4398                	lw	a4,0(a5)
+ 8000d7e:	020007b7          	lui	a5,0x2000
+ 8000d82:	8ff9                	and	a5,a5,a4
+ 8000d84:	dbf5                	beqz	a5,8000d78 <system_clock_108m_hxtal+0x14c>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:823
+    }
+
+    /* select PLL as system clock */
+    RCU_CFG0 &= ~RCU_CFG0_SCS;
+ 8000d86:	400217b7          	lui	a5,0x40021
+ 8000d8a:	0791                	addi	a5,a5,4
+ 8000d8c:	4398                	lw	a4,0(a5)
+ 8000d8e:	400217b7          	lui	a5,0x40021
+ 8000d92:	0791                	addi	a5,a5,4
+ 8000d94:	9b71                	andi	a4,a4,-4
+ 8000d96:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:824
+    RCU_CFG0 |= RCU_CKSYSSRC_PLL;
+ 8000d98:	400217b7          	lui	a5,0x40021
+ 8000d9c:	0791                	addi	a5,a5,4
+ 8000d9e:	4398                	lw	a4,0(a5)
+ 8000da0:	400217b7          	lui	a5,0x40021
+ 8000da4:	0791                	addi	a5,a5,4
+ 8000da6:	00276713          	ori	a4,a4,2
+ 8000daa:	c398                	sw	a4,0(a5)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:827
+
+    /* wait until PLL is selected as system clock */
+    while(0U == (RCU_CFG0 & RCU_SCSS_PLL)){
+ 8000dac:	0001                	nop
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:827 (discriminator 1)
+ 8000dae:	400217b7          	lui	a5,0x40021
+ 8000db2:	0791                	addi	a5,a5,4
+ 8000db4:	439c                	lw	a5,0(a5)
+ 8000db6:	8ba1                	andi	a5,a5,8
+ 8000db8:	dbfd                	beqz	a5,8000dae <system_clock_108m_hxtal+0x182>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Peripherals/system_gd32vf103.c:829
+    }
+}
+ 8000dba:	0001                	nop
+ 8000dbc:	4472                	lw	s0,28(sp)
+ 8000dbe:	6105                	addi	sp,sp,32
+ 8000dc0:	8082                	ret
+
+08000dc2 <main>:
+main():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:18
+    \param[in]  无
+    \param[out] 无
+    \retval     无
+*/
+int main(void)
+{
+ 8000dc2:	1141                	addi	sp,sp,-16
+ 8000dc4:	c606                	sw	ra,12(sp)
+ 8000dc6:	c422                	sw	s0,8(sp)
+ 8000dc8:	0800                	addi	s0,sp,16
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:20
+    /* 打开 LED 时钟 */
+    rcu_periph_clock_enable(RCU_GPIOC);
+ 8000dca:	60400513          	li	a0,1540
+ 8000dce:	39fd                	jal	8000acc <rcu_periph_clock_enable>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:21
+    rcu_periph_clock_enable(RCU_GPIOE);
+ 8000dd0:	60600513          	li	a0,1542
+ 8000dd4:	39e5                	jal	8000acc <rcu_periph_clock_enable>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:24
+
+    /* 配置 LED GPIO 端口 */
+    gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_0 | GPIO_PIN_2);
+ 8000dd6:	4695                	li	a3,5
+ 8000dd8:	460d                	li	a2,3
+ 8000dda:	45c1                	li	a1,16
+ 8000ddc:	40011537          	lui	a0,0x40011
+ 8000de0:	34d9                	jal	80008a6 <gpio_init>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:25
+    gpio_init(GPIOE, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_0 | GPIO_PIN_1);
+ 8000de2:	468d                	li	a3,3
+ 8000de4:	460d                	li	a2,3
+ 8000de6:	45c1                	li	a1,16
+ 8000de8:	400127b7          	lui	a5,0x40012
+ 8000dec:	80078513          	addi	a0,a5,-2048 # 40011800 <_sp+0x20009800>
+ 8000df0:	3c5d                	jal	80008a6 <gpio_init>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:27
+
+    gpio_bit_reset(GPIOC, GPIO_PIN_0 | GPIO_PIN_2);
+ 8000df2:	4595                	li	a1,5
+ 8000df4:	40011537          	lui	a0,0x40011
+ 8000df8:	3945                	jal	8000aa8 <gpio_bit_reset>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:28
+    gpio_bit_reset(GPIOE, GPIO_PIN_0 | GPIO_PIN_1);
+ 8000dfa:	458d                	li	a1,3
+ 8000dfc:	400127b7          	lui	a5,0x40012
+ 8000e00:	80078513          	addi	a0,a5,-2048 # 40011800 <_sp+0x20009800>
+ 8000e04:	3155                	jal	8000aa8 <gpio_bit_reset>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:32 (discriminator 1)
+
+    while(1){
+        /* 打开 LED1 */
+        gpio_bit_set(GPIOC, GPIO_PIN_0);
+ 8000e06:	4585                	li	a1,1
+ 8000e08:	40011537          	lui	a0,0x40011
+ 8000e0c:	39a5                	jal	8000a84 <gpio_bit_set>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:34 (discriminator 1)
+        /* 延时400ms */
+        delay_1ms(400);
+ 8000e0e:	19000513          	li	a0,400
+ 8000e12:	2881                	jal	8000e62 <delay_1ms>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:36 (discriminator 1)
+        /* 打开 LED2 */
+        gpio_bit_set(GPIOC, GPIO_PIN_2);
+ 8000e14:	4591                	li	a1,4
+ 8000e16:	40011537          	lui	a0,0x40011
+ 8000e1a:	31ad                	jal	8000a84 <gpio_bit_set>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:38 (discriminator 1)
+        /* 延时400ms */
+        delay_1ms(400);
+ 8000e1c:	19000513          	li	a0,400
+ 8000e20:	2089                	jal	8000e62 <delay_1ms>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:40 (discriminator 1)
+        /* 打开 LED3 */
+        gpio_bit_set(GPIOE, GPIO_PIN_0);
+ 8000e22:	4585                	li	a1,1
+ 8000e24:	400127b7          	lui	a5,0x40012
+ 8000e28:	80078513          	addi	a0,a5,-2048 # 40011800 <_sp+0x20009800>
+ 8000e2c:	39a1                	jal	8000a84 <gpio_bit_set>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:42 (discriminator 1)
+        /* 延时400ms */
+        delay_1ms(400);
+ 8000e2e:	19000513          	li	a0,400
+ 8000e32:	2805                	jal	8000e62 <delay_1ms>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:44 (discriminator 1)
+        /* 打开 LED4 */
+        gpio_bit_set(GPIOE, GPIO_PIN_1);
+ 8000e34:	4589                	li	a1,2
+ 8000e36:	400127b7          	lui	a5,0x40012
+ 8000e3a:	80078513          	addi	a0,a5,-2048 # 40011800 <_sp+0x20009800>
+ 8000e3e:	3199                	jal	8000a84 <gpio_bit_set>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:46 (discriminator 1)
+        /* 延时400ms */
+        delay_1ms(400);
+ 8000e40:	19000513          	li	a0,400
+ 8000e44:	2839                	jal	8000e62 <delay_1ms>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:48 (discriminator 1)
+        /* 关闭4个 LED */
+        gpio_bit_reset(GPIOC, GPIO_PIN_0 | GPIO_PIN_2);
+ 8000e46:	4595                	li	a1,5
+ 8000e48:	40011537          	lui	a0,0x40011
+ 8000e4c:	39b1                	jal	8000aa8 <gpio_bit_reset>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:49 (discriminator 1)
+        gpio_bit_reset(GPIOE, GPIO_PIN_0 | GPIO_PIN_1);
+ 8000e4e:	458d                	li	a1,3
+ 8000e50:	400127b7          	lui	a5,0x40012
+ 8000e54:	80078513          	addi	a0,a5,-2048 # 40011800 <_sp+0x20009800>
+ 8000e58:	3981                	jal	8000aa8 <gpio_bit_reset>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:51 (discriminator 1)
+        /* 延时400ms */
+        delay_1ms(400);
+ 8000e5a:	19000513          	li	a0,400
+ 8000e5e:	2011                	jal	8000e62 <delay_1ms>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/main.c:32 (discriminator 1)
+        gpio_bit_set(GPIOC, GPIO_PIN_0);
+ 8000e60:	b75d                	j	8000e06 <main+0x44>
+
+08000e62 <delay_1ms>:
+delay_1ms():
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:16
+    \param[in]  count: count in milliseconds
+    \param[out] none
+    \retval     none
+*/
+void delay_1ms(uint32_t count)
+{
+ 8000e62:	715d                	addi	sp,sp,-80
+ 8000e64:	c686                	sw	ra,76(sp)
+ 8000e66:	c4a2                	sw	s0,72(sp)
+ 8000e68:	c2ca                	sw	s2,68(sp)
+ 8000e6a:	c0ce                	sw	s3,64(sp)
+ 8000e6c:	de52                	sw	s4,60(sp)
+ 8000e6e:	dc56                	sw	s5,56(sp)
+ 8000e70:	0880                	addi	s0,sp,80
+ 8000e72:	faa42e23          	sw	a0,-68(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:20
+    uint64_t start_mtime, delta_mtime;
+
+    // Don't start measuruing until we see an mtime tick
+    uint64_t tmp = get_timer_value();
+ 8000e76:	3205                	jal	8000796 <get_timer_value>
+ 8000e78:	fca42c23          	sw	a0,-40(s0)
+ 8000e7c:	fcb42e23          	sw	a1,-36(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:22 (discriminator 1)
+    do {
+    start_mtime = get_timer_value();
+ 8000e80:	3a19                	jal	8000796 <get_timer_value>
+ 8000e82:	fca42823          	sw	a0,-48(s0)
+ 8000e86:	fcb42a23          	sw	a1,-44(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:23 (discriminator 1)
+    } while (start_mtime == tmp);
+ 8000e8a:	fd042703          	lw	a4,-48(s0)
+ 8000e8e:	fd842783          	lw	a5,-40(s0)
+ 8000e92:	00f71963          	bne	a4,a5,8000ea4 <delay_1ms+0x42>
+ 8000e96:	fd442703          	lw	a4,-44(s0)
+ 8000e9a:	fdc42783          	lw	a5,-36(s0)
+ 8000e9e:	00f71363          	bne	a4,a5,8000ea4 <delay_1ms+0x42>
+ 8000ea2:	bff9                	j	8000e80 <delay_1ms+0x1e>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:26 (discriminator 1)
+
+    do {
+    delta_mtime = get_timer_value() - start_mtime;
+ 8000ea4:	8f3ff0ef          	jal	ra,8000796 <get_timer_value>
+ 8000ea8:	86aa                	mv	a3,a0
+ 8000eaa:	872e                	mv	a4,a1
+ 8000eac:	fd042583          	lw	a1,-48(s0)
+ 8000eb0:	fd442603          	lw	a2,-44(s0)
+ 8000eb4:	40b687b3          	sub	a5,a3,a1
+ 8000eb8:	853e                	mv	a0,a5
+ 8000eba:	00a6b533          	sltu	a0,a3,a0
+ 8000ebe:	40c70833          	sub	a6,a4,a2
+ 8000ec2:	40a80733          	sub	a4,a6,a0
+ 8000ec6:	883a                	mv	a6,a4
+ 8000ec8:	fcf42423          	sw	a5,-56(s0)
+ 8000ecc:	fd042623          	sw	a6,-52(s0)
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:27 (discriminator 1)
+    }while(delta_mtime <(SystemCoreClock/4000.0 *count ));
+ 8000ed0:	fc842503          	lw	a0,-56(s0)
+ 8000ed4:	fcc42583          	lw	a1,-52(s0)
+ 8000ed8:	3e9000ef          	jal	ra,8001ac0 <__floatundidf>
+ 8000edc:	892a                	mv	s2,a0
+ 8000ede:	89ae                	mv	s3,a1
+ 8000ee0:	200007b7          	lui	a5,0x20000
+ 8000ee4:	0607a783          	lw	a5,96(a5) # 20000060 <SystemCoreClock>
+ 8000ee8:	853e                	mv	a0,a5
+ 8000eea:	371000ef          	jal	ra,8001a5a <__floatunsidf>
+ 8000eee:	080007b7          	lui	a5,0x8000
+ 8000ef2:	2787a603          	lw	a2,632(a5) # 8000278 <enable_mcycle_minstret+0x48>
+ 8000ef6:	27c7a683          	lw	a3,636(a5)
+ 8000efa:	2099                	jal	8000f40 <__divdf3>
+ 8000efc:	87aa                	mv	a5,a0
+ 8000efe:	882e                	mv	a6,a1
+ 8000f00:	8a3e                	mv	s4,a5
+ 8000f02:	8ac2                	mv	s5,a6
+ 8000f04:	fbc42503          	lw	a0,-68(s0)
+ 8000f08:	353000ef          	jal	ra,8001a5a <__floatunsidf>
+ 8000f0c:	87aa                	mv	a5,a0
+ 8000f0e:	882e                	mv	a6,a1
+ 8000f10:	863e                	mv	a2,a5
+ 8000f12:	86c2                	mv	a3,a6
+ 8000f14:	8552                	mv	a0,s4
+ 8000f16:	85d6                	mv	a1,s5
+ 8000f18:	2d49                	jal	80015aa <__muldf3>
+ 8000f1a:	87aa                	mv	a5,a0
+ 8000f1c:	882e                	mv	a6,a1
+ 8000f1e:	863e                	mv	a2,a5
+ 8000f20:	86c2                	mv	a3,a6
+ 8000f22:	854a                	mv	a0,s2
+ 8000f24:	85ce                	mv	a1,s3
+ 8000f26:	23f9                	jal	80014f4 <__ledf2>
+ 8000f28:	87aa                	mv	a5,a0
+ 8000f2a:	f607cde3          	bltz	a5,8000ea4 <delay_1ms+0x42>
+D:\NucleiStudio_IDE_201908\NucleiStudio_IDE_201908_Workspace\(1) GPIO_LED流水灯\Debug/../Application/systick.c:28
+}
+ 8000f2e:	0001                	nop
+ 8000f30:	40b6                	lw	ra,76(sp)
+ 8000f32:	4426                	lw	s0,72(sp)
+ 8000f34:	4916                	lw	s2,68(sp)
+ 8000f36:	4986                	lw	s3,64(sp)
+ 8000f38:	5a72                	lw	s4,60(sp)
+ 8000f3a:	5ae2                	lw	s5,56(sp)
+ 8000f3c:	6161                	addi	sp,sp,80
+ 8000f3e:	8082                	ret
+
+08000f40 <__divdf3>:
+__divdf3():
+ 8000f40:	7139                	addi	sp,sp,-64
+ 8000f42:	0145d793          	srli	a5,a1,0x14
+ 8000f46:	dc22                	sw	s0,56(sp)
+ 8000f48:	d84a                	sw	s2,48(sp)
+ 8000f4a:	d256                	sw	s5,36(sp)
+ 8000f4c:	892a                	mv	s2,a0
+ 8000f4e:	00c59413          	slli	s0,a1,0xc
+ 8000f52:	de06                	sw	ra,60(sp)
+ 8000f54:	da26                	sw	s1,52(sp)
+ 8000f56:	d64e                	sw	s3,44(sp)
+ 8000f58:	d452                	sw	s4,40(sp)
+ 8000f5a:	d05a                	sw	s6,32(sp)
+ 8000f5c:	ce5e                	sw	s7,28(sp)
+ 8000f5e:	7ff7f513          	andi	a0,a5,2047
+ 8000f62:	8031                	srli	s0,s0,0xc
+ 8000f64:	01f5da93          	srli	s5,a1,0x1f
+ 8000f68:	10050b63          	beqz	a0,800107e <__divdf3+0x13e>
+ 8000f6c:	7ff00793          	li	a5,2047
+ 8000f70:	14f50b63          	beq	a0,a5,80010c6 <__divdf3+0x186>
+ 8000f74:	01d95a13          	srli	s4,s2,0x1d
+ 8000f78:	040e                	slli	s0,s0,0x3
+ 8000f7a:	008a6433          	or	s0,s4,s0
+ 8000f7e:	00800a37          	lui	s4,0x800
+ 8000f82:	01446a33          	or	s4,s0,s4
+ 8000f86:	00391b13          	slli	s6,s2,0x3
+ 8000f8a:	c0150493          	addi	s1,a0,-1023 # 40010c01 <_sp+0x20008c01>
+ 8000f8e:	4401                	li	s0,0
+ 8000f90:	4b81                	li	s7,0
+ 8000f92:	0146d813          	srli	a6,a3,0x14
+ 8000f96:	00c69913          	slli	s2,a3,0xc
+ 8000f9a:	7ff87813          	andi	a6,a6,2047
+ 8000f9e:	88b2                	mv	a7,a2
+ 8000fa0:	00c95913          	srli	s2,s2,0xc
+ 8000fa4:	01f6d993          	srli	s3,a3,0x1f
+ 8000fa8:	08080e63          	beqz	a6,8001044 <__divdf3+0x104>
+ 8000fac:	7ff00793          	li	a5,2047
+ 8000fb0:	04f80063          	beq	a6,a5,8000ff0 <__divdf3+0xb0>
+ 8000fb4:	01d65713          	srli	a4,a2,0x1d
+ 8000fb8:	090e                	slli	s2,s2,0x3
+ 8000fba:	01276933          	or	s2,a4,s2
+ 8000fbe:	c0180813          	addi	a6,a6,-1023
+ 8000fc2:	008007b7          	lui	a5,0x800
+ 8000fc6:	00f96733          	or	a4,s2,a5
+ 8000fca:	00361893          	slli	a7,a2,0x3
+ 8000fce:	410484b3          	sub	s1,s1,a6
+ 8000fd2:	4581                	li	a1,0
+ 8000fd4:	47bd                	li	a5,15
+ 8000fd6:	013ac833          	xor	a6,s5,s3
+ 8000fda:	1a87e463          	bltu	a5,s0,8001182 <__divdf3+0x242>
+ 8000fde:	fffff797          	auipc	a5,0xfffff
+ 8000fe2:	2a278793          	addi	a5,a5,674 # 8000280 <enable_mcycle_minstret+0x50>
+ 8000fe6:	040a                	slli	s0,s0,0x2
+ 8000fe8:	943e                	add	s0,s0,a5
+ 8000fea:	4010                	lw	a2,0(s0)
+ 8000fec:	963e                	add	a2,a2,a5
+ 8000fee:	8602                	jr	a2
+ 8000ff0:	00c96733          	or	a4,s2,a2
+ 8000ff4:	80148493          	addi	s1,s1,-2047
+ 8000ff8:	10071263          	bnez	a4,80010fc <__divdf3+0x1bc>
+ 8000ffc:	00246413          	ori	s0,s0,2
+ 8001000:	4881                	li	a7,0
+ 8001002:	4589                	li	a1,2
+ 8001004:	bfc1                	j	8000fd4 <__divdf3+0x94>
+ 8001006:	7ff00613          	li	a2,2047
+ 800100a:	4781                	li	a5,0
+ 800100c:	4701                	li	a4,0
+ 800100e:	07b2                	slli	a5,a5,0xc
+ 8001010:	50f2                	lw	ra,60(sp)
+ 8001012:	5462                	lw	s0,56(sp)
+ 8001014:	0652                	slli	a2,a2,0x14
+ 8001016:	83b1                	srli	a5,a5,0xc
+ 8001018:	087e                	slli	a6,a6,0x1f
+ 800101a:	8fd1                	or	a5,a5,a2
+ 800101c:	0107e7b3          	or	a5,a5,a6
+ 8001020:	54d2                	lw	s1,52(sp)
+ 8001022:	5942                	lw	s2,48(sp)
+ 8001024:	59b2                	lw	s3,44(sp)
+ 8001026:	5a22                	lw	s4,40(sp)
+ 8001028:	5a92                	lw	s5,36(sp)
+ 800102a:	5b02                	lw	s6,32(sp)
+ 800102c:	4bf2                	lw	s7,28(sp)
+ 800102e:	853a                	mv	a0,a4
+ 8001030:	85be                	mv	a1,a5
+ 8001032:	6121                	addi	sp,sp,64
+ 8001034:	8082                	ret
+ 8001036:	4801                	li	a6,0
+ 8001038:	7ff00613          	li	a2,2047
+ 800103c:	000807b7          	lui	a5,0x80
+ 8001040:	4701                	li	a4,0
+ 8001042:	b7f1                	j	800100e <__divdf3+0xce>
+ 8001044:	00c96733          	or	a4,s2,a2
+ 8001048:	c74d                	beqz	a4,80010f2 <__divdf3+0x1b2>
+ 800104a:	30090863          	beqz	s2,800135a <__divdf3+0x41a>
+ 800104e:	854a                	mv	a0,s2
+ 8001050:	c432                	sw	a2,8(sp)
+ 8001052:	3f7000ef          	jal	ra,8001c48 <__clzsi2>
+ 8001056:	4622                	lw	a2,8(sp)
+ 8001058:	ff550713          	addi	a4,a0,-11
+ 800105c:	47f5                	li	a5,29
+ 800105e:	ff850693          	addi	a3,a0,-8
+ 8001062:	8f99                	sub	a5,a5,a4
+ 8001064:	00d91933          	sll	s2,s2,a3
+ 8001068:	00f657b3          	srl	a5,a2,a5
+ 800106c:	0127e733          	or	a4,a5,s2
+ 8001070:	00d618b3          	sll	a7,a2,a3
+ 8001074:	9526                	add	a0,a0,s1
+ 8001076:	3f350493          	addi	s1,a0,1011
+ 800107a:	4581                	li	a1,0
+ 800107c:	bfa1                	j	8000fd4 <__divdf3+0x94>
+ 800107e:	01246a33          	or	s4,s0,s2
+ 8001082:	060a0363          	beqz	s4,80010e8 <__divdf3+0x1a8>
+ 8001086:	c636                	sw	a3,12(sp)
+ 8001088:	c432                	sw	a2,8(sp)
+ 800108a:	2a040663          	beqz	s0,8001336 <__divdf3+0x3f6>
+ 800108e:	8522                	mv	a0,s0
+ 8001090:	3b9000ef          	jal	ra,8001c48 <__clzsi2>
+ 8001094:	4622                	lw	a2,8(sp)
+ 8001096:	46b2                	lw	a3,12(sp)
+ 8001098:	84aa                	mv	s1,a0
+ 800109a:	ff550713          	addi	a4,a0,-11
+ 800109e:	4a75                	li	s4,29
+ 80010a0:	ff848b13          	addi	s6,s1,-8
+ 80010a4:	40ea0a33          	sub	s4,s4,a4
+ 80010a8:	01641433          	sll	s0,s0,s6
+ 80010ac:	01495a33          	srl	s4,s2,s4
+ 80010b0:	008a6a33          	or	s4,s4,s0
+ 80010b4:	01691b33          	sll	s6,s2,s6
+ 80010b8:	c0d00513          	li	a0,-1011
+ 80010bc:	409504b3          	sub	s1,a0,s1
+ 80010c0:	4401                	li	s0,0
+ 80010c2:	4b81                	li	s7,0
+ 80010c4:	b5f9                	j	8000f92 <__divdf3+0x52>
+ 80010c6:	01246a33          	or	s4,s0,s2
+ 80010ca:	000a1863          	bnez	s4,80010da <__divdf3+0x19a>
+ 80010ce:	4421                	li	s0,8
+ 80010d0:	4b01                	li	s6,0
+ 80010d2:	7ff00493          	li	s1,2047
+ 80010d6:	4b89                	li	s7,2
+ 80010d8:	bd6d                	j	8000f92 <__divdf3+0x52>
+ 80010da:	8a22                	mv	s4,s0
+ 80010dc:	8b4a                	mv	s6,s2
+ 80010de:	4431                	li	s0,12
+ 80010e0:	7ff00493          	li	s1,2047
+ 80010e4:	4b8d                	li	s7,3
+ 80010e6:	b575                	j	8000f92 <__divdf3+0x52>
+ 80010e8:	4411                	li	s0,4
+ 80010ea:	4b01                	li	s6,0
+ 80010ec:	4481                	li	s1,0
+ 80010ee:	4b85                	li	s7,1
+ 80010f0:	b54d                	j	8000f92 <__divdf3+0x52>
+ 80010f2:	00146413          	ori	s0,s0,1
+ 80010f6:	4881                	li	a7,0
+ 80010f8:	4585                	li	a1,1
+ 80010fa:	bde9                	j	8000fd4 <__divdf3+0x94>
+ 80010fc:	00346413          	ori	s0,s0,3
+ 8001100:	874a                	mv	a4,s2
+ 8001102:	458d                	li	a1,3
+ 8001104:	bdc1                	j	8000fd4 <__divdf3+0x94>
+ 8001106:	2e050a63          	beqz	a0,80013fa <__divdf3+0x4ba>
+ 800110a:	4785                	li	a5,1
+ 800110c:	8f89                	sub	a5,a5,a0
+ 800110e:	03800693          	li	a3,56
+ 8001112:	32f6dd63          	bge	a3,a5,800144c <__divdf3+0x50c>
+ 8001116:	4601                	li	a2,0
+ 8001118:	4781                	li	a5,0
+ 800111a:	4701                	li	a4,0
+ 800111c:	bdcd                	j	800100e <__divdf3+0xce>
+ 800111e:	86ce                	mv	a3,s3
+ 8001120:	4789                	li	a5,2
+ 8001122:	3af58d63          	beq	a1,a5,80014dc <__divdf3+0x59c>
+ 8001126:	478d                	li	a5,3
+ 8001128:	f0f587e3          	beq	a1,a5,8001036 <__divdf3+0xf6>
+ 800112c:	4785                	li	a5,1
+ 800112e:	8836                	mv	a6,a3
+ 8001130:	fef583e3          	beq	a1,a5,8001116 <__divdf3+0x1d6>
+ 8001134:	3ff48513          	addi	a0,s1,1023
+ 8001138:	fca057e3          	blez	a0,8001106 <__divdf3+0x1c6>
+ 800113c:	0078f793          	andi	a5,a7,7
+ 8001140:	28079663          	bnez	a5,80013cc <__divdf3+0x48c>
+ 8001144:	0038d693          	srli	a3,a7,0x3
+ 8001148:	00771793          	slli	a5,a4,0x7
+ 800114c:	0007d863          	bgez	a5,800115c <__divdf3+0x21c>
+ 8001150:	ff0007b7          	lui	a5,0xff000
+ 8001154:	17fd                	addi	a5,a5,-1
+ 8001156:	8f7d                	and	a4,a4,a5
+ 8001158:	40048513          	addi	a0,s1,1024
+ 800115c:	7fe00793          	li	a5,2046
+ 8001160:	eaa7c3e3          	blt	a5,a0,8001006 <__divdf3+0xc6>
+ 8001164:	01d71613          	slli	a2,a4,0x1d
+ 8001168:	00971793          	slli	a5,a4,0x9
+ 800116c:	83b1                	srli	a5,a5,0xc
+ 800116e:	00d66733          	or	a4,a2,a3
+ 8001172:	7ff57613          	andi	a2,a0,2047
+ 8001176:	bd61                	j	800100e <__divdf3+0xce>
+ 8001178:	86d6                	mv	a3,s5
+ 800117a:	8752                	mv	a4,s4
+ 800117c:	88da                	mv	a7,s6
+ 800117e:	85de                	mv	a1,s7
+ 8001180:	b745                	j	8001120 <__divdf3+0x1e0>
+ 8001182:	23476163          	bltu	a4,s4,80013a4 <__divdf3+0x464>
+ 8001186:	20ea0d63          	beq	s4,a4,80013a0 <__divdf3+0x460>
+ 800118a:	86da                	mv	a3,s6
+ 800118c:	14fd                	addi	s1,s1,-1
+ 800118e:	8452                	mv	s0,s4
+ 8001190:	4b01                	li	s6,0
+ 8001192:	00871793          	slli	a5,a4,0x8
+ 8001196:	0188d313          	srli	t1,a7,0x18
+ 800119a:	00f36333          	or	t1,t1,a5
+ 800119e:	01035e93          	srli	t4,t1,0x10
+ 80011a2:	03d457b3          	divu	a5,s0,t4
+ 80011a6:	01031f13          	slli	t5,t1,0x10
+ 80011aa:	010f5f13          	srli	t5,t5,0x10
+ 80011ae:	0106d593          	srli	a1,a3,0x10
+ 80011b2:	00889e13          	slli	t3,a7,0x8
+ 80011b6:	03d47433          	remu	s0,s0,t4
+ 80011ba:	02ff0733          	mul	a4,t5,a5
+ 80011be:	0442                	slli	s0,s0,0x10
+ 80011c0:	8dc1                	or	a1,a1,s0
+ 80011c2:	00e5fb63          	bgeu	a1,a4,80011d8 <__divdf3+0x298>
+ 80011c6:	959a                	add	a1,a1,t1
+ 80011c8:	fff78613          	addi	a2,a5,-1 # feffffff <_sp+0xdeff7fff>
+ 80011cc:	2665ee63          	bltu	a1,t1,8001448 <__divdf3+0x508>
+ 80011d0:	26e5fc63          	bgeu	a1,a4,8001448 <__divdf3+0x508>
+ 80011d4:	17f9                	addi	a5,a5,-2
+ 80011d6:	959a                	add	a1,a1,t1
+ 80011d8:	8d99                	sub	a1,a1,a4
+ 80011da:	03d5d733          	divu	a4,a1,t4
+ 80011de:	06c2                	slli	a3,a3,0x10
+ 80011e0:	82c1                	srli	a3,a3,0x10
+ 80011e2:	03d5f5b3          	remu	a1,a1,t4
+ 80011e6:	02ef0633          	mul	a2,t5,a4
+ 80011ea:	05c2                	slli	a1,a1,0x10
+ 80011ec:	8dd5                	or	a1,a1,a3
+ 80011ee:	00c5fb63          	bgeu	a1,a2,8001204 <__divdf3+0x2c4>
+ 80011f2:	959a                	add	a1,a1,t1
+ 80011f4:	fff70693          	addi	a3,a4,-1 # ffffff <__stack_size+0xfff7ff>
+ 80011f8:	2465e663          	bltu	a1,t1,8001444 <__divdf3+0x504>
+ 80011fc:	24c5f463          	bgeu	a1,a2,8001444 <__divdf3+0x504>
+ 8001200:	1779                	addi	a4,a4,-2
+ 8001202:	959a                	add	a1,a1,t1
+ 8001204:	07c2                	slli	a5,a5,0x10
+ 8001206:	6441                	lui	s0,0x10
+ 8001208:	8f5d                	or	a4,a4,a5
+ 800120a:	fff40793          	addi	a5,s0,-1 # ffff <__stack_size+0xf7ff>
+ 800120e:	00f77533          	and	a0,a4,a5
+ 8001212:	01075893          	srli	a7,a4,0x10
+ 8001216:	010e5f93          	srli	t6,t3,0x10
+ 800121a:	00fe77b3          	and	a5,t3,a5
+ 800121e:	02f502b3          	mul	t0,a0,a5
+ 8001222:	40c586b3          	sub	a3,a1,a2
+ 8001226:	02f883b3          	mul	t2,a7,a5
+ 800122a:	0102d593          	srli	a1,t0,0x10
+ 800122e:	02af8633          	mul	a2,t6,a0
+ 8001232:	961e                	add	a2,a2,t2
+ 8001234:	962e                	add	a2,a2,a1
+ 8001236:	03f88533          	mul	a0,a7,t6
+ 800123a:	00767363          	bgeu	a2,t2,8001240 <__divdf3+0x300>
+ 800123e:	9522                	add	a0,a0,s0
+ 8001240:	68c1                	lui	a7,0x10
+ 8001242:	18fd                	addi	a7,a7,-1
+ 8001244:	01065593          	srli	a1,a2,0x10
+ 8001248:	01167633          	and	a2,a2,a7
+ 800124c:	0642                	slli	a2,a2,0x10
+ 800124e:	0112f8b3          	and	a7,t0,a7
+ 8001252:	95aa                	add	a1,a1,a0
+ 8001254:	9646                	add	a2,a2,a7
+ 8001256:	12b6e663          	bltu	a3,a1,8001382 <__divdf3+0x442>
+ 800125a:	12b68263          	beq	a3,a1,800137e <__divdf3+0x43e>
+ 800125e:	40cb0633          	sub	a2,s6,a2
+ 8001262:	8e8d                	sub	a3,a3,a1
+ 8001264:	00cb3b33          	sltu	s6,s6,a2
+ 8001268:	41668b33          	sub	s6,a3,s6
+ 800126c:	3ff48513          	addi	a0,s1,1023
+ 8001270:	17630c63          	beq	t1,s6,80013e8 <__divdf3+0x4a8>
+ 8001274:	03db58b3          	divu	a7,s6,t4
+ 8001278:	01065593          	srli	a1,a2,0x10
+ 800127c:	03db7b33          	remu	s6,s6,t4
+ 8001280:	031f06b3          	mul	a3,t5,a7
+ 8001284:	0b42                	slli	s6,s6,0x10
+ 8001286:	0165eb33          	or	s6,a1,s6
+ 800128a:	00db7b63          	bgeu	s6,a3,80012a0 <__divdf3+0x360>
+ 800128e:	9b1a                	add	s6,s6,t1
+ 8001290:	fff88593          	addi	a1,a7,-1 # ffff <__stack_size+0xf7ff>
+ 8001294:	206b6d63          	bltu	s6,t1,80014ae <__divdf3+0x56e>
+ 8001298:	20db7b63          	bgeu	s6,a3,80014ae <__divdf3+0x56e>
+ 800129c:	18f9                	addi	a7,a7,-2
+ 800129e:	9b1a                	add	s6,s6,t1
+ 80012a0:	40db0b33          	sub	s6,s6,a3
+ 80012a4:	03db56b3          	divu	a3,s6,t4
+ 80012a8:	0642                	slli	a2,a2,0x10
+ 80012aa:	8241                	srli	a2,a2,0x10
+ 80012ac:	03db7b33          	remu	s6,s6,t4
+ 80012b0:	02df0f33          	mul	t5,t5,a3
+ 80012b4:	0b42                	slli	s6,s6,0x10
+ 80012b6:	01666633          	or	a2,a2,s6
+ 80012ba:	01e67b63          	bgeu	a2,t5,80012d0 <__divdf3+0x390>
+ 80012be:	961a                	add	a2,a2,t1
+ 80012c0:	fff68593          	addi	a1,a3,-1 # 40020fff <_sp+0x20018fff>
+ 80012c4:	1e666763          	bltu	a2,t1,80014b2 <__divdf3+0x572>
+ 80012c8:	1fe67563          	bgeu	a2,t5,80014b2 <__divdf3+0x572>
+ 80012cc:	16f9                	addi	a3,a3,-2
+ 80012ce:	961a                	add	a2,a2,t1
+ 80012d0:	08c2                	slli	a7,a7,0x10
+ 80012d2:	00d8e8b3          	or	a7,a7,a3
+ 80012d6:	01089593          	slli	a1,a7,0x10
+ 80012da:	0108d293          	srli	t0,a7,0x10
+ 80012de:	81c1                	srli	a1,a1,0x10
+ 80012e0:	02f58eb3          	mul	t4,a1,a5
+ 80012e4:	41e60633          	sub	a2,a2,t5
+ 80012e8:	02bf85b3          	mul	a1,t6,a1
+ 80012ec:	010ed693          	srli	a3,t4,0x10
+ 80012f0:	02f287b3          	mul	a5,t0,a5
+ 80012f4:	95be                	add	a1,a1,a5
+ 80012f6:	96ae                	add	a3,a3,a1
+ 80012f8:	025f8fb3          	mul	t6,t6,t0
+ 80012fc:	00f6f463          	bgeu	a3,a5,8001304 <__divdf3+0x3c4>
+ 8001300:	67c1                	lui	a5,0x10
+ 8001302:	9fbe                	add	t6,t6,a5
+ 8001304:	65c1                	lui	a1,0x10
+ 8001306:	15fd                	addi	a1,a1,-1
+ 8001308:	0106d793          	srli	a5,a3,0x10
+ 800130c:	8eed                	and	a3,a3,a1
+ 800130e:	06c2                	slli	a3,a3,0x10
+ 8001310:	00befeb3          	and	t4,t4,a1
+ 8001314:	9fbe                	add	t6,t6,a5
+ 8001316:	96f6                	add	a3,a3,t4
+ 8001318:	09f67f63          	bgeu	a2,t6,80013b6 <__divdf3+0x476>
+ 800131c:	961a                	add	a2,a2,t1
+ 800131e:	fff88793          	addi	a5,a7,-1
+ 8001322:	1a666963          	bltu	a2,t1,80014d4 <__divdf3+0x594>
+ 8001326:	19f66863          	bltu	a2,t6,80014b6 <__divdf3+0x576>
+ 800132a:	1bf60f63          	beq	a2,t6,80014e8 <__divdf3+0x5a8>
+ 800132e:	88be                	mv	a7,a5
+ 8001330:	0018e893          	ori	a7,a7,1
+ 8001334:	b511                	j	8001138 <__divdf3+0x1f8>
+ 8001336:	854a                	mv	a0,s2
+ 8001338:	111000ef          	jal	ra,8001c48 <__clzsi2>
+ 800133c:	01550713          	addi	a4,a0,21
+ 8001340:	45f1                	li	a1,28
+ 8001342:	02050493          	addi	s1,a0,32
+ 8001346:	4622                	lw	a2,8(sp)
+ 8001348:	46b2                	lw	a3,12(sp)
+ 800134a:	d4e5dae3          	bge	a1,a4,800109e <__divdf3+0x15e>
+ 800134e:	ff850413          	addi	s0,a0,-8
+ 8001352:	00891a33          	sll	s4,s2,s0
+ 8001356:	4b01                	li	s6,0
+ 8001358:	b385                	j	80010b8 <__divdf3+0x178>
+ 800135a:	8532                	mv	a0,a2
+ 800135c:	c432                	sw	a2,8(sp)
+ 800135e:	0eb000ef          	jal	ra,8001c48 <__clzsi2>
+ 8001362:	01550713          	addi	a4,a0,21
+ 8001366:	46f1                	li	a3,28
+ 8001368:	87aa                	mv	a5,a0
+ 800136a:	4622                	lw	a2,8(sp)
+ 800136c:	02050513          	addi	a0,a0,32
+ 8001370:	cee6d6e3          	bge	a3,a4,800105c <__divdf3+0x11c>
+ 8001374:	17e1                	addi	a5,a5,-8
+ 8001376:	00f61733          	sll	a4,a2,a5
+ 800137a:	4881                	li	a7,0
+ 800137c:	b9e5                	j	8001074 <__divdf3+0x134>
+ 800137e:	eecb70e3          	bgeu	s6,a2,800125e <__divdf3+0x31e>
+ 8001382:	9b72                	add	s6,s6,t3
+ 8001384:	01cb3533          	sltu	a0,s6,t3
+ 8001388:	951a                	add	a0,a0,t1
+ 800138a:	96aa                	add	a3,a3,a0
+ 800138c:	fff70513          	addi	a0,a4,-1
+ 8001390:	02d37863          	bgeu	t1,a3,80013c0 <__divdf3+0x480>
+ 8001394:	10b6e663          	bltu	a3,a1,80014a0 <__divdf3+0x560>
+ 8001398:	10d58263          	beq	a1,a3,800149c <__divdf3+0x55c>
+ 800139c:	872a                	mv	a4,a0
+ 800139e:	b5c1                	j	800125e <__divdf3+0x31e>
+ 80013a0:	df1b65e3          	bltu	s6,a7,800118a <__divdf3+0x24a>
+ 80013a4:	001b5593          	srli	a1,s6,0x1
+ 80013a8:	01fa1693          	slli	a3,s4,0x1f
+ 80013ac:	001a5413          	srli	s0,s4,0x1
+ 80013b0:	8ecd                	or	a3,a3,a1
+ 80013b2:	0b7e                	slli	s6,s6,0x1f
+ 80013b4:	bbf9                	j	8001192 <__divdf3+0x252>
+ 80013b6:	f7f61de3          	bne	a2,t6,8001330 <__divdf3+0x3f0>
+ 80013ba:	d6068fe3          	beqz	a3,8001138 <__divdf3+0x1f8>
+ 80013be:	bfb9                	j	800131c <__divdf3+0x3dc>
+ 80013c0:	fcd31ee3          	bne	t1,a3,800139c <__divdf3+0x45c>
+ 80013c4:	fdcb78e3          	bgeu	s6,t3,8001394 <__divdf3+0x454>
+ 80013c8:	872a                	mv	a4,a0
+ 80013ca:	bd51                	j	800125e <__divdf3+0x31e>
+ 80013cc:	00f8f793          	andi	a5,a7,15
+ 80013d0:	4691                	li	a3,4
+ 80013d2:	d6d789e3          	beq	a5,a3,8001144 <__divdf3+0x204>
+ 80013d6:	ffc8b793          	sltiu	a5,a7,-4
+ 80013da:	00488693          	addi	a3,a7,4
+ 80013de:	0017c793          	xori	a5,a5,1
+ 80013e2:	828d                	srli	a3,a3,0x3
+ 80013e4:	973e                	add	a4,a4,a5
+ 80013e6:	b38d                	j	8001148 <__divdf3+0x208>
+ 80013e8:	4681                	li	a3,0
+ 80013ea:	4785                	li	a5,1
+ 80013ec:	fea04ce3          	bgtz	a0,80013e4 <__divdf3+0x4a4>
+ 80013f0:	58fd                	li	a7,-1
+ 80013f2:	d0051ce3          	bnez	a0,800110a <__divdf3+0x1ca>
+ 80013f6:	c0100493          	li	s1,-1023
+ 80013fa:	4785                	li	a5,1
+ 80013fc:	41e48513          	addi	a0,s1,1054
+ 8001400:	00a716b3          	sll	a3,a4,a0
+ 8001404:	00f8d633          	srl	a2,a7,a5
+ 8001408:	00a89533          	sll	a0,a7,a0
+ 800140c:	8ed1                	or	a3,a3,a2
+ 800140e:	00a03533          	snez	a0,a0
+ 8001412:	8ec9                	or	a3,a3,a0
+ 8001414:	0076f613          	andi	a2,a3,7
+ 8001418:	00f75733          	srl	a4,a4,a5
+ 800141c:	ce01                	beqz	a2,8001434 <__divdf3+0x4f4>
+ 800141e:	00f6f793          	andi	a5,a3,15
+ 8001422:	4611                	li	a2,4
+ 8001424:	00c78863          	beq	a5,a2,8001434 <__divdf3+0x4f4>
+ 8001428:	00468793          	addi	a5,a3,4
+ 800142c:	00d7b6b3          	sltu	a3,a5,a3
+ 8001430:	9736                	add	a4,a4,a3
+ 8001432:	86be                	mv	a3,a5
+ 8001434:	00871793          	slli	a5,a4,0x8
+ 8001438:	0407d863          	bgez	a5,8001488 <__divdf3+0x548>
+ 800143c:	4605                	li	a2,1
+ 800143e:	4781                	li	a5,0
+ 8001440:	4701                	li	a4,0
+ 8001442:	b6f1                	j	800100e <__divdf3+0xce>
+ 8001444:	8736                	mv	a4,a3
+ 8001446:	bb7d                	j	8001204 <__divdf3+0x2c4>
+ 8001448:	87b2                	mv	a5,a2
+ 800144a:	b379                	j	80011d8 <__divdf3+0x298>
+ 800144c:	46fd                	li	a3,31
+ 800144e:	faf6d7e3          	bge	a3,a5,80013fc <__divdf3+0x4bc>
+ 8001452:	5605                	li	a2,-31
+ 8001454:	8e09                	sub	a2,a2,a0
+ 8001456:	02000693          	li	a3,32
+ 800145a:	00c75633          	srl	a2,a4,a2
+ 800145e:	00d78863          	beq	a5,a3,800146e <__divdf3+0x52e>
+ 8001462:	43e48793          	addi	a5,s1,1086
+ 8001466:	00f717b3          	sll	a5,a4,a5
+ 800146a:	00f8e8b3          	or	a7,a7,a5
+ 800146e:	011036b3          	snez	a3,a7
+ 8001472:	8ed1                	or	a3,a3,a2
+ 8001474:	0076f613          	andi	a2,a3,7
+ 8001478:	4781                	li	a5,0
+ 800147a:	ce01                	beqz	a2,8001492 <__divdf3+0x552>
+ 800147c:	00f6f793          	andi	a5,a3,15
+ 8001480:	4611                	li	a2,4
+ 8001482:	4701                	li	a4,0
+ 8001484:	fac792e3          	bne	a5,a2,8001428 <__divdf3+0x4e8>
+ 8001488:	00971793          	slli	a5,a4,0x9
+ 800148c:	01d71613          	slli	a2,a4,0x1d
+ 8001490:	83b1                	srli	a5,a5,0xc
+ 8001492:	0036d713          	srli	a4,a3,0x3
+ 8001496:	8f51                	or	a4,a4,a2
+ 8001498:	4601                	li	a2,0
+ 800149a:	be95                	j	800100e <__divdf3+0xce>
+ 800149c:	f0cb70e3          	bgeu	s6,a2,800139c <__divdf3+0x45c>
+ 80014a0:	9b72                	add	s6,s6,t3
+ 80014a2:	01cb3533          	sltu	a0,s6,t3
+ 80014a6:	951a                	add	a0,a0,t1
+ 80014a8:	1779                	addi	a4,a4,-2
+ 80014aa:	96aa                	add	a3,a3,a0
+ 80014ac:	bb4d                	j	800125e <__divdf3+0x31e>
+ 80014ae:	88ae                	mv	a7,a1
+ 80014b0:	bbc5                	j	80012a0 <__divdf3+0x360>
+ 80014b2:	86ae                	mv	a3,a1
+ 80014b4:	bd31                	j	80012d0 <__divdf3+0x390>
+ 80014b6:	001e1793          	slli	a5,t3,0x1
+ 80014ba:	01c7be33          	sltu	t3,a5,t3
+ 80014be:	9372                	add	t1,t1,t3
+ 80014c0:	961a                	add	a2,a2,t1
+ 80014c2:	18f9                	addi	a7,a7,-2
+ 80014c4:	8e3e                	mv	t3,a5
+ 80014c6:	e7f615e3          	bne	a2,t6,8001330 <__divdf3+0x3f0>
+ 80014ca:	c6de07e3          	beq	t3,a3,8001138 <__divdf3+0x1f8>
+ 80014ce:	0018e893          	ori	a7,a7,1
+ 80014d2:	b19d                	j	8001138 <__divdf3+0x1f8>
+ 80014d4:	88be                	mv	a7,a5
+ 80014d6:	fff60ae3          	beq	a2,t6,80014ca <__divdf3+0x58a>
+ 80014da:	bd99                	j	8001330 <__divdf3+0x3f0>
+ 80014dc:	8836                	mv	a6,a3
+ 80014de:	7ff00613          	li	a2,2047
+ 80014e2:	4781                	li	a5,0
+ 80014e4:	4701                	li	a4,0
+ 80014e6:	b625                	j	800100e <__divdf3+0xce>
+ 80014e8:	fcde67e3          	bltu	t3,a3,80014b6 <__divdf3+0x576>
+ 80014ec:	88be                	mv	a7,a5
+ 80014ee:	fede10e3          	bne	t3,a3,80014ce <__divdf3+0x58e>
+ 80014f2:	b199                	j	8001138 <__divdf3+0x1f8>
+
+080014f4 <__ledf2>:
+__ltdf2():
+ 80014f4:	0145d713          	srli	a4,a1,0x14
+ 80014f8:	001007b7          	lui	a5,0x100
+ 80014fc:	17fd                	addi	a5,a5,-1
+ 80014fe:	0146d813          	srli	a6,a3,0x14
+ 8001502:	7ff77713          	andi	a4,a4,2047
+ 8001506:	7ff00893          	li	a7,2047
+ 800150a:	00b7fe33          	and	t3,a5,a1
+ 800150e:	8eaa                	mv	t4,a0
+ 8001510:	8ff5                	and	a5,a5,a3
+ 8001512:	81fd                	srli	a1,a1,0x1f
+ 8001514:	8f32                	mv	t5,a2
+ 8001516:	7ff87813          	andi	a6,a6,2047
+ 800151a:	82fd                	srli	a3,a3,0x1f
+ 800151c:	03170e63          	beq	a4,a7,8001558 <__ledf2+0x64>
+ 8001520:	01180d63          	beq	a6,a7,800153a <__ledf2+0x46>
+ 8001524:	e329                	bnez	a4,8001566 <__ledf2+0x72>
+ 8001526:	00ae68b3          	or	a7,t3,a0
+ 800152a:	00081f63          	bnez	a6,8001548 <__ledf2+0x54>
+ 800152e:	8e5d                	or	a2,a2,a5
+ 8001530:	ee01                	bnez	a2,8001548 <__ledf2+0x54>
+ 8001532:	4301                	li	t1,0
+ 8001534:	04088c63          	beqz	a7,800158c <__ledf2+0x98>
+ 8001538:	a821                	j	8001550 <__ledf2+0x5c>
+ 800153a:	00c7e8b3          	or	a7,a5,a2
+ 800153e:	4309                	li	t1,2
+ 8001540:	04089663          	bnez	a7,800158c <__ledf2+0x98>
+ 8001544:	d36d                	beqz	a4,8001526 <__ledf2+0x32>
+ 8001546:	a005                	j	8001566 <__ledf2+0x72>
+ 8001548:	04088463          	beqz	a7,8001590 <__ledf2+0x9c>
+ 800154c:	02d58563          	beq	a1,a3,8001576 <__ledf2+0x82>
+ 8001550:	4305                	li	t1,1
+ 8001552:	cd8d                	beqz	a1,800158c <__ledf2+0x98>
+ 8001554:	537d                	li	t1,-1
+ 8001556:	a81d                	j	800158c <__ledf2+0x98>
+ 8001558:	00ae68b3          	or	a7,t3,a0
+ 800155c:	4309                	li	t1,2
+ 800155e:	02089763          	bnez	a7,800158c <__ledf2+0x98>
+ 8001562:	02e80a63          	beq	a6,a4,8001596 <__ledf2+0xa2>
+ 8001566:	00081463          	bnez	a6,800156e <__ledf2+0x7a>
+ 800156a:	8e5d                	or	a2,a2,a5
+ 800156c:	d275                	beqz	a2,8001550 <__ledf2+0x5c>
+ 800156e:	fed591e3          	bne	a1,a3,8001550 <__ledf2+0x5c>
+ 8001572:	fce84fe3          	blt	a6,a4,8001550 <__ledf2+0x5c>
+ 8001576:	01074963          	blt	a4,a6,8001588 <__ledf2+0x94>
+ 800157a:	fdc7ebe3          	bltu	a5,t3,8001550 <__ledf2+0x5c>
+ 800157e:	00fe0f63          	beq	t3,a5,800159c <__ledf2+0xa8>
+ 8001582:	4301                	li	t1,0
+ 8001584:	00fe7463          	bgeu	t3,a5,800158c <__ledf2+0x98>
+ 8001588:	d5f1                	beqz	a1,8001554 <__ledf2+0x60>
+ 800158a:	4305                	li	t1,1
+ 800158c:	851a                	mv	a0,t1
+ 800158e:	8082                	ret
+ 8001590:	feed                	bnez	a3,800158a <__ledf2+0x96>
+ 8001592:	537d                	li	t1,-1
+ 8001594:	bfe5                	j	800158c <__ledf2+0x98>
+ 8001596:	8e5d                	or	a2,a2,a5
+ 8001598:	da79                	beqz	a2,800156e <__ledf2+0x7a>
+ 800159a:	bfcd                	j	800158c <__ledf2+0x98>
+ 800159c:	fbdf6ae3          	bltu	t5,t4,8001550 <__ledf2+0x5c>
+ 80015a0:	4301                	li	t1,0
+ 80015a2:	ffeef5e3          	bgeu	t4,t5,800158c <__ledf2+0x98>
+ 80015a6:	f1f5                	bnez	a1,800158a <__ledf2+0x96>
+ 80015a8:	b775                	j	8001554 <__ledf2+0x60>
+
+080015aa <__muldf3>:
+__muldf3():
+ 80015aa:	7139                	addi	sp,sp,-64
+ 80015ac:	d84a                	sw	s2,48(sp)
+ 80015ae:	0145d913          	srli	s2,a1,0x14
+ 80015b2:	d64e                	sw	s3,44(sp)
+ 80015b4:	d452                	sw	s4,40(sp)
+ 80015b6:	d256                	sw	s5,36(sp)
+ 80015b8:	00c59993          	slli	s3,a1,0xc
+ 80015bc:	de06                	sw	ra,60(sp)
+ 80015be:	dc22                	sw	s0,56(sp)
+ 80015c0:	da26                	sw	s1,52(sp)
+ 80015c2:	d05a                	sw	s6,32(sp)
+ 80015c4:	ce5e                	sw	s7,28(sp)
+ 80015c6:	7ff97913          	andi	s2,s2,2047
+ 80015ca:	8a2a                	mv	s4,a0
+ 80015cc:	00c9d993          	srli	s3,s3,0xc
+ 80015d0:	01f5da93          	srli	s5,a1,0x1f
+ 80015d4:	0e090d63          	beqz	s2,80016ce <__muldf3+0x124>
+ 80015d8:	7ff00793          	li	a5,2047
+ 80015dc:	18f90463          	beq	s2,a5,8001764 <__muldf3+0x1ba>
+ 80015e0:	01d55413          	srli	s0,a0,0x1d
+ 80015e4:	098e                	slli	s3,s3,0x3
+ 80015e6:	013469b3          	or	s3,s0,s3
+ 80015ea:	00800437          	lui	s0,0x800
+ 80015ee:	0089e433          	or	s0,s3,s0
+ 80015f2:	00351493          	slli	s1,a0,0x3
+ 80015f6:	c0190913          	addi	s2,s2,-1023
+ 80015fa:	4981                	li	s3,0
+ 80015fc:	4b81                	li	s7,0
+ 80015fe:	0146d713          	srli	a4,a3,0x14
+ 8001602:	00c69a13          	slli	s4,a3,0xc
+ 8001606:	7ff77713          	andi	a4,a4,2047
+ 800160a:	85b2                	mv	a1,a2
+ 800160c:	00ca5a13          	srli	s4,s4,0xc
+ 8001610:	01f6db13          	srli	s6,a3,0x1f
+ 8001614:	10070a63          	beqz	a4,8001728 <__muldf3+0x17e>
+ 8001618:	7ff00793          	li	a5,2047
+ 800161c:	04f70363          	beq	a4,a5,8001662 <__muldf3+0xb8>
+ 8001620:	01d65793          	srli	a5,a2,0x1d
+ 8001624:	0a0e                	slli	s4,s4,0x3
+ 8001626:	0147ea33          	or	s4,a5,s4
+ 800162a:	c0170713          	addi	a4,a4,-1023
+ 800162e:	008007b7          	lui	a5,0x800
+ 8001632:	00fa67b3          	or	a5,s4,a5
+ 8001636:	00361593          	slli	a1,a2,0x3
+ 800163a:	993a                	add	s2,s2,a4
+ 800163c:	4881                	li	a7,0
+ 800163e:	016ac733          	xor	a4,s5,s6
+ 8001642:	46bd                	li	a3,15
+ 8001644:	853a                	mv	a0,a4
+ 8001646:	00190813          	addi	a6,s2,1
+ 800164a:	1736e663          	bltu	a3,s3,80017b6 <__muldf3+0x20c>
+ 800164e:	fffff617          	auipc	a2,0xfffff
+ 8001652:	c7260613          	addi	a2,a2,-910 # 80002c0 <enable_mcycle_minstret+0x90>
+ 8001656:	098a                	slli	s3,s3,0x2
+ 8001658:	99b2                	add	s3,s3,a2
+ 800165a:	0009a683          	lw	a3,0(s3)
+ 800165e:	96b2                	add	a3,a3,a2
+ 8001660:	8682                	jr	a3
+ 8001662:	00ca67b3          	or	a5,s4,a2
+ 8001666:	7ff90913          	addi	s2,s2,2047
+ 800166a:	12079763          	bnez	a5,8001798 <__muldf3+0x1ee>
+ 800166e:	0029e993          	ori	s3,s3,2
+ 8001672:	4581                	li	a1,0
+ 8001674:	4889                	li	a7,2
+ 8001676:	b7e1                	j	800163e <__muldf3+0x94>
+ 8001678:	4701                	li	a4,0
+ 800167a:	7ff00793          	li	a5,2047
+ 800167e:	00080437          	lui	s0,0x80
+ 8001682:	4481                	li	s1,0
+ 8001684:	0432                	slli	s0,s0,0xc
+ 8001686:	07d2                	slli	a5,a5,0x14
+ 8001688:	8031                	srli	s0,s0,0xc
+ 800168a:	077e                	slli	a4,a4,0x1f
+ 800168c:	8c5d                	or	s0,s0,a5
+ 800168e:	8c59                	or	s0,s0,a4
+ 8001690:	85a2                	mv	a1,s0
+ 8001692:	50f2                	lw	ra,60(sp)
+ 8001694:	5462                	lw	s0,56(sp)
+ 8001696:	8526                	mv	a0,s1
+ 8001698:	5942                	lw	s2,48(sp)
+ 800169a:	54d2                	lw	s1,52(sp)
+ 800169c:	59b2                	lw	s3,44(sp)
+ 800169e:	5a22                	lw	s4,40(sp)
+ 80016a0:	5a92                	lw	s5,36(sp)
+ 80016a2:	5b02                	lw	s6,32(sp)
+ 80016a4:	4bf2                	lw	s7,28(sp)
+ 80016a6:	6121                	addi	sp,sp,64
+ 80016a8:	8082                	ret
+ 80016aa:	855a                	mv	a0,s6
+ 80016ac:	843e                	mv	s0,a5
+ 80016ae:	84ae                	mv	s1,a1
+ 80016b0:	8bc6                	mv	s7,a7
+ 80016b2:	4789                	li	a5,2
+ 80016b4:	0efb8b63          	beq	s7,a5,80017aa <__muldf3+0x200>
+ 80016b8:	478d                	li	a5,3
+ 80016ba:	fafb8fe3          	beq	s7,a5,8001678 <__muldf3+0xce>
+ 80016be:	4785                	li	a5,1
+ 80016c0:	872a                	mv	a4,a0
+ 80016c2:	38fb9a63          	bne	s7,a5,8001a56 <__muldf3+0x4ac>
+ 80016c6:	4781                	li	a5,0
+ 80016c8:	4401                	li	s0,0
+ 80016ca:	4481                	li	s1,0
+ 80016cc:	bf65                	j	8001684 <__muldf3+0xda>
+ 80016ce:	00a9e433          	or	s0,s3,a0
+ 80016d2:	cc55                	beqz	s0,800178e <__muldf3+0x1e4>
+ 80016d4:	c636                	sw	a3,12(sp)
+ 80016d6:	c432                	sw	a2,8(sp)
+ 80016d8:	2a098963          	beqz	s3,800198a <__muldf3+0x3e0>
+ 80016dc:	854e                	mv	a0,s3
+ 80016de:	23ad                	jal	8001c48 <__clzsi2>
+ 80016e0:	4622                	lw	a2,8(sp)
+ 80016e2:	46b2                	lw	a3,12(sp)
+ 80016e4:	87aa                	mv	a5,a0
+ 80016e6:	ff550713          	addi	a4,a0,-11
+ 80016ea:	4475                	li	s0,29
+ 80016ec:	ff878493          	addi	s1,a5,-8 # 7ffff8 <__stack_size+0x7ff7f8>
+ 80016f0:	8c19                	sub	s0,s0,a4
+ 80016f2:	009999b3          	sll	s3,s3,s1
+ 80016f6:	008a5433          	srl	s0,s4,s0
+ 80016fa:	01346433          	or	s0,s0,s3
+ 80016fe:	009a14b3          	sll	s1,s4,s1
+ 8001702:	0146d713          	srli	a4,a3,0x14
+ 8001706:	c0d00913          	li	s2,-1011
+ 800170a:	00c69a13          	slli	s4,a3,0xc
+ 800170e:	7ff77713          	andi	a4,a4,2047
+ 8001712:	40f90933          	sub	s2,s2,a5
+ 8001716:	4981                	li	s3,0
+ 8001718:	4b81                	li	s7,0
+ 800171a:	85b2                	mv	a1,a2
+ 800171c:	00ca5a13          	srli	s4,s4,0xc
+ 8001720:	01f6db13          	srli	s6,a3,0x1f
+ 8001724:	ee071ae3          	bnez	a4,8001618 <__muldf3+0x6e>
+ 8001728:	00ca67b3          	or	a5,s4,a2
+ 800172c:	c7a9                	beqz	a5,8001776 <__muldf3+0x1cc>
+ 800172e:	220a0e63          	beqz	s4,800196a <__muldf3+0x3c0>
+ 8001732:	8552                	mv	a0,s4
+ 8001734:	c432                	sw	a2,8(sp)
+ 8001736:	2b09                	jal	8001c48 <__clzsi2>
+ 8001738:	4622                	lw	a2,8(sp)
+ 800173a:	872a                	mv	a4,a0
+ 800173c:	ff550693          	addi	a3,a0,-11
+ 8001740:	47f5                	li	a5,29
+ 8001742:	ff870593          	addi	a1,a4,-8
+ 8001746:	8f95                	sub	a5,a5,a3
+ 8001748:	00ba1a33          	sll	s4,s4,a1
+ 800174c:	00f657b3          	srl	a5,a2,a5
+ 8001750:	0147e7b3          	or	a5,a5,s4
+ 8001754:	00b615b3          	sll	a1,a2,a1
+ 8001758:	40e90933          	sub	s2,s2,a4
+ 800175c:	c0d90913          	addi	s2,s2,-1011
+ 8001760:	4881                	li	a7,0
+ 8001762:	bdf1                	j	800163e <__muldf3+0x94>
+ 8001764:	00a9e433          	or	s0,s3,a0
+ 8001768:	ec01                	bnez	s0,8001780 <__muldf3+0x1d6>
+ 800176a:	49a1                	li	s3,8
+ 800176c:	4481                	li	s1,0
+ 800176e:	7ff00913          	li	s2,2047
+ 8001772:	4b89                	li	s7,2
+ 8001774:	b569                	j	80015fe <__muldf3+0x54>
+ 8001776:	0019e993          	ori	s3,s3,1
+ 800177a:	4581                	li	a1,0
+ 800177c:	4885                	li	a7,1
+ 800177e:	b5c1                	j	800163e <__muldf3+0x94>
+ 8001780:	844e                	mv	s0,s3
+ 8001782:	84aa                	mv	s1,a0
+ 8001784:	49b1                	li	s3,12
+ 8001786:	7ff00913          	li	s2,2047
+ 800178a:	4b8d                	li	s7,3
+ 800178c:	bd8d                	j	80015fe <__muldf3+0x54>
+ 800178e:	4991                	li	s3,4
+ 8001790:	4481                	li	s1,0
+ 8001792:	4901                	li	s2,0
+ 8001794:	4b85                	li	s7,1
+ 8001796:	b5a5                	j	80015fe <__muldf3+0x54>
+ 8001798:	0039e993          	ori	s3,s3,3
+ 800179c:	87d2                	mv	a5,s4
+ 800179e:	488d                	li	a7,3
+ 80017a0:	bd79                	j	800163e <__muldf3+0x94>
+ 80017a2:	4789                	li	a5,2
+ 80017a4:	8556                	mv	a0,s5
+ 80017a6:	f0fb99e3          	bne	s7,a5,80016b8 <__muldf3+0x10e>
+ 80017aa:	872a                	mv	a4,a0
+ 80017ac:	7ff00793          	li	a5,2047
+ 80017b0:	4401                	li	s0,0
+ 80017b2:	4481                	li	s1,0
+ 80017b4:	bdc1                	j	8001684 <__muldf3+0xda>
+ 80017b6:	6ec1                	lui	t4,0x10
+ 80017b8:	fffe8613          	addi	a2,t4,-1 # ffff <__stack_size+0xf7ff>
+ 80017bc:	0104d693          	srli	a3,s1,0x10
+ 80017c0:	0105de13          	srli	t3,a1,0x10
+ 80017c4:	8cf1                	and	s1,s1,a2
+ 80017c6:	8df1                	and	a1,a1,a2
+ 80017c8:	02958633          	mul	a2,a1,s1
+ 80017cc:	02b68333          	mul	t1,a3,a1
+ 80017d0:	01065893          	srli	a7,a2,0x10
+ 80017d4:	029e0533          	mul	a0,t3,s1
+ 80017d8:	951a                	add	a0,a0,t1
+ 80017da:	98aa                	add	a7,a7,a0
+ 80017dc:	03c682b3          	mul	t0,a3,t3
+ 80017e0:	0068f363          	bgeu	a7,t1,80017e6 <__muldf3+0x23c>
+ 80017e4:	92f6                	add	t0,t0,t4
+ 80017e6:	6fc1                	lui	t6,0x10
+ 80017e8:	ffff8313          	addi	t1,t6,-1 # ffff <__stack_size+0xf7ff>
+ 80017ec:	0067f533          	and	a0,a5,t1
+ 80017f0:	0107d393          	srli	t2,a5,0x10
+ 80017f4:	0068f7b3          	and	a5,a7,t1
+ 80017f8:	07c2                	slli	a5,a5,0x10
+ 80017fa:	00667333          	and	t1,a2,t1
+ 80017fe:	933e                	add	t1,t1,a5
+ 8001800:	02950633          	mul	a2,a0,s1
+ 8001804:	0108d893          	srli	a7,a7,0x10
+ 8001808:	02a687b3          	mul	a5,a3,a0
+ 800180c:	01065f13          	srli	t5,a2,0x10
+ 8001810:	029384b3          	mul	s1,t2,s1
+ 8001814:	94be                	add	s1,s1,a5
+ 8001816:	94fa                	add	s1,s1,t5
+ 8001818:	02768eb3          	mul	t4,a3,t2
+ 800181c:	00f4f363          	bgeu	s1,a5,8001822 <__muldf3+0x278>
+ 8001820:	9efe                	add	t4,t4,t6
+ 8001822:	6a41                	lui	s4,0x10
+ 8001824:	fffa0793          	addi	a5,s4,-1 # ffff <__stack_size+0xf7ff>
+ 8001828:	01045f93          	srli	t6,s0,0x10
+ 800182c:	00f476b3          	and	a3,s0,a5
+ 8001830:	00f4f9b3          	and	s3,s1,a5
+ 8001834:	8e7d                	and	a2,a2,a5
+ 8001836:	80c1                	srli	s1,s1,0x10
+ 8001838:	02d58433          	mul	s0,a1,a3
+ 800183c:	09c2                	slli	s3,s3,0x10
+ 800183e:	01d48f33          	add	t5,s1,t4
+ 8001842:	99b2                	add	s3,s3,a2
+ 8001844:	98ce                	add	a7,a7,s3
+ 8001846:	02de07b3          	mul	a5,t3,a3
+ 800184a:	01045e93          	srli	t4,s0,0x10
+ 800184e:	02bf85b3          	mul	a1,t6,a1
+ 8001852:	97ae                	add	a5,a5,a1
+ 8001854:	9ebe                	add	t4,t4,a5
+ 8001856:	03fe0e33          	mul	t3,t3,t6
+ 800185a:	00bef363          	bgeu	t4,a1,8001860 <__muldf3+0x2b6>
+ 800185e:	9e52                	add	t3,t3,s4
+ 8001860:	67c1                	lui	a5,0x10
+ 8001862:	fff78593          	addi	a1,a5,-1 # ffff <__stack_size+0xf7ff>
+ 8001866:	00bef633          	and	a2,t4,a1
+ 800186a:	8c6d                	and	s0,s0,a1
+ 800186c:	0642                	slli	a2,a2,0x10
+ 800186e:	9622                	add	a2,a2,s0
+ 8001870:	010ede93          	srli	t4,t4,0x10
+ 8001874:	02d505b3          	mul	a1,a0,a3
+ 8001878:	9e76                	add	t3,t3,t4
+ 800187a:	02af8533          	mul	a0,t6,a0
+ 800187e:	0105d413          	srli	s0,a1,0x10
+ 8001882:	02d386b3          	mul	a3,t2,a3
+ 8001886:	96aa                	add	a3,a3,a0
+ 8001888:	96a2                	add	a3,a3,s0
+ 800188a:	03f38fb3          	mul	t6,t2,t6
+ 800188e:	00a6f363          	bgeu	a3,a0,8001894 <__muldf3+0x2ea>
+ 8001892:	9fbe                	add	t6,t6,a5
+ 8001894:	6541                	lui	a0,0x10
+ 8001896:	157d                	addi	a0,a0,-1
+ 8001898:	00a6f7b3          	and	a5,a3,a0
+ 800189c:	07c2                	slli	a5,a5,0x10
+ 800189e:	8d6d                	and	a0,a0,a1
+ 80018a0:	97aa                	add	a5,a5,a0
+ 80018a2:	005885b3          	add	a1,a7,t0
+ 80018a6:	0135b9b3          	sltu	s3,a1,s3
+ 80018aa:	97fa                	add	a5,a5,t5
+ 80018ac:	95b2                	add	a1,a1,a2
+ 80018ae:	01378433          	add	s0,a5,s3
+ 80018b2:	00c5b633          	sltu	a2,a1,a2
+ 80018b6:	01c40eb3          	add	t4,s0,t3
+ 80018ba:	00ce8533          	add	a0,t4,a2
+ 80018be:	01343433          	sltu	s0,s0,s3
+ 80018c2:	01e7b7b3          	sltu	a5,a5,t5
+ 80018c6:	8fc1                	or	a5,a5,s0
+ 80018c8:	01cebe33          	sltu	t3,t4,t3
+ 80018cc:	0106d413          	srli	s0,a3,0x10
+ 80018d0:	00c53633          	sltu	a2,a0,a2
+ 80018d4:	943e                	add	s0,s0,a5
+ 80018d6:	00ce6633          	or	a2,t3,a2
+ 80018da:	00959493          	slli	s1,a1,0x9
+ 80018de:	9432                	add	s0,s0,a2
+ 80018e0:	947e                	add	s0,s0,t6
+ 80018e2:	0064e4b3          	or	s1,s1,t1
+ 80018e6:	0426                	slli	s0,s0,0x9
+ 80018e8:	01755693          	srli	a3,a0,0x17
+ 80018ec:	009034b3          	snez	s1,s1
+ 80018f0:	81dd                	srli	a1,a1,0x17
+ 80018f2:	00951793          	slli	a5,a0,0x9
+ 80018f6:	8ccd                	or	s1,s1,a1
+ 80018f8:	8c55                	or	s0,s0,a3
+ 80018fa:	8cdd                	or	s1,s1,a5
+ 80018fc:	00741793          	slli	a5,s0,0x7
+ 8001900:	0007db63          	bgez	a5,8001916 <__muldf3+0x36c>
+ 8001904:	0014d793          	srli	a5,s1,0x1
+ 8001908:	8885                	andi	s1,s1,1
+ 800190a:	01f41693          	slli	a3,s0,0x1f
+ 800190e:	8cdd                	or	s1,s1,a5
+ 8001910:	8cd5                	or	s1,s1,a3
+ 8001912:	8005                	srli	s0,s0,0x1
+ 8001914:	8942                	mv	s2,a6
+ 8001916:	3ff90793          	addi	a5,s2,1023
+ 800191a:	08f05763          	blez	a5,80019a8 <__muldf3+0x3fe>
+ 800191e:	0074f693          	andi	a3,s1,7
+ 8001922:	ce81                	beqz	a3,800193a <__muldf3+0x390>
+ 8001924:	00f4f693          	andi	a3,s1,15
+ 8001928:	4611                	li	a2,4
+ 800192a:	00c68863          	beq	a3,a2,800193a <__muldf3+0x390>
+ 800192e:	00448693          	addi	a3,s1,4
+ 8001932:	0096b4b3          	sltu	s1,a3,s1
+ 8001936:	9426                	add	s0,s0,s1
+ 8001938:	84b6                	mv	s1,a3
+ 800193a:	00741693          	slli	a3,s0,0x7
+ 800193e:	0006d863          	bgez	a3,800194e <__muldf3+0x3a4>
+ 8001942:	ff0007b7          	lui	a5,0xff000
+ 8001946:	17fd                	addi	a5,a5,-1
+ 8001948:	8c7d                	and	s0,s0,a5
+ 800194a:	40090793          	addi	a5,s2,1024
+ 800194e:	7fe00693          	li	a3,2046
+ 8001952:	0ef6cd63          	blt	a3,a5,8001a4c <__muldf3+0x4a2>
+ 8001956:	0034d693          	srli	a3,s1,0x3
+ 800195a:	01d41493          	slli	s1,s0,0x1d
+ 800195e:	0426                	slli	s0,s0,0x9
+ 8001960:	8cd5                	or	s1,s1,a3
+ 8001962:	8031                	srli	s0,s0,0xc
+ 8001964:	7ff7f793          	andi	a5,a5,2047
+ 8001968:	bb31                	j	8001684 <__muldf3+0xda>
+ 800196a:	8532                	mv	a0,a2
+ 800196c:	c432                	sw	a2,8(sp)
+ 800196e:	2ce9                	jal	8001c48 <__clzsi2>
+ 8001970:	01550693          	addi	a3,a0,21 # 10015 <__stack_size+0xf815>
+ 8001974:	47f1                	li	a5,28
+ 8001976:	02050713          	addi	a4,a0,32
+ 800197a:	4622                	lw	a2,8(sp)
+ 800197c:	dcd7d2e3          	bge	a5,a3,8001740 <__muldf3+0x196>
+ 8001980:	1561                	addi	a0,a0,-8
+ 8001982:	00a617b3          	sll	a5,a2,a0
+ 8001986:	4581                	li	a1,0
+ 8001988:	bbc1                	j	8001758 <__muldf3+0x1ae>
+ 800198a:	2c7d                	jal	8001c48 <__clzsi2>
+ 800198c:	01550713          	addi	a4,a0,21
+ 8001990:	45f1                	li	a1,28
+ 8001992:	02050793          	addi	a5,a0,32
+ 8001996:	4622                	lw	a2,8(sp)
+ 8001998:	46b2                	lw	a3,12(sp)
+ 800199a:	d4e5d8e3          	bge	a1,a4,80016ea <__muldf3+0x140>
+ 800199e:	1561                	addi	a0,a0,-8
+ 80019a0:	00aa1433          	sll	s0,s4,a0
+ 80019a4:	4481                	li	s1,0
+ 80019a6:	bbb1                	j	8001702 <__muldf3+0x158>
+ 80019a8:	4685                	li	a3,1
+ 80019aa:	8e9d                	sub	a3,a3,a5
+ 80019ac:	e7b1                	bnez	a5,80019f8 <__muldf3+0x44e>
+ 80019ae:	41e90913          	addi	s2,s2,1054
+ 80019b2:	012497b3          	sll	a5,s1,s2
+ 80019b6:	00d4d4b3          	srl	s1,s1,a3
+ 80019ba:	01241933          	sll	s2,s0,s2
+ 80019be:	00f037b3          	snez	a5,a5
+ 80019c2:	009964b3          	or	s1,s2,s1
+ 80019c6:	8cdd                	or	s1,s1,a5
+ 80019c8:	0074f793          	andi	a5,s1,7
+ 80019cc:	00d456b3          	srl	a3,s0,a3
+ 80019d0:	cf81                	beqz	a5,80019e8 <__muldf3+0x43e>
+ 80019d2:	00f4f793          	andi	a5,s1,15
+ 80019d6:	4611                	li	a2,4
+ 80019d8:	00c78863          	beq	a5,a2,80019e8 <__muldf3+0x43e>
+ 80019dc:	00448793          	addi	a5,s1,4
+ 80019e0:	0097b4b3          	sltu	s1,a5,s1
+ 80019e4:	96a6                	add	a3,a3,s1
+ 80019e6:	84be                	mv	s1,a5
+ 80019e8:	00869793          	slli	a5,a3,0x8
+ 80019ec:	0407d863          	bgez	a5,8001a3c <__muldf3+0x492>
+ 80019f0:	4785                	li	a5,1
+ 80019f2:	4401                	li	s0,0
+ 80019f4:	4481                	li	s1,0
+ 80019f6:	b179                	j	8001684 <__muldf3+0xda>
+ 80019f8:	03800613          	li	a2,56
+ 80019fc:	ccd645e3          	blt	a2,a3,80016c6 <__muldf3+0x11c>
+ 8001a00:	467d                	li	a2,31
+ 8001a02:	fad656e3          	bge	a2,a3,80019ae <__muldf3+0x404>
+ 8001a06:	5605                	li	a2,-31
+ 8001a08:	40f607b3          	sub	a5,a2,a5
+ 8001a0c:	02000593          	li	a1,32
+ 8001a10:	00f45633          	srl	a2,s0,a5
+ 8001a14:	00b68763          	beq	a3,a1,8001a22 <__muldf3+0x478>
+ 8001a18:	43e90913          	addi	s2,s2,1086
+ 8001a1c:	012417b3          	sll	a5,s0,s2
+ 8001a20:	8cdd                	or	s1,s1,a5
+ 8001a22:	009034b3          	snez	s1,s1
+ 8001a26:	8cd1                	or	s1,s1,a2
+ 8001a28:	0074f693          	andi	a3,s1,7
+ 8001a2c:	4401                	li	s0,0
+ 8001a2e:	ca99                	beqz	a3,8001a44 <__muldf3+0x49a>
+ 8001a30:	00f4f793          	andi	a5,s1,15
+ 8001a34:	4611                	li	a2,4
+ 8001a36:	4681                	li	a3,0
+ 8001a38:	fac792e3          	bne	a5,a2,80019dc <__muldf3+0x432>
+ 8001a3c:	00969413          	slli	s0,a3,0x9
+ 8001a40:	8031                	srli	s0,s0,0xc
+ 8001a42:	06f6                	slli	a3,a3,0x1d
+ 8001a44:	808d                	srli	s1,s1,0x3
+ 8001a46:	8cd5                	or	s1,s1,a3
+ 8001a48:	4781                	li	a5,0
+ 8001a4a:	b92d                	j	8001684 <__muldf3+0xda>
+ 8001a4c:	7ff00793          	li	a5,2047
+ 8001a50:	4401                	li	s0,0
+ 8001a52:	4481                	li	s1,0
+ 8001a54:	b905                	j	8001684 <__muldf3+0xda>
+ 8001a56:	8942                	mv	s2,a6
+ 8001a58:	bd7d                	j	8001916 <__muldf3+0x36c>
+
+08001a5a <__floatunsidf>:
+__floatunsidf():
+ 8001a5a:	cd15                	beqz	a0,8001a96 <__floatunsidf+0x3c>
+ 8001a5c:	1141                	addi	sp,sp,-16
+ 8001a5e:	c422                	sw	s0,8(sp)
+ 8001a60:	c606                	sw	ra,12(sp)
+ 8001a62:	842a                	mv	s0,a0
+ 8001a64:	22d5                	jal	8001c48 <__clzsi2>
+ 8001a66:	41e00693          	li	a3,1054
+ 8001a6a:	8e89                	sub	a3,a3,a0
+ 8001a6c:	47a9                	li	a5,10
+ 8001a6e:	7ff6f693          	andi	a3,a3,2047
+ 8001a72:	02a7dc63          	bge	a5,a0,8001aaa <__floatunsidf+0x50>
+ 8001a76:	1555                	addi	a0,a0,-11
+ 8001a78:	00a417b3          	sll	a5,s0,a0
+ 8001a7c:	07b2                	slli	a5,a5,0xc
+ 8001a7e:	83b1                	srli	a5,a5,0xc
+ 8001a80:	4701                	li	a4,0
+ 8001a82:	40b2                	lw	ra,12(sp)
+ 8001a84:	4422                	lw	s0,8(sp)
+ 8001a86:	07b2                	slli	a5,a5,0xc
+ 8001a88:	06d2                	slli	a3,a3,0x14
+ 8001a8a:	83b1                	srli	a5,a5,0xc
+ 8001a8c:	8fd5                	or	a5,a5,a3
+ 8001a8e:	853a                	mv	a0,a4
+ 8001a90:	85be                	mv	a1,a5
+ 8001a92:	0141                	addi	sp,sp,16
+ 8001a94:	8082                	ret
+ 8001a96:	4781                	li	a5,0
+ 8001a98:	4681                	li	a3,0
+ 8001a9a:	07b2                	slli	a5,a5,0xc
+ 8001a9c:	06d2                	slli	a3,a3,0x14
+ 8001a9e:	83b1                	srli	a5,a5,0xc
+ 8001aa0:	4701                	li	a4,0
+ 8001aa2:	8fd5                	or	a5,a5,a3
+ 8001aa4:	853a                	mv	a0,a4
+ 8001aa6:	85be                	mv	a1,a5
+ 8001aa8:	8082                	ret
+ 8001aaa:	472d                	li	a4,11
+ 8001aac:	8f09                	sub	a4,a4,a0
+ 8001aae:	00e457b3          	srl	a5,s0,a4
+ 8001ab2:	07b2                	slli	a5,a5,0xc
+ 8001ab4:	01550713          	addi	a4,a0,21
+ 8001ab8:	00e41733          	sll	a4,s0,a4
+ 8001abc:	83b1                	srli	a5,a5,0xc
+ 8001abe:	b7d1                	j	8001a82 <__floatunsidf+0x28>
+
+08001ac0 <__floatundidf>:
+__floatundidf():
+ 8001ac0:	00b567b3          	or	a5,a0,a1
+ 8001ac4:	cf9d                	beqz	a5,8001b02 <__floatundidf+0x42>
+ 8001ac6:	1141                	addi	sp,sp,-16
+ 8001ac8:	c422                	sw	s0,8(sp)
+ 8001aca:	c226                	sw	s1,4(sp)
+ 8001acc:	c04a                	sw	s2,0(sp)
+ 8001ace:	c606                	sw	ra,12(sp)
+ 8001ad0:	84aa                	mv	s1,a0
+ 8001ad2:	892e                	mv	s2,a1
+ 8001ad4:	842e                	mv	s0,a1
+ 8001ad6:	c1a1                	beqz	a1,8001b16 <__floatundidf+0x56>
+ 8001ad8:	852e                	mv	a0,a1
+ 8001ada:	22bd                	jal	8001c48 <__clzsi2>
+ 8001adc:	43e00693          	li	a3,1086
+ 8001ae0:	8e89                	sub	a3,a3,a0
+ 8001ae2:	43300793          	li	a5,1075
+ 8001ae6:	06d7c463          	blt	a5,a3,8001b4e <__floatundidf+0x8e>
+ 8001aea:	00c91793          	slli	a5,s2,0xc
+ 8001aee:	462d                	li	a2,11
+ 8001af0:	8726                	mv	a4,s1
+ 8001af2:	7ff6f693          	andi	a3,a3,2047
+ 8001af6:	83b1                	srli	a5,a5,0xc
+ 8001af8:	0ca65c63          	bge	a2,a0,8001bd0 <__floatundidf+0x110>
+ 8001afc:	ff550613          	addi	a2,a0,-11
+ 8001b00:	a80d                	j	8001b32 <__floatundidf+0x72>
+ 8001b02:	4781                	li	a5,0
+ 8001b04:	4681                	li	a3,0
+ 8001b06:	07b2                	slli	a5,a5,0xc
+ 8001b08:	06d2                	slli	a3,a3,0x14
+ 8001b0a:	83b1                	srli	a5,a5,0xc
+ 8001b0c:	4701                	li	a4,0
+ 8001b0e:	8fd5                	or	a5,a5,a3
+ 8001b10:	853a                	mv	a0,a4
+ 8001b12:	85be                	mv	a1,a5
+ 8001b14:	8082                	ret
+ 8001b16:	2a0d                	jal	8001c48 <__clzsi2>
+ 8001b18:	862a                	mv	a2,a0
+ 8001b1a:	43e00693          	li	a3,1086
+ 8001b1e:	02050513          	addi	a0,a0,32
+ 8001b22:	8e89                	sub	a3,a3,a0
+ 8001b24:	02a00713          	li	a4,42
+ 8001b28:	7ff6f693          	andi	a3,a3,2047
+ 8001b2c:	0ca74c63          	blt	a4,a0,8001c04 <__floatundidf+0x144>
+ 8001b30:	0655                	addi	a2,a2,21
+ 8001b32:	02b00713          	li	a4,43
+ 8001b36:	8f09                	sub	a4,a4,a0
+ 8001b38:	00c917b3          	sll	a5,s2,a2
+ 8001b3c:	00e4d733          	srl	a4,s1,a4
+ 8001b40:	8f5d                	or	a4,a4,a5
+ 8001b42:	00c71793          	slli	a5,a4,0xc
+ 8001b46:	83b1                	srli	a5,a5,0xc
+ 8001b48:	00c49733          	sll	a4,s1,a2
+ 8001b4c:	a051                	j	8001bd0 <__floatundidf+0x110>
+ 8001b4e:	43600793          	li	a5,1078
+ 8001b52:	02d7d963          	bge	a5,a3,8001b84 <__floatundidf+0xc4>
+ 8001b56:	01850713          	addi	a4,a0,24
+ 8001b5a:	03850793          	addi	a5,a0,56
+ 8001b5e:	0c074763          	bltz	a4,8001c2c <__floatundidf+0x16c>
+ 8001b62:	00e49633          	sll	a2,s1,a4
+ 8001b66:	4701                	li	a4,0
+ 8001b68:	4421                	li	s0,8
+ 8001b6a:	8c09                	sub	s0,s0,a0
+ 8001b6c:	8f51                	or	a4,a4,a2
+ 8001b6e:	fe040793          	addi	a5,s0,-32 # 7ffe0 <__stack_size+0x7f7e0>
+ 8001b72:	00e03733          	snez	a4,a4
+ 8001b76:	0807cf63          	bltz	a5,8001c14 <__floatundidf+0x154>
+ 8001b7a:	00f954b3          	srl	s1,s2,a5
+ 8001b7e:	4781                	li	a5,0
+ 8001b80:	8cd9                	or	s1,s1,a4
+ 8001b82:	843e                	mv	s0,a5
+ 8001b84:	47a1                	li	a5,8
+ 8001b86:	06a7c163          	blt	a5,a0,8001be8 <__floatundidf+0x128>
+ 8001b8a:	ff800737          	lui	a4,0xff800
+ 8001b8e:	177d                	addi	a4,a4,-1
+ 8001b90:	0074f613          	andi	a2,s1,7
+ 8001b94:	00e477b3          	and	a5,s0,a4
+ 8001b98:	c605                	beqz	a2,8001bc0 <__floatundidf+0x100>
+ 8001b9a:	00f4f613          	andi	a2,s1,15
+ 8001b9e:	4591                	li	a1,4
+ 8001ba0:	02b60063          	beq	a2,a1,8001bc0 <__floatundidf+0x100>
+ 8001ba4:	00448613          	addi	a2,s1,4
+ 8001ba8:	009634b3          	sltu	s1,a2,s1
+ 8001bac:	97a6                	add	a5,a5,s1
+ 8001bae:	00879593          	slli	a1,a5,0x8
+ 8001bb2:	0805d963          	bgez	a1,8001c44 <__floatundidf+0x184>
+ 8001bb6:	43f00693          	li	a3,1087
+ 8001bba:	8ff9                	and	a5,a5,a4
+ 8001bbc:	8e89                	sub	a3,a3,a0
+ 8001bbe:	84b2                	mv	s1,a2
+ 8001bc0:	01d79713          	slli	a4,a5,0x1d
+ 8001bc4:	808d                	srli	s1,s1,0x3
+ 8001bc6:	07a6                	slli	a5,a5,0x9
+ 8001bc8:	8f45                	or	a4,a4,s1
+ 8001bca:	83b1                	srli	a5,a5,0xc
+ 8001bcc:	7ff6f693          	andi	a3,a3,2047
+ 8001bd0:	40b2                	lw	ra,12(sp)
+ 8001bd2:	4422                	lw	s0,8(sp)
+ 8001bd4:	07b2                	slli	a5,a5,0xc
+ 8001bd6:	06d2                	slli	a3,a3,0x14
+ 8001bd8:	83b1                	srli	a5,a5,0xc
+ 8001bda:	8fd5                	or	a5,a5,a3
+ 8001bdc:	4492                	lw	s1,4(sp)
+ 8001bde:	4902                	lw	s2,0(sp)
+ 8001be0:	853a                	mv	a0,a4
+ 8001be2:	85be                	mv	a1,a5
+ 8001be4:	0141                	addi	sp,sp,16
+ 8001be6:	8082                	ret
+ 8001be8:	02800713          	li	a4,40
+ 8001bec:	ff850613          	addi	a2,a0,-8
+ 8001bf0:	8f09                	sub	a4,a4,a0
+ 8001bf2:	00e4d733          	srl	a4,s1,a4
+ 8001bf6:	00c417b3          	sll	a5,s0,a2
+ 8001bfa:	00f76433          	or	s0,a4,a5
+ 8001bfe:	00c494b3          	sll	s1,s1,a2
+ 8001c02:	b761                	j	8001b8a <__floatundidf+0xca>
+ 8001c04:	ff560793          	addi	a5,a2,-11
+ 8001c08:	00f497b3          	sll	a5,s1,a5
+ 8001c0c:	07b2                	slli	a5,a5,0xc
+ 8001c0e:	83b1                	srli	a5,a5,0xc
+ 8001c10:	4701                	li	a4,0
+ 8001c12:	bf7d                	j	8001bd0 <__floatundidf+0x110>
+ 8001c14:	467d                	li	a2,31
+ 8001c16:	00191793          	slli	a5,s2,0x1
+ 8001c1a:	8e01                	sub	a2,a2,s0
+ 8001c1c:	00c797b3          	sll	a5,a5,a2
+ 8001c20:	0084d4b3          	srl	s1,s1,s0
+ 8001c24:	8cdd                	or	s1,s1,a5
+ 8001c26:	008957b3          	srl	a5,s2,s0
+ 8001c2a:	bf99                	j	8001b80 <__floatundidf+0xc0>
+ 8001c2c:	467d                	li	a2,31
+ 8001c2e:	8e1d                	sub	a2,a2,a5
+ 8001c30:	0014d713          	srli	a4,s1,0x1
+ 8001c34:	00c75733          	srl	a4,a4,a2
+ 8001c38:	00f91633          	sll	a2,s2,a5
+ 8001c3c:	8e59                	or	a2,a2,a4
+ 8001c3e:	00f49733          	sll	a4,s1,a5
+ 8001c42:	b71d                	j	8001b68 <__floatundidf+0xa8>
+ 8001c44:	84b2                	mv	s1,a2
+ 8001c46:	bfad                	j	8001bc0 <__floatundidf+0x100>
+
+08001c48 <__clzsi2>:
+__clzsi2():
+ 8001c48:	67c1                	lui	a5,0x10
+ 8001c4a:	02f57e63          	bgeu	a0,a5,8001c86 <__clzsi2+0x3e>
+ 8001c4e:	0ff00793          	li	a5,255
+ 8001c52:	02000713          	li	a4,32
+ 8001c56:	00a7ec63          	bltu	a5,a0,8001c6e <__clzsi2+0x26>
+ 8001c5a:	ffffe797          	auipc	a5,0xffffe
+ 8001c5e:	6a678793          	addi	a5,a5,1702 # 8000300 <__clz_tab>
+ 8001c62:	97aa                	add	a5,a5,a0
+ 8001c64:	0007c503          	lbu	a0,0(a5)
+ 8001c68:	40a70533          	sub	a0,a4,a0
+ 8001c6c:	8082                	ret
+ 8001c6e:	8121                	srli	a0,a0,0x8
+ 8001c70:	ffffe797          	auipc	a5,0xffffe
+ 8001c74:	69078793          	addi	a5,a5,1680 # 8000300 <__clz_tab>
+ 8001c78:	97aa                	add	a5,a5,a0
+ 8001c7a:	0007c503          	lbu	a0,0(a5)
+ 8001c7e:	4761                	li	a4,24
+ 8001c80:	40a70533          	sub	a0,a4,a0
+ 8001c84:	8082                	ret
+ 8001c86:	010007b7          	lui	a5,0x1000
+ 8001c8a:	00f56e63          	bltu	a0,a5,8001ca6 <__clzsi2+0x5e>
+ 8001c8e:	8161                	srli	a0,a0,0x18
+ 8001c90:	ffffe797          	auipc	a5,0xffffe
+ 8001c94:	67078793          	addi	a5,a5,1648 # 8000300 <__clz_tab>
+ 8001c98:	97aa                	add	a5,a5,a0
+ 8001c9a:	0007c503          	lbu	a0,0(a5)
+ 8001c9e:	4721                	li	a4,8
+ 8001ca0:	40a70533          	sub	a0,a4,a0
+ 8001ca4:	8082                	ret
+ 8001ca6:	8141                	srli	a0,a0,0x10
+ 8001ca8:	ffffe797          	auipc	a5,0xffffe
+ 8001cac:	65878793          	addi	a5,a5,1624 # 8000300 <__clz_tab>
+ 8001cb0:	97aa                	add	a5,a5,a0
+ 8001cb2:	0007c503          	lbu	a0,0(a5)
+ 8001cb6:	4741                	li	a4,16
+ 8001cb8:	40a70533          	sub	a0,a4,a0
+ 8001cbc:	8082                	ret
+
+08001cbe <atexit>:
+atexit():
+ 8001cbe:	85aa                	mv	a1,a0
+ 8001cc0:	4681                	li	a3,0
+ 8001cc2:	4601                	li	a2,0
+ 8001cc4:	4501                	li	a0,0
+ 8001cc6:	aa19                	j	8001ddc <__register_exitproc>
+
+08001cc8 <exit>:
+exit():
+ 8001cc8:	1141                	addi	sp,sp,-16
+ 8001cca:	c422                	sw	s0,8(sp)
+ 8001ccc:	c606                	sw	ra,12(sp)
+ 8001cce:	00000797          	auipc	a5,0x0
+ 8001cd2:	19678793          	addi	a5,a5,406 # 8001e64 <__call_exitprocs>
+ 8001cd6:	842a                	mv	s0,a0
+ 8001cd8:	c399                	beqz	a5,8001cde <exit+0x16>
+ 8001cda:	4581                	li	a1,0
+ 8001cdc:	2261                	jal	8001e64 <__call_exitprocs>
+ 8001cde:	00000797          	auipc	a5,0x0
+ 8001ce2:	24e78793          	addi	a5,a5,590 # 8001f2c <_global_impure_ptr>
+ 8001ce6:	4388                	lw	a0,0(a5)
+ 8001ce8:	551c                	lw	a5,40(a0)
+ 8001cea:	c391                	beqz	a5,8001cee <exit+0x26>
+ 8001cec:	9782                	jalr	a5
+ 8001cee:	8522                	mv	a0,s0
+ 8001cf0:	f10fe0ef          	jal	ra,8000400 <_exit>
+
+08001cf4 <__libc_fini_array>:
+__libc_fini_array():
+ 8001cf4:	1141                	addi	sp,sp,-16
+ 8001cf6:	00000797          	auipc	a5,0x0
+ 8001cfa:	23a78793          	addi	a5,a5,570 # 8001f30 <__fini_array_end>
+ 8001cfe:	c422                	sw	s0,8(sp)
+ 8001d00:	00000417          	auipc	s0,0x0
+ 8001d04:	23040413          	addi	s0,s0,560 # 8001f30 <__fini_array_end>
+ 8001d08:	8c1d                	sub	s0,s0,a5
+ 8001d0a:	c226                	sw	s1,4(sp)
+ 8001d0c:	c606                	sw	ra,12(sp)
+ 8001d0e:	8409                	srai	s0,s0,0x2
+ 8001d10:	84be                	mv	s1,a5
+ 8001d12:	e419                	bnez	s0,8001d20 <__libc_fini_array+0x2c>
+ 8001d14:	4422                	lw	s0,8(sp)
+ 8001d16:	40b2                	lw	ra,12(sp)
+ 8001d18:	4492                	lw	s1,4(sp)
+ 8001d1a:	0141                	addi	sp,sp,16
+ 8001d1c:	a43fe06f          	j	800075e <_fini>
+ 8001d20:	147d                	addi	s0,s0,-1
+ 8001d22:	00241793          	slli	a5,s0,0x2
+ 8001d26:	97a6                	add	a5,a5,s1
+ 8001d28:	439c                	lw	a5,0(a5)
+ 8001d2a:	9782                	jalr	a5
+ 8001d2c:	b7dd                	j	8001d12 <__libc_fini_array+0x1e>
+
+08001d2e <__libc_init_array>:
+__libc_init_array():
+ 8001d2e:	1141                	addi	sp,sp,-16
+ 8001d30:	00000797          	auipc	a5,0x0
+ 8001d34:	20078793          	addi	a5,a5,512 # 8001f30 <__fini_array_end>
+ 8001d38:	c422                	sw	s0,8(sp)
+ 8001d3a:	00000417          	auipc	s0,0x0
+ 8001d3e:	1f640413          	addi	s0,s0,502 # 8001f30 <__fini_array_end>
+ 8001d42:	8c1d                	sub	s0,s0,a5
+ 8001d44:	c226                	sw	s1,4(sp)
+ 8001d46:	c04a                	sw	s2,0(sp)
+ 8001d48:	c606                	sw	ra,12(sp)
+ 8001d4a:	8409                	srai	s0,s0,0x2
+ 8001d4c:	4481                	li	s1,0
+ 8001d4e:	893e                	mv	s2,a5
+ 8001d50:	02849863          	bne	s1,s0,8001d80 <__libc_init_array+0x52>
+ 8001d54:	9edfe0ef          	jal	ra,8000740 <_init>
+ 8001d58:	00000797          	auipc	a5,0x0
+ 8001d5c:	1d878793          	addi	a5,a5,472 # 8001f30 <__fini_array_end>
+ 8001d60:	00000417          	auipc	s0,0x0
+ 8001d64:	1d040413          	addi	s0,s0,464 # 8001f30 <__fini_array_end>
+ 8001d68:	8c1d                	sub	s0,s0,a5
+ 8001d6a:	8409                	srai	s0,s0,0x2
+ 8001d6c:	4481                	li	s1,0
+ 8001d6e:	893e                	mv	s2,a5
+ 8001d70:	00849f63          	bne	s1,s0,8001d8e <__libc_init_array+0x60>
+ 8001d74:	40b2                	lw	ra,12(sp)
+ 8001d76:	4422                	lw	s0,8(sp)
+ 8001d78:	4492                	lw	s1,4(sp)
+ 8001d7a:	4902                	lw	s2,0(sp)
+ 8001d7c:	0141                	addi	sp,sp,16
+ 8001d7e:	8082                	ret
+ 8001d80:	00249793          	slli	a5,s1,0x2
+ 8001d84:	97ca                	add	a5,a5,s2
+ 8001d86:	439c                	lw	a5,0(a5)
+ 8001d88:	0485                	addi	s1,s1,1
+ 8001d8a:	9782                	jalr	a5
+ 8001d8c:	b7d1                	j	8001d50 <__libc_init_array+0x22>
+ 8001d8e:	00249793          	slli	a5,s1,0x2
+ 8001d92:	97ca                	add	a5,a5,s2
+ 8001d94:	439c                	lw	a5,0(a5)
+ 8001d96:	0485                	addi	s1,s1,1
+ 8001d98:	9782                	jalr	a5
+ 8001d9a:	bfd9                	j	8001d70 <__libc_init_array+0x42>
+
+08001d9c <write>:
+write():
+ 8001d9c:	17ffe797          	auipc	a5,0x17ffe
+ 8001da0:	2c878793          	addi	a5,a5,712 # 20000064 <_impure_ptr>
+ 8001da4:	86b2                	mv	a3,a2
+ 8001da6:	862e                	mv	a2,a1
+ 8001da8:	85aa                	mv	a1,a0
+ 8001daa:	4388                	lw	a0,0(a5)
+ 8001dac:	a009                	j	8001dae <_write_r>
+
+08001dae <_write_r>:
+_write_r():
+ 8001dae:	1141                	addi	sp,sp,-16
+ 8001db0:	c422                	sw	s0,8(sp)
+ 8001db2:	842a                	mv	s0,a0
+ 8001db4:	852e                	mv	a0,a1
+ 8001db6:	85b2                	mv	a1,a2
+ 8001db8:	8636                	mv	a2,a3
+ 8001dba:	8801ac23          	sw	zero,-1896(gp) # 200000f8 <errno>
+ 8001dbe:	c606                	sw	ra,12(sp)
+ 8001dc0:	ed4fe0ef          	jal	ra,8000494 <_write>
+ 8001dc4:	57fd                	li	a5,-1
+ 8001dc6:	00f51763          	bne	a0,a5,8001dd4 <_write_r+0x26>
+ 8001dca:	89818793          	addi	a5,gp,-1896 # 200000f8 <errno>
+ 8001dce:	439c                	lw	a5,0(a5)
+ 8001dd0:	c391                	beqz	a5,8001dd4 <_write_r+0x26>
+ 8001dd2:	c01c                	sw	a5,0(s0)
+ 8001dd4:	40b2                	lw	ra,12(sp)
+ 8001dd6:	4422                	lw	s0,8(sp)
+ 8001dd8:	0141                	addi	sp,sp,16
+ 8001dda:	8082                	ret
+
+08001ddc <__register_exitproc>:
+__register_exitproc():
+ 8001ddc:	17ffe797          	auipc	a5,0x17ffe
+ 8001de0:	28c78793          	addi	a5,a5,652 # 20000068 <_global_atexit>
+ 8001de4:	439c                	lw	a5,0(a5)
+ 8001de6:	8e2a                	mv	t3,a0
+ 8001de8:	e39d                	bnez	a5,8001e0e <__register_exitproc+0x32>
+ 8001dea:	17ffe717          	auipc	a4,0x17ffe
+ 8001dee:	28270713          	addi	a4,a4,642 # 2000006c <_global_atexit0>
+ 8001df2:	17ffe797          	auipc	a5,0x17ffe
+ 8001df6:	26e7ab23          	sw	a4,630(a5) # 20000068 <_global_atexit>
+ 8001dfa:	f7ffe517          	auipc	a0,0xf7ffe
+ 8001dfe:	20650513          	addi	a0,a0,518 # 0 <__stack_size-0x800>
+ 8001e02:	87ba                	mv	a5,a4
+ 8001e04:	c509                	beqz	a0,8001e0e <__register_exitproc+0x32>
+ 8001e06:	411c                	lw	a5,0(a0)
+ 8001e08:	88f1aa23          	sw	a5,-1900(gp) # 200000f4 <_global_atexit0+0x88>
+ 8001e0c:	87ba                	mv	a5,a4
+ 8001e0e:	43d8                	lw	a4,4(a5)
+ 8001e10:	487d                	li	a6,31
+ 8001e12:	557d                	li	a0,-1
+ 8001e14:	04e84763          	blt	a6,a4,8001e62 <__register_exitproc+0x86>
+ 8001e18:	020e0e63          	beqz	t3,8001e54 <__register_exitproc+0x78>
+ 8001e1c:	0887a803          	lw	a6,136(a5)
+ 8001e20:	04080163          	beqz	a6,8001e62 <__register_exitproc+0x86>
+ 8001e24:	00271893          	slli	a7,a4,0x2
+ 8001e28:	98c2                	add	a7,a7,a6
+ 8001e2a:	00c8a023          	sw	a2,0(a7)
+ 8001e2e:	10082303          	lw	t1,256(a6)
+ 8001e32:	4605                	li	a2,1
+ 8001e34:	00e61633          	sll	a2,a2,a4
+ 8001e38:	00c36333          	or	t1,t1,a2
+ 8001e3c:	10682023          	sw	t1,256(a6)
+ 8001e40:	08d8a023          	sw	a3,128(a7)
+ 8001e44:	4689                	li	a3,2
+ 8001e46:	00de1763          	bne	t3,a3,8001e54 <__register_exitproc+0x78>
+ 8001e4a:	10482683          	lw	a3,260(a6)
+ 8001e4e:	8e55                	or	a2,a2,a3
+ 8001e50:	10c82223          	sw	a2,260(a6)
+ 8001e54:	00170693          	addi	a3,a4,1
+ 8001e58:	070a                	slli	a4,a4,0x2
+ 8001e5a:	c3d4                	sw	a3,4(a5)
+ 8001e5c:	97ba                	add	a5,a5,a4
+ 8001e5e:	c78c                	sw	a1,8(a5)
+ 8001e60:	4501                	li	a0,0
+ 8001e62:	8082                	ret
+
+08001e64 <__call_exitprocs>:
+__call_exitprocs():
+ 8001e64:	7179                	addi	sp,sp,-48
+ 8001e66:	cc52                	sw	s4,24(sp)
+ 8001e68:	ca56                	sw	s5,20(sp)
+ 8001e6a:	c85a                	sw	s6,16(sp)
+ 8001e6c:	c65e                	sw	s7,12(sp)
+ 8001e6e:	d606                	sw	ra,44(sp)
+ 8001e70:	d422                	sw	s0,40(sp)
+ 8001e72:	d226                	sw	s1,36(sp)
+ 8001e74:	d04a                	sw	s2,32(sp)
+ 8001e76:	ce4e                	sw	s3,28(sp)
+ 8001e78:	c462                	sw	s8,8(sp)
+ 8001e7a:	8b2a                	mv	s6,a0
+ 8001e7c:	8a2e                	mv	s4,a1
+ 8001e7e:	17ffea97          	auipc	s5,0x17ffe
+ 8001e82:	1eaa8a93          	addi	s5,s5,490 # 20000068 <_global_atexit>
+ 8001e86:	4b85                	li	s7,1
+ 8001e88:	000aa403          	lw	s0,0(s5)
+ 8001e8c:	c811                	beqz	s0,8001ea0 <__call_exitprocs+0x3c>
+ 8001e8e:	4044                	lw	s1,4(s0)
+ 8001e90:	08842983          	lw	s3,136(s0)
+ 8001e94:	fff48913          	addi	s2,s1,-1
+ 8001e98:	048a                	slli	s1,s1,0x2
+ 8001e9a:	94a2                	add	s1,s1,s0
+ 8001e9c:	00095e63          	bgez	s2,8001eb8 <__call_exitprocs+0x54>
+ 8001ea0:	50b2                	lw	ra,44(sp)
+ 8001ea2:	5422                	lw	s0,40(sp)
+ 8001ea4:	5492                	lw	s1,36(sp)
+ 8001ea6:	5902                	lw	s2,32(sp)
+ 8001ea8:	49f2                	lw	s3,28(sp)
+ 8001eaa:	4a62                	lw	s4,24(sp)
+ 8001eac:	4ad2                	lw	s5,20(sp)
+ 8001eae:	4b42                	lw	s6,16(sp)
+ 8001eb0:	4bb2                	lw	s7,12(sp)
+ 8001eb2:	4c22                	lw	s8,8(sp)
+ 8001eb4:	6145                	addi	sp,sp,48
+ 8001eb6:	8082                	ret
+ 8001eb8:	000a0e63          	beqz	s4,8001ed4 <__call_exitprocs+0x70>
+ 8001ebc:	00099563          	bnez	s3,8001ec6 <__call_exitprocs+0x62>
+ 8001ec0:	197d                	addi	s2,s2,-1
+ 8001ec2:	14f1                	addi	s1,s1,-4
+ 8001ec4:	bfe1                	j	8001e9c <__call_exitprocs+0x38>
+ 8001ec6:	00291793          	slli	a5,s2,0x2
+ 8001eca:	97ce                	add	a5,a5,s3
+ 8001ecc:	0807a783          	lw	a5,128(a5)
+ 8001ed0:	ff4798e3          	bne	a5,s4,8001ec0 <__call_exitprocs+0x5c>
+ 8001ed4:	4058                	lw	a4,4(s0)
+ 8001ed6:	40dc                	lw	a5,4(s1)
+ 8001ed8:	177d                	addi	a4,a4,-1
+ 8001eda:	03271863          	bne	a4,s2,8001f0a <__call_exitprocs+0xa6>
+ 8001ede:	01242223          	sw	s2,4(s0)
+ 8001ee2:	dff9                	beqz	a5,8001ec0 <__call_exitprocs+0x5c>
+ 8001ee4:	00442c03          	lw	s8,4(s0)
+ 8001ee8:	00098863          	beqz	s3,8001ef8 <__call_exitprocs+0x94>
+ 8001eec:	1009a683          	lw	a3,256(s3)
+ 8001ef0:	012b9733          	sll	a4,s7,s2
+ 8001ef4:	8ef9                	and	a3,a3,a4
+ 8001ef6:	ee89                	bnez	a3,8001f10 <__call_exitprocs+0xac>
+ 8001ef8:	9782                	jalr	a5
+ 8001efa:	4058                	lw	a4,4(s0)
+ 8001efc:	000aa783          	lw	a5,0(s5)
+ 8001f00:	f98714e3          	bne	a4,s8,8001e88 <__call_exitprocs+0x24>
+ 8001f04:	faf40ee3          	beq	s0,a5,8001ec0 <__call_exitprocs+0x5c>
+ 8001f08:	b741                	j	8001e88 <__call_exitprocs+0x24>
+ 8001f0a:	0004a223          	sw	zero,4(s1)
+ 8001f0e:	bfd1                	j	8001ee2 <__call_exitprocs+0x7e>
+ 8001f10:	00291693          	slli	a3,s2,0x2
+ 8001f14:	96ce                	add	a3,a3,s3
+ 8001f16:	428c                	lw	a1,0(a3)
+ 8001f18:	1049a683          	lw	a3,260(s3)
+ 8001f1c:	8f75                	and	a4,a4,a3
+ 8001f1e:	e701                	bnez	a4,8001f26 <__call_exitprocs+0xc2>
+ 8001f20:	855a                	mv	a0,s6
+ 8001f22:	9782                	jalr	a5
+ 8001f24:	bfd9                	j	8001efa <__call_exitprocs+0x96>
+ 8001f26:	852e                	mv	a0,a1
+ 8001f28:	9782                	jalr	a5
+ 8001f2a:	bfc1                	j	8001efa <__call_exitprocs+0x96>
