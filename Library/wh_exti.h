@@ -44,7 +44,7 @@ typedef enum {
     EXTI_TRIG_RISING = 0,                                     /*!< EXTI 上升沿触发 */
     EXTI_TRIG_FALLING,                                        /*!< EXTI 下降沿触发 */
     EXTI_TRIG_BOTH,                                           /*!< EXTI 上升沿和下降沿触发 */
-    EXTI_TRIG_NONE                                            /*!< 不是上升沿也不是下降沿 */
+    EXTI_TRIG_NONE                                            /*!< 上升沿和下降沿均不触发 */
 } exti_trig_type_enum;
 
 /* EXTI 初始化 */
